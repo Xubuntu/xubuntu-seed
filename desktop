@@ -74,7 +74,7 @@ Printing and printer configuration is a real weak spot in Debian, and in Linux i
  * cupsys-driver-gimpprint      # a ton of cupsys ppds, for real comprehensive printer support
  * pnm2ppa                      # several ppds require this
  * gs-esp			# some ppds require this, in place of standard gs
- * hplip-base			# support for HP all-in-one printers
+ * hplip     			# support for HP all-in-one printers
  * hplip-ppds			# support for HP all-in-one printers
 
 = GUI infrastructure =
@@ -164,7 +164,7 @@ We've chosen GNOME as our desktop user interface of choice, and GNOME 2.8 is a F
  * rhythmbox               # SebastienBacher
  * serpentine		   # Oliver Grawert
  * scrollkeeper
- * smeg			   # default menu editor
+ * alacarte		   # default menu editor
  * sound-juicer
  * ssh-askpass-gnome
  * synaptic                # will this be our default package manager?

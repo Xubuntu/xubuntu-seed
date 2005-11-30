@@ -110,7 +110,7 @@ PHP:
 
 Email:
 
- * dovecot                   # ThomMay
+ * dovecot-imapd
  * exim4-base
  * exim4-daemon-light
  * exim4-daemon-heavy
@@ -475,8 +475,6 @@ We need a consistent policy for -doc. At the least, any -doc package produced by
  * libgd-dev
  * libgd-xpm-dev
  * libgdchart-gd1-xpm-dev
- * libggi2-dev
- * libgii0-dev
  * libgle-dev
  * libglide2-dev # xorg build-dep
  * libglide3-dev # xorg build-dep
@@ -487,9 +485,7 @@ We need a consistent policy for -doc. At the least, any -doc package produced by
  * liblinc-dev
  * libmagic-dev
  * libmagick++6-dev
- * libmysqlclient12-dev
  * libnetpbm10-dev
- * libnetpbm9-dev
  * liboggflac++-dev
  * libostyle-dev
  * libpaperg-dev
@@ -557,7 +553,7 @@ We need a consistent policy for -doc. At the least, any -doc package produced by
  * libglib2.0-0-dbg
  * libgnomedb2-dbg
  * libgnomeui-0-dbg
- * libgoffice-1-dbg
+ * libgoffice-1-1-dbg
  * libgsf-1-dbg
  * libgsf-gnome-1-dbg
  * libgtk1.2-dbg
@@ -569,11 +565,11 @@ We need a consistent policy for -doc. At the least, any -doc package produced by
  * libpanel-applet2-0-dbg
  * libpango1.0-dbg
  * libparted1.6-dbg
- * libpth-dbg
  * libreadline4-dbg
  * libreiserfs0.3-dbg
  * libruby1.8-dbg
  * libsm6-dbg
+ * libssl0.9.8-dbg
  * libstdc++5-3.3-dbg
  * libstdc++6-dbg
  * libstdc++6-4.0-dbg
@@ -707,7 +703,6 @@ We need a consistent policy for -doc. At the least, any -doc package produced by
  * libgnomeprintui2.2-doc
  * libgnomeui-doc
  * libgtk2.0-doc
- * libmpeg-doc
  * libopenh323-doc
  * libpam-doc
  * libpanel-applet2-doc
@@ -781,7 +776,6 @@ We need a consistent policy for -doc. At the least, any -doc package produced by
 == Multimedia ==
 
  * flac
- * libggi-target-x
  * esound-clients
 
 == Kernel ==
