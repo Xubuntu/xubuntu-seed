@@ -12,13 +12,6 @@ Power management:
  * powernowd
  * powermanagement-interface [i386 amd64 powerpc ia64]
 
-Bluetooth:
-
- * bluez-utils
- * bluez-pin
- * bluez-cups
- * bluez-pcmcia-support
-
 == i386, i686, amd64 ==
 
  * acpi
@@ -46,6 +39,9 @@ These tools are very commonly used by people who drop into a console shell to do
  * doc-debian           # move to Desktop since people doing a Base install probably won't need it
  * zip
  * unzip                # also used for .zip support in file-roller
+ * sylpheed
+ * xchat
+ * ubuntu-docs
 
 = Network Services =
 
@@ -102,230 +98,59 @@ Fonts:
  * ttf-malayalam-fonts
  * ttf-mgopen
 
-= Desktop GNOME Apps =
+= Desktop Xfce =
 
-We've chosen GNOME as our desktop user interface of choice, and GNOME 2.8 is a FeatureGoal for Warty.  Rather than using the meta-packages they are deliberately expanded so that we can select things a bit better.
+ * xfce4
+ * xfce4-goodies
+ * xfce4-iconbox
+ * xfce4-mixer
+ * xfce4-systray
+ * xfce4-toys
+ * xfce4-trigger-launcher
+ * xfcalendar
+ * xfprint4
+ * xfce4-terminal
+ * xfmedia
+ * xfce4-wavelan-plugin
+ * xfce4-weather-plugin
+ * xfce4-fsguard-plugin
+ * xfce4-genmon-plugin
+ * xfce4-panel-menu-plugin
+ * xfce4-sensors-plugin
+ * xfce4-taskbar-plugin
+ * xfce4-windowlist-plugin
+ * xfce4-xkb-plugin
+ * xfce4-appfinder
+ * xfce4-taskmanager
 
- * bug-buddy             # potentially replaced with reportbug + b-b-like pygtk gui
- * contact-lookup-applet # experimental
- * desktop-file-utils
- * eog
- * evolution # experimental
- * evolution-plugins
- * evolution-exchange # experimental
- * evolution-webcal # experimental
- * file-roller           # SebastienBacher
+= Other desktop apps = 
+
  * gaim
- * gamin
- * gcalctool             # SebastienBacher
- * gconf-editor          # SebastienBacher
- * gdm
- * gedit
- * gimp
- * gnome-about
- * gnome-applets
- * gnome-app-install
- * gnome-btdownload       # simple GNOME frontend for bittorrent downloads
- * gnome-control-center
- * gnome-cups-manager
- * gnome-games
- * gnome-icon-theme
- * gnome-media
- * gnome-menus
- * gnome-netstatus-applet
- * gnome-nettool            # part of 2.8
- * gnome-panel
- * gnome-pilot-conduits
- * gnome-session
- * gnome-spell
- * gnome-system-monitor     # SebastienBacher
- * gnome-volume-manager     # JeffWaugh, gives us an efficient autoplay framework
- * gnome-system-tools
- * gnome-terminal
- * gnome-utils
- * gnome2-user-guide
- * gnomemeeting
- * libpt-plugins-v4l       # V4L1 plugins for use with gnomemeeting
- * libpt-plugins-v4l2      # V4L2 plugins for use with gnomemeeting
- * gthumb                  # efficient thumbnailing tool
- * gucharmap               # SebastienBacher
  * hal                     # it's not very polished but it's the future
- * hal-device-manager
- * hwdb-client
- * language-selector	   # MichaelVogt
+ * ivman
  * libglib2.0-data
- * metacity                # SebastienBacher
  * firefox
- * firefox-gnome-support
- * nautilus                # SebastienBacher
- * nautilus-cd-burner      # SebastienBacher
- * nautilus-sendto
- * notification-daemon     # backend for libnotify
- * rhythmbox               # SebastienBacher
- * serpentine		   # Oliver Grawert
  * scrollkeeper
- * alacarte		   # default menu editor
- * sound-juicer
- * ssh-askpass-gnome
  * synaptic                # will this be our default package manager?
- * libgnome2-perl          # for synaptic
- * totem                   # SebastienBacher
- * update-notifier
- * vino # vnc server
- * yelp
- * zenity
-
+ * mousepad
+ * gqview
+ * rox-filer
  * dbus-1-utils # for session dbus, #895
-
  * esound
-
-Themes: we will ship only the very best looking themes. We won't ship everything that Debian ships, just a custom package that includes the themes we want. These packages are included for size guidance until we have Warty-specific packages.
-
- * gnome-themes
- * gtk2-engines-clearlooks
- * gtk2-engines-mist
- * gtk2-engines-industrial
- * gtk2-engines-smooth
- * ubuntu-sounds
-
-We don't want all the gstreamer0.8-plugins dependencies, so we call out specific ones that are sane:
-
- * libgstreamer0.8-0
- * libgstreamer-plugins0.8-0
- * libgstreamer-gconf0.8-0
- * gstreamer0.8-plugin-apps
- * gstreamer0.8-alsa
- * gstreamer0.8-audiofile
- * gstreamer0.8-cdparanoia
- * gstreamer0.8-dv
- * gstreamer0.8-dvd
- * gstreamer0.8-esd
- * gstreamer0.8-flac
- * gstreamer0.8-gnomevfs
- * gstreamer0.8-gsm
- * gstreamer0.8-hermes
- * gstreamer0.8-jpeg
- * gstreamer0.8-misc
- * gstreamer0.8-musepack
- * gstreamer0.8-oss
- * gstreamer0.8-sdl
- * gstreamer0.8-speex
- * gstreamer0.8-theora
- * gstreamer0.8-vorbis
- * gstreamer0.8-x
-
-GStreamer stuff which should end up in universe (see supported though, for a few others we do include):
-
- - gstreamer0.8-a52dec
- - gstreamer0.8-mad
- - gstreamer0.8-mpeg2dec
- - gstreamer0.8-swfdec
+ * graveman
+ * abiword 
 
 = Other Desktop GUI Apps =
 
- * openoffice.org2 [i386 powerpc amd64]
- * openoffice.org2-gnome [i386 powerpc amd64]
- * openoffice.org2-evolution [i386 powerpc]
- * xsane           # scanner utils
- * evince
- * xchat
  * xscreensaver
- * rss-glx         # MRS, very slick screensavers
- * xscreensaver-gl # MRS, we will only ship a subset of the screensavers from rss-glx and xscreensaver
- * tsclient        # rdesktop/vnc/xdmcp client gui
- * xvncviewer      # needed by tsclient
-
-= Games =
- * fortune-mod
-
-= Python =
-
-Python is a significant commitment, we will present Python wherever we can.
-
-Libraries and Modules:
-
- * python-adns              # MRS, stable and useful
- * python-apt               # MRS, we need to be able to interact with APT
- * python-cddb              # MRS, great for desktop users to be able to manage CD's in Python
- * python-clientcookie      # MRS, unless a better cgi-style framework is below
- * python-crypto            # MRS, very useful even though it's very specific
- * python-egenix-mxproxy    # MRS, 
- * python-egenix-mxstack    # MRS, 
- * python-egenix-mxtexttools # MRS, 
- * python-egenix-mxtools    # MRS, 
- * python-epydoc            # MRS, 
- * python-eunuchs           # MRS, 
- * python-examples          # MRS, 
- * python-gadfly            # MRS, 
- * python-gd                # MRS, 
- * python-gdbm
- * python-gdchart
- * python-genetic
- * python-geoip
- * python-glade2
- * python-gnome2            # SebastienBacher
- * python-gnupginterface
- * python-gst
- * python-gtk2              # SebastienBacher
- * python-htmlgen
- * python-htmltmpl
- * python-id3lib
- * python-imaging
- * python-imaging-sane
- * python-jabber
- * python2.4-dbus
- * python2.4-dictclient
- * python2.4-librdf
- * python2.4-pycurl
- * python-kjbuckets
- * python-ldap
- * python-musicbrainz
- * python-mysqldb
- * python-netcdf
- * python-newt
- * python-numeric
- * python-osd
- * python-pam
- * python-parted
- * python-pexpect
- * python-pgsql
- * python-pisock
- * python-pqueue
- * python-pyao
- * python-pylibacl
- * python-pyopenssl
- * python-pyorbit               # SebastienBacher
- * python-pyvorbis
- * python-pyxattr
- * python-reportlab
- * python-simpletal
- * python-soappy
- * python-sqlite
- * python-stats
- * python-syck
- * python-unit
- * python-xdg                   # SebastienBacher
- * python-xmpp
-
-Python Integrated Applications:
-
- * gimp-python
- * python2.4-libxml2
- * python2.4-libxslt1
- * bicyclerepair          # python refactoring tool for vim & emacs
-
-Documentation:
-
- * diveintopython
- * doc-base
- * ubuntu-docs
 
 = Other =
 
- * ubuntu-desktop # metapackage for everything here
+ * xubuntu-desktop # metapackage for everything here
  * anacron # generally appropriate for desktops
  * usplash
  * libxp6 # required for some thirdy part apps. See #15739
+ * xubuntu-artwork-usplash
 
 = Germinate workarounds =
 
