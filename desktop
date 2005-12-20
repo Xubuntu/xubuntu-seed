@@ -154,6 +154,7 @@ Fonts:
  * usplash
  * libxp6 # required for some thirdy part apps. See #15739
  * xubuntu-artwork-usplash
+ * xubuntu-default-settings
 
 = Germinate workarounds =
 
