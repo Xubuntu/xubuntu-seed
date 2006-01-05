@@ -138,7 +138,6 @@ Fonts:
  * synaptic                # will this be our default package manager?
  * mousepad
  * gqview
- * rox-filer
  * dbus-1-utils # for session dbus, #895
  * esound
  * graveman
