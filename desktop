@@ -122,7 +122,6 @@ Fonts:
 
  * gaim
  * hal                     # it's not very polished but it's the future
- * ivman
  * libglib2.0-data
  * firefox
  * scrollkeeper
@@ -139,6 +138,7 @@ Fonts:
  * libxp6 # required for some thirdy part apps. See #15739
  * xubuntu-artwork-usplash
  * xubuntu-default-settings
+ * libpam-foreground
 
 = Germinate workarounds =
 

@@ -8,7 +8,6 @@
  * Languages: es hi ar pt ru ja ca
  * language-pack-${Languages} [powerpc]
 
- * casper       # needed for build script to generate initramfs
  * xubuntu-live
  * pcmcia-cs
  * ntfsprogs
@@ -18,12 +17,10 @@
 
 == Espresso components ==
 
-These packages will eventually all become part of the Espresso live installer, but for now we list them all here to ease development.
+These packages make up the Espresso live installer.
 
- * grub
- * yaboot
- * gparted
- * partman
- * espresso-utils
- * os-prober
- * user-setup
+ * espresso
+ * espresso-frontend-gtk
+ * espresso-ubuntu-artwork
+ * espresso-ubuntu-doc
+ * cdebconf # experimental, may be used or removed depending on testing
