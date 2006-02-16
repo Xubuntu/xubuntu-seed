@@ -39,8 +39,6 @@ These tools are very commonly used by people who drop into a console shell to do
  * doc-debian           # move to Desktop since people doing a Base install probably won't need it
  * zip
  * unzip                # also used for .zip support in file-roller
- * xchat
- * xubuntu-docs
 
 = Network Services =
 
@@ -100,35 +98,46 @@ Fonts:
  * ttf-malayalam-fonts
  * ttf-mgopen
 
-= Desktop Xfce =
+== Xfce Desktop ==
 
- * xfce4
- * xfce4-iconbox
+ * xfce4-session
+ * xfwm4
+ * xfwm4-themes
+ * xfdesktop4
+ * xfce4-panel
+ * xfce4-utils
  * xfce4-mixer
- * xfce4-systray
- * orage 
- * thunar 
- * mousepad
  * xfprint4
  * xfce4-terminal
- * xfmedia
- * xfce4-xkb-plugin
- * xfce4-battery-plugin
- * xfce4-weather-plugin
  * xfce4-appfinder
  * xfce4-taskmanager
 
-= Other desktop apps = 
+ * orage
+ * thunar
+ * mousepad
+ * xfmedia
 
  * gaim
+ * gdm
+ * gimp
  * hal                     # it's not very polished but it's the future
  * libglib2.0-data
  * firefox
+ * notification-daemon           # backend for libnotify
  * scrollkeeper
  * synaptic                # will this be our default package manager?
+ * update-notifier
  * dbus-1-utils # for session dbus, #895
  * abiword 
  * xscreensaver
+ * rss-glx         # MRS, very slick screensavers
+ * xscreensaver-gl # MRS, we will only ship a subset of the screensavers from rss-glx and xscreensaver
+ * xscreensaver-data # subset package for the non-gl screensavers we ship
+
+Documentation:
+
+ * doc-base
+ * xubuntu-docs
 
 = Other =
 
