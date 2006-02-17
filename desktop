@@ -2,7 +2,6 @@
 
 == Architecture-independent ==
 
- * libesd-alsa0 
  * readahead
  * hotkey-setup
 
@@ -117,22 +116,27 @@ Fonts:
  * mousepad
  * xfmedia
 
+ * gqview
  * gaim
  * gdm
  * gimp
  * hal                     # it's not very polished but it's the future
  * libglib2.0-data
  * firefox
- * notification-daemon           # backend for libnotify
  * scrollkeeper
  * synaptic                # will this be our default package manager?
- * update-notifier
  * dbus-1-utils # for session dbus, #895
  * abiword 
  * xscreensaver
  * rss-glx         # MRS, very slick screensavers
  * xscreensaver-gl # MRS, we will only ship a subset of the screensavers from rss-glx and xscreensaver
  * xscreensaver-data # subset package for the non-gl screensavers we ship
+
+ * gtk2-engines-xfce
+ * gtk2-engines-clearlooks
+ * gtk2-engines-mist
+ * gtk2-engines-industrial
+ * gtk2-engines-smooth
 
 Documentation:
 
