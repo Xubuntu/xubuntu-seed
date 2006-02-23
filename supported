@@ -171,6 +171,7 @@ Utilities:
  * ipsec-tools            # IPsec configuration
  * vlan                   # userland tools to config 8021q support
  * bridge-utils           # userland tools to config kernel bridging feature
+ * network-manager        # magical network configuration - if it works for you
 
 IPv6 tools:
 
@@ -657,7 +658,6 @@ We need a consistent policy for -doc. At the least, any -doc package produced by
  * glibc-doc
  * glut-doc
  * gnat-4.0-doc
- * gnome-dev-doc
  * gnumeric-doc
  * gok-doc
  * gstreamer0.10-doc
