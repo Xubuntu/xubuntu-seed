@@ -27,7 +27,7 @@ These tools are very commonly used by people who drop into a console shell to do
 
  * bc
  * dc
- * irssi-text
+ * irssi
  * mkisofs
  * cdrecord
  * cdparanoia
@@ -87,15 +87,19 @@ Fonts:
  * ttf-freefont
  * ttf-kochi-gothic
  * ttf-kochi-mincho
- * ttf-arphic-bkai00mp
- * ttf-arphic-bsmi00lp
- * ttf-arphic-gbsn00lp
- * ttf-arphic-gkai00mp
+ * ttf-arphic-uming
+ * ttf-arphic-ukai
  * ttf-arabeyes
  * ttf-baekmuk
  * ttf-indic-fonts
  * ttf-malayalam-fonts
  * ttf-mgopen
+
+=======
+Input methods:
+
+ * scim
+ * scim-gtk2-immodule
 
 == Xfce Desktop ==
 
@@ -114,6 +118,11 @@ Fonts:
 
  * xfce4-mailwatch-plugin
  * xfce4-fsguard-plugin
+ * xfce4-verve-plugin
+ * xfce4-battery-plugin
+ * xfce4-clipman-plugin
+ * xfce4-mount-plugin
+ * xfce4-quicklauncher-plugin
 
  * orage
  * thunar
@@ -136,6 +145,7 @@ Fonts:
  * xscreensaver-gl # MRS, we will only ship a subset of the screensavers from rss-glx and xscreensaver
  * xscreensaver-data # subset package for the non-gl screensavers we ship
  * gdebi                   # view/install deb packages
+ * language-selector
 
  * gtk2-engines-xfce
  * gtk2-engines-clearlooks

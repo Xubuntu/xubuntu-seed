@@ -9,6 +9,7 @@
  * mdetect         # formerly used by X for mouse autodetection
  * irda-utils
  * wacom-tools
+ * palo            # hppa boot loader, but needed on other architectures to build hppa CD images
 
 == Filesystems ==
 
@@ -46,6 +47,7 @@ Samba:
 
 Database:
 
+ * db4.2-util
  * db4.3-util
  * %mysql-dfsg-5.0
  * postgresql-8.1
@@ -226,6 +228,7 @@ Download:
  * ocaml-native-compilers  # we support the source package anyway
  * pymacs                 # makes bicyclerepair work with emacs
  * bootchart         # boot speed profiling
+ * indent
 
 == Mono ==
 
@@ -266,8 +269,6 @@ Download:
 
 = Desktop =
 
- * epiphany-browser
- * epiphany-extensions
  * mozilla-thunderbird # world favourite mail client
  * mozilla-thunderbird-enigmail # gpg integration for thunderbird
  * mozilla-thunderbird-offline  # offline use of thunderbird
@@ -286,12 +287,9 @@ Accessibility tools:
 Other:
 
  * devhelp
- * dia-gnome           # useful but a bit specialist
- * epiphany-browser
  * finger
  * gftp-gtk
  * glade-gnome-2
- * libgnome2-perl      # used by debconf GNOME frontend
  * memprof
  * pan
  * workrave            # RSI-avoidance
@@ -442,7 +440,6 @@ We need a consistent policy for -doc. At the least, any -doc package produced by
  * evolution-dev
  * expect-dev
  * glutg3-dev
- * gnome-applets-dev
  * gtkglarea5-dev
  * imlib1-dev
  * iptables-dev
@@ -455,15 +452,10 @@ We need a consistent policy for -doc. At the least, any -doc package produced by
  * libdb4.3++-dev
  * libdc1394-11-dev
  * libdevhelp-1-dev
- * libdirectfb-dev
- * libdirectfb-udeb-dev
  * libdiscover1-dev
  * libecpg-dev
  * libevms-dev
  * libflac++-dev
- * libgd-dev
- * libgd-xpm-dev
- * libgdchart-gd1-xpm-dev
  * libgle-dev
  * libglide2-dev # xorg build-dep
  * libglide3-dev # xorg build-dep
@@ -498,8 +490,6 @@ We need a consistent policy for -doc. At the least, any -doc package produced by
  * postfix-dev
  * ppp-dev
  * python-egenix-mx-base-dev
- * python-gnome2-dev
- * python-gnome2-extras-dev
  * qt3-apps-dev
  * x-window-system-dev
  * libdmx-dev
@@ -527,7 +517,8 @@ We need a consistent policy for -doc. At the least, any -doc package produced by
  * latex-ucs-dev
  * freeglut3-dbg
  * evolution-data-server-dbg
- * gnome-panel-dbg
+ * gstreamer0.10-plugins-base-dbg
+ * gstreamer0.10-plugins-good-dbg
  * libatk1.0-dbg
  * libatspi-dbg
  * libc6-dbg [amd64 i386 powerpc sparc]
@@ -536,15 +527,12 @@ We need a consistent policy for -doc. At the least, any -doc package produced by
  * libdps1-dbg
  * libfontconfig1-dbg
  * libgail-dbg
- * libgail-gnome-dbg
  * libgda2-dbg
  * libglib1.2-dbg
  * libglib2.0-0-dbg
- * libgnomedb2-dbg
- * libgnomeui-0-dbg
  * libgoffice-1-2-dbg
  * libgsf-1-dbg
- * libgsf-gnome-1-dbg
+ * libgstreamer0.10-0-dbg
  * libgtk1.2-dbg
  * libgtk2.0-0-dbg
  * libice6-dbg
@@ -603,10 +591,7 @@ We need a consistent policy for -doc. At the least, any -doc package produced by
  * libxxf86misc1-dbg
  * libxxf86rush1-dbg
  * libxxf86vm1-dbg
- * openoffice.org2-dev
- * openoffice.org2-dev-doc
- * openoffice.org2-officebean
- * sparc-utils [sparc]  # no buildd without this one
+
  * libxsltc-java
  * pbbuttonsd-dev
  * x11proto-xf86dri-dev # the following three are X server B-Ds
@@ -703,7 +688,6 @@ We need a consistent policy for -doc. At the least, any -doc package produced by
  * libtool-doc
  * libwmf-doc
  * libxml2-doc
- * libxml++2.6-doc
  * lilo-doc
  * linux-wlan-ng-doc
  * lua50-doc
@@ -844,14 +828,17 @@ We need a consistent policy for -doc. At the least, any -doc package produced by
  * myspell-fr # myspell-fr-gut preferred
  * ttf-alee
  * ttf-unfonts
+ * ttf-dejavu	# includes characters missing in Vera
+ * ttf-arphic-bkai00mp
+ * ttf-arphic-bsmi00lp
+ * ttf-arphic-gbsn00lp
+ * ttf-arphic-gkai00mp
  * nabi
  * imhangul
  * culmus
  * latex-ucs # UTF-8 support for LaTeX
  * latex-ucs-uninames
  * latex-ucs-contrib
- * openoffice.org2-help-en-gb
- * openoffice.org2-l10n-en-gb
  * scim
 
 = Transitional packages =
@@ -867,6 +854,28 @@ We need a consistent policy for -doc. At the least, any -doc package produced by
 == Upgrades from Breezy development versions ==
 
  * readahead-list
+
+== Upgrades from Breezy ==
+
+ * irssi-text
+ * mozilla-firefox-locale-eu
+ * mozilla-firefox-locale-it
+ * mozilla-firefox-locale-ja
+ * mozilla-firefox-locale-nb
+ * mozilla-firefox-locale-uk
+ * mozilla-thunderbird-locale-ca
+ * mozilla-thunderbird-locale-de
+ * mozilla-thunderbird-locale-fr
+ * mozilla-thunderbird-locale-it
+ * mozilla-thunderbird-locale-nl
+ * mozilla-thunderbird-locale-pl
+ * mozilla-thunderbird-locale-uk
+
+== Upgrades from Dapper development versions ==
+
+ * mozilla-firefox-locale-lt
+ * mozilla-firefox-locale-mn
+ * mozilla-firefox-locale-nb-no
 
 = Miscellaneous =
 

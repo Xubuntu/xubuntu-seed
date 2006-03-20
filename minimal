@@ -17,6 +17,14 @@
  * pmac-fdisk [powerpc]
  * powerpc-utils [powerpc] # ColinWatson
 
+== sparc ==
+
+ * libc6-sparc64b [sparc]
+ * libc6-sparc64v [sparc]
+ * libc6-sparcv9b [sparc]
+ * libc6-sparcv9v [sparc]
+ * sparc-utils [sparc]
+
 = UNIX =
 
 == Essential ==
@@ -71,7 +79,6 @@ Programs and packages necessary for both the proper functionality of the system 
  * bzip2
  * console-tools
  * debconf
- * debconf-i18n      # explicitely seeded, because we want it as the deault
  * eject             # very popular, useful, small
  * gettext-base
  * gnupg             # introduce security from the very base
