@@ -133,6 +133,7 @@ Input methods:
  * gaim
  * gdm
  * gimp
+ * evince-gtk
  * hal                     # it's not very polished but it's the future
  * libglib2.0-data
  * firefox
