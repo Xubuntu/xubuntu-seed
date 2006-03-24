@@ -145,7 +145,6 @@ Input methods:
  * dbus-1-utils # for session dbus, #895
  * abiword 
  * xscreensaver
- * rss-glx         # MRS, very slick screensavers
  * xscreensaver-gl # MRS, we will only ship a subset of the screensavers from rss-glx and xscreensaver
  * xscreensaver-data # subset package for the non-gl screensavers we ship
  * gdebi                   # view/install deb packages
