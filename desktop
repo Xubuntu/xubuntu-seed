@@ -126,11 +126,14 @@ Input methods:
  * xfce4-clipman-plugin
  * xfce4-mount-plugin
  * xfce4-quicklauncher-plugin
+ * xfce4-weather-plugin
 
  * orage
  * thunar
  * mousepad
  * xfmedia
+
+== Other desktop apps ==
 
  * gqview
  * gaim
@@ -149,6 +152,7 @@ Input methods:
  * xscreensaver-data # subset package for the non-gl screensavers we ship
  * gdebi                   # view/install deb packages
  * language-selector
+ * xubuntu-system-tools
 
  * gtk2-engines-xfce
  * gtk2-engines-clearlooks
