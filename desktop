@@ -153,6 +153,7 @@ Input methods:
  * xscreensaver-data # subset package for the non-gl screensavers we ship
  * gdebi                   # view/install deb packages
  * language-selector
+ * update-manager 
  * xubuntu-system-tools
 
  * gtk2-engines-xfce
