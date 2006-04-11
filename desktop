@@ -141,6 +141,7 @@ Input methods:
  * gdm
  * gimp
  * evince-gtk
+ * gimp-print		# DanielHolbach: enable printing in gimp (part of gutenprint package)
  * hal                     # it's not very polished but it's the future
  * libglib2.0-data
  * firefox
@@ -176,6 +177,7 @@ Documentation:
  * xubuntu-artwork-usplash
  * xubuntu-default-settings
  * libpam-foreground
+ * libstdc++5 [i386]	# doko: requested from some closed source applications
 
 = Germinate workarounds =
 
