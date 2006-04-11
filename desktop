@@ -149,6 +149,7 @@ Input methods:
  * synaptic                # will this be our default package manager?
  * dbus-1-utils # for session dbus, #895
  * abiword 
+ * abiword-plugins 
  * xscreensaver
  * xscreensaver-gl # MRS, we will only ship a subset of the screensavers from rss-glx and xscreensaver
  * xscreensaver-data # subset package for the non-gl screensavers we ship
