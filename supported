@@ -395,7 +395,6 @@ We need a consistent policy for -doc. At the least, any -doc package produced by
  * evolution-dev
  * expect-dev
  * glutg3-dev
- * gtkglarea5-dev
  * imlib1-dev
  * iptables-dev
  * libbind-dev
