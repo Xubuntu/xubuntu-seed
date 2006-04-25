@@ -351,3 +351,8 @@ We include 2.6 kernel module udebs only.
  * usb-modules-${Kernel-Version}-di [sparc]
  * usb-storage-modules-${Kernel-Version}-di [sparc]
  * xfs-modules-${Kernel-Version}-di [sparc]
+
+
+== LTSP ==
+
+ * ltsp-client-builder
