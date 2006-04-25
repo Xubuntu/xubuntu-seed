@@ -115,3 +115,5 @@
 
  * ltsp-server-standalone
  * ltsp-client
+ * ldm
+ * openssh-server
