@@ -103,6 +103,10 @@ Input methods:
 
  * scim
  * scim-gtk2-immodule
+ * scim-pinyin
+ * scim-anthy
+ * scim-chewing
+ * scim-hangul
 
 == Xfce Desktop ==
 
