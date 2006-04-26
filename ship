@@ -8,6 +8,16 @@
  * openoffice.org
  * openoffice.org-gtk
 
+== Transitional packages ==
+
+ * openoffice.org2 				# transition packages
+ * openoffice.org2-base				# size: 800 bytes/each
+ * openoffice.org2-calc
+ * openoffice.org2-draw
+ * openoffice.org2-impress
+ * openoffice.org2-math
+ * openoffice.org2-writer
+ 
 == Server ==
 
  * ssh
