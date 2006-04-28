@@ -135,6 +135,7 @@ Input methods:
  * xfce4-cpugraph-plugin
  * xfce4-systemload-plugin
  * xfce4-netload-plugin
+ * xfce4-screenshooter-plugin
 
  * orage
  * thunar
@@ -192,6 +193,7 @@ Documentation:
  * xubuntu-artwork-usplash
  * xubuntu-default-settings
  * libpam-foreground
+ * example-content	# dholbach: dapper feature goal (wiki.ubuntu.com/ExampleContent)
  * libstdc++5 [i386]	# doko: requested from some closed source applications
 
 = Germinate workarounds =
