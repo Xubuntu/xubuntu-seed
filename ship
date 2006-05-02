@@ -90,13 +90,13 @@
 
 == Common language packs ==
 
- # must have
- * Languages: en
+ # languages which have language-support installed too
+ * Languages: en zh es bn hi 
  * language-pack-${Languages}
  * language-support-${Languages}
 
  # most popular languages
- * Languages: zh es bn hi ar xh pt ru ja de fr
+ * Languages: ar xh pt ru ja de fr
  * language-pack-${Languages}
 
  # other languages, alphabetically, up to CD limit
@@ -104,7 +104,7 @@
  * language-pack-${Languages} [i386 amd64]
 
  * Languages: ne nl nn no or pa pl rm ro rw se si sk sl sq sr sv ta tg th tk tl tr ug uk ur uz vi wa wo yi yo zu
- * language-pack-${Languages} [i386]
+ * language-pack-${Languages} [i386 amd64]
 
 == Installer ==
 
