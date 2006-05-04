@@ -355,4 +355,4 @@ We include 2.6 kernel module udebs only.
 
 == LTSP ==
 
- * ltsp-client-builder
+# do not put this in yet. ltsp-client-builder
