@@ -91,12 +91,12 @@
 == Common language packs ==
 
  # languages which have language-support installed too
- * Languages: en zh es bn hi 
+ * Languages: en zh es bn hi ar xh pt ru
  * language-pack-${Languages}
  * language-support-${Languages}
 
  # most popular languages
- * Languages: ar xh pt ru ja de fr
+ * Languages: ja de fr
  * language-pack-${Languages}
 
  # other languages, alphabetically, up to CD limit
