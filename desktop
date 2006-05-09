@@ -153,6 +153,7 @@ Input methods:
  * gdm
  * gimp
  * evince-gtk
+ * xfburn
  * gnumeric-gtk
  * gimp-print		# DanielHolbach: enable printing in gimp (part of gutenprint package)
  * hal                     # it's not very polished but it's the future
@@ -173,6 +174,7 @@ Input methods:
 
  * gtk2-engines-xfce
  * gtk2-engines-clearlooks
+ * gtk2-engines-ubuntulooks
  * gtk2-engines-mist
  * gtk2-engines-industrial
  * gtk2-engines-smooth
