@@ -353,6 +353,3 @@ We include 2.6 kernel module udebs only.
  * xfs-modules-${Kernel-Version}-di [sparc]
 
 
-== LTSP ==
-
-# do not put this in yet. ltsp-client-builder
