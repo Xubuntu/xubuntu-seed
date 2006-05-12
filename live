@@ -1,12 +1,6 @@
- * Languages: en
+ * Languages: en zh es bn hi ar xh pt ru ja de fr hu ro ca af zu
  * language-pack-${Languages}
  * language-support-${Languages}
-
- * Languages: zh bn de fr
- * language-pack-${Languages}
-
- * Languages: es hi ar pt ru ja ca
- * language-pack-${Languages} [powerpc]
 
  * xubuntu-live
  * pcmcia-cs
