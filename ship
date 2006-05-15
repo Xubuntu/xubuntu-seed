@@ -42,6 +42,7 @@
  * build-essential
  * fakeroot
  * devscripts          # Debian package development
+ * bzr                 # Obvious
  * cvs                 # RobertCollins
  * linux-headers-386 [i386]
  * linux-headers-powerpc [powerpc]
