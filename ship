@@ -41,6 +41,7 @@ modules instead.
  * ltsp-server-standalone # for LTSP-on-install
  * ltsp-client            # for LTSP-on-install
  * ldm 				   # seeded because its not a hard dependency of ltsp-client anymore
+ * openssh-server
 
 == Networking ==
 
@@ -130,10 +131,3 @@ modules instead.
  * installation-guide-sparc [sparc]
  * oem-config   # this is small; it can be removed if there's space pressure, but it makes the OEM installer a lot easier to test
 
-== LTSP ==
-
- * ltsp-client-builder
- * ltsp-server-standalone
- * ltsp-client
- * ldm
- * openssh-server
