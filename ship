@@ -106,7 +106,7 @@ modules instead.
  * Languages: en zh es bn hi ar xh pt
  * language-pack-${Languages}
  * language-support-${Languages}
- * language-support-ru [i386 amd64]
+ * language-support-ru [i386]
 
  # most popular languages
  * Languages: ja de fr
@@ -120,7 +120,7 @@ modules instead.
  * language-pack-${Languages} [i386 amd64]
 
  * Languages: ne nl nn no or pa pl rm ro rw se si sk sl sq sr sv ta tg th tk tl tr ug uk ur uz vi wa wo yi yo zu
- * language-pack-${Languages} [i386]
+ * language-pack-${Languages} [i386 amd64]
 
 == Installer ==
 
