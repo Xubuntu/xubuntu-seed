@@ -107,10 +107,11 @@ modules instead.
 == Common language packs ==
 
  # languages which have language-support installed too
- * Languages: en zh es bn hi ar xh pt
+ * Languages: en zh es bn hi ar xh
  * language-pack-${Languages}
  * language-support-${Languages}
  * language-support-ru [i386]
+ * language-support-pt [i386 amd64]
 
  # most popular languages
  * Languages: ja de fr
