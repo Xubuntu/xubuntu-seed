@@ -42,7 +42,7 @@ modules instead.
  * ltsp-client            # for LTSP-on-install
  * ldm 				   # seeded because its not a hard dependency of ltsp-client anymore
  * openssh-server
-
+ * esound		#needed for ltsp
 == Networking ==
 
  * mailx
