@@ -2,7 +2,6 @@
 
 == Architecture-independent ==
 
- * readahead
  * hotkey-setup
 
 Power management:
@@ -27,7 +26,6 @@ These tools are very commonly used by people who drop into a console shell to do
 
  * bc
  * dc
- * irssi
  * mkisofs
  * cdrecord
  * cdparanoia
@@ -35,7 +33,6 @@ These tools are very commonly used by people who drop into a console shell to do
  * screen
  * lftp
  * slocate              # tool to index user files
- * doc-debian           # move to Desktop since people doing a Base install probably won't need it
  * zip
  * unzip                # also used for .zip support in file-roller
 
@@ -67,13 +64,13 @@ Printing and printer configuration is a real weak spot in Debian, and in Linux i
  * pnm2ppa                      # several ppds require this
  * gs-esp			# some ppds require this, in place of standard gs
  * hplip     			# support for HP all-in-one printers
- * hplip-ppds			# support for HP all-in-one printers
+ * hpijs-ppds			# support for HP all-in-one printers
  * min12xxw			# support for KonicaMinolta PagePro 1200W, 1300W printers
  * foo2zjs			# Support for printing to ZjStream-based printers
 
 = GUI infrastructure =
 
- * x-window-system-core
+ * xorg
  * xterm
  * xserver-xorg-input-synaptics  # for enhanced touchpad features
  * xkeyboard-config              # XKB data now lives here
@@ -83,7 +80,7 @@ Fonts:
 
  * x-ttcidfont-conf
  * ttf-bitstream-vera
- * ttf-dejavu
+ * ttf-dejavu                    # includes characters missing in Vera
  * ttf-freefont
  * ttf-kochi-gothic
  * ttf-kochi-mincho
@@ -140,6 +137,7 @@ Input methods:
  * orage
  * thunar
  * thunar-media-tags-plugin
+ * thunar-archive-plugin
  * mousepad
  * xfmedia
  * xarchiver
@@ -179,7 +177,7 @@ Input methods:
  * gtk2-engines-mist
  * gtk2-engines-industrial
  * gtk2-engines-smooth
-
+ * gnome-accessibility-themes
  * tango-icon-theme
  * tango-icon-theme-common
  * xcursor-themes
@@ -188,21 +186,24 @@ Documentation:
 
  * doc-base
  * xubuntu-docs
+ * doc-base			# integrates with scrollkeeper
 
 = Other =
 
  * xubuntu-desktop # metapackage for everything here
  * anacron # generally appropriate for desktops
  * usplash
- * libxp6 # required for some thirdy part apps. See #15739
  * xubuntu-artwork-usplash
  * xubuntu-default-settings
+ * libxp6 # required for some third party apps. See #15739
  * libpam-foreground
  * example-content	# dholbach: dapper feature goal (wiki.ubuntu.com/ExampleContent)
  * libstdc++5 [i386]	# doko: requested from some closed source applications
  * landscape-client
+ * readahead
 
 = Germinate workarounds =
 
  * libglut3 # depended upon by freeglut3
  * libgl1-mesa # depended upon by libgl1-mesa-dri, but lsb dep on virtual libgl1 makes it ordering-dependent
+
