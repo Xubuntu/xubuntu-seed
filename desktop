@@ -18,7 +18,7 @@ Power management:
 
 == ppc32, ppc64 ==
 
- * pbbuttonsd #ThomMay
+ * pbbuttonsd [powerpc]
 
 = Console-Based Tools =
 
