@@ -145,6 +145,7 @@ Input methods:
  * mousepad
  * xfmedia
  * xarchiver
+ * python-exo
 
 == Other desktop apps ==
 
@@ -169,6 +170,7 @@ Input methods:
  * abiword-plugins 
  * xscreensaver
  * xscreensaver-gl # MRS, we will only ship a subset of the screensavers from rss-glx and xscreensaver
+ * xscreensaver-gl # MRS, we will only ship a subset of the screensavers from rss-glx and xscreensaver
  * xscreensaver-data # subset package for the non-gl screensavers we ship
  * gdebi                   # view/install deb packages
  * language-selector
@@ -176,11 +178,7 @@ Input methods:
  * xubuntu-system-tools
 
  * gtk2-engines-xfce
- * gtk2-engines-clearlooks
  * gtk2-engines-ubuntulooks
- * gtk2-engines-mist
- * gtk2-engines-industrial
- * gtk2-engines-smooth
  * gnome-accessibility-themes
  * tango-icon-theme
  * tango-icon-theme-common
@@ -191,6 +189,25 @@ Documentation:
  * doc-base
  * xubuntu-docs
  * doc-base			# integrates with scrollkeeper
+
+= Development =
+
+Here we provide a minimal development environment sufficient to build kernel
+drivers, so that this is possible on the live CD and in scenarios where
+it is problematic to get these packages onto the installed system in order
+to compile a driver. -mdz
+
+ * gcc
+ * make
+ * linux-headers-686 [i386]
+ * linux-headers-powerpc [powerpc]
+ * linux-headers-powerpc64-smp [powerpc]
+ * linux-headers-amd64-generic [amd64]
+ * linux-headers-itanium-smp [ia64]
+ * linux-headers-mckinley-smp [ia64]
+ * linux-headers-sparc64 [sparc]
+ * linux-headers-hppa32 [hppa]
+ * linux-headers-hppa64 [hppa]
 
 = Other =
 
