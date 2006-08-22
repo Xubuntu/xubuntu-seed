@@ -111,10 +111,6 @@ modules instead.
  * libatm1	# suggested by ppp for PPP-over-ATM
  * setserial	# needed by folks with nonstandard serial ports
 
-== Gnome printer setup ==
-
- * gnome-cups-manager
-
 == Common language packs ==
 
  # languages which have language-support installed too
