@@ -17,6 +17,11 @@ modules instead.
  * openoffice.org
  * openoffice.org-gtk
 
+== Accessibility ==
+
+ * xubuntu-at-mag
+ * xubuntu-at-speech
+
 == Transitional packages ==
 
  * openoffice.org2 				# transition packages
