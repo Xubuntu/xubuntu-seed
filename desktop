@@ -170,9 +170,9 @@ Input methods:
  * abiword-plugins 
  * xscreensaver
  * xscreensaver-gl # MRS, we will only ship a subset of the screensavers from rss-glx and xscreensaver
- * xscreensaver-gl # MRS, we will only ship a subset of the screensavers from rss-glx and xscreensaver
  * xscreensaver-data # subset package for the non-gl screensavers we ship
  * gdebi                   # view/install deb packages
+ * apport-gtk
  * language-selector
  * update-manager 
  * xubuntu-system-tools
