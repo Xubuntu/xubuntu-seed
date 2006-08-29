@@ -10,6 +10,7 @@
 
  * xfsdump # only useful when machine is setup and working, and only for xfs people
  * cloop-utils # for LiveCD
+ * squashfs-tools
  * reiser4progs
  * hfsplus
 
@@ -417,6 +418,13 @@ These *-doc packages are in separate source packages, so Extra-Includes won't ca
  * cdebconf # useful for testing, but not used by default yet
 
  * casper # needed by live CD build system
+
+ * installation-guide-amd64 [amd64]
+ * installation-guide-hppa [hppa]
+ * installation-guide-i386 [i386]
+ * installation-guide-ia64 [ia64]
+ * installation-guide-powerpc [powerpc]
+ * installation-guide-sparc [sparc]
 
 = LTSP =
 
