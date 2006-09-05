@@ -22,16 +22,6 @@ modules instead.
  * xubuntu-at-mag
  * xubuntu-at-speech
 
-== Transitional packages ==
-
- * openoffice.org2 				# transition packages
- * openoffice.org2-base				# size: 800 bytes/each
- * openoffice.org2-calc
- * openoffice.org2-draw
- * openoffice.org2-impress
- * openoffice.org2-math
- * openoffice.org2-writer
- 
 == Server ==
 
  * ssh
@@ -54,6 +44,9 @@ modules instead.
  * xfsprogs
  * jfsutils
  * hfsplus [powerpc]  # ColinWatson
+ * lvm2
+ * mdadm
+ * dmsetup
 
 == Networking ==
 
@@ -80,6 +73,7 @@ modules instead.
 == Common UNIX stuff ==
 
  * nfs-common		  # allows people to access NFS filesystems
+ * vim                    # vim-tiny is in minimal; vim includes syntax highlighting, help files, etc.
 
 == For X preconfiguration ==
 
@@ -140,13 +134,4 @@ modules instead.
 
 == Transitional packages ==
 
- * openoffice.org2 [i386 powerpc amd64 sparc]		# transition packages
- * openoffice.org2-base [i386 powerpc amd64 sparc]	# size: 800 bytes/each
- * openoffice.org2-calc [i386 powerpc amd64 sparc]
- * openoffice.org2-draw [i386 powerpc amd64 sparc]
- * openoffice.org2-gnome [i386 powerpc amd64 sparc]
- * openoffice.org2-impress [i386 powerpc amd64 sparc]
- * openoffice.org2-math [i386 powerpc amd64 sparc]
- * openoffice.org2-writer [i386 powerpc amd64 sparc]
- * openoffice.org2-evolution [i386 powerpc sparc]
  * openoffice.org-gtk-gnome [i386 powerpc amd64 sparc]

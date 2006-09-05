@@ -51,8 +51,9 @@ These are packages which have "Essential: yes" in their control file.
  * perl-base
  * python-minimal
  * sed
- * sysvinit
  * tar            # LaMontJones
+ * upstart
+ * upstart-compat-sysv
  * util-linux     # LaMontJones
 
 == Comfortable Unix System ==
@@ -87,7 +88,7 @@ Programs and packages necessary for both the proper functionality of the system 
  * tzdata
  * udev
  * usbutils
- * vim
+ * vim-tiny
 
 == Networking ==
 
