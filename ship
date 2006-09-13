@@ -131,7 +131,3 @@ modules instead.
 == Installer ==
 
  * oem-config-gtk
-
-== Transitional packages ==
-
- * openoffice.org-gtk-gnome [i386 powerpc amd64 sparc]
