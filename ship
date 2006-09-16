@@ -60,15 +60,7 @@ modules instead.
  * devscripts          # Debian package development
  * bzr                 # Obvious
  * cvs                 # RobertCollins
- * linux-headers-386 [i386]
- * linux-headers-powerpc [powerpc]
- * linux-headers-powerpc64-smp [powerpc]
- * linux-headers-amd64-generic [amd64]
- * linux-headers-itanium-smp [ia64]
- * linux-headers-mckinley-smp [ia64]
- * linux-headers-sparc64 [sparc]
- * linux-headers-hppa32 [hppa]
- * linux-headers-hppa64 [hppa]
+ * linux-headers-generic [i386]
 
 == Common UNIX stuff ==
 
@@ -91,7 +83,7 @@ modules instead.
  * pptp-linux             # client for Microsoft-compatible VPN's, needed for some ISPs
  * eagle-usb-utils        # needed for some ADSL modems
  * bpalogin
- * ndiswrapper-utils
+ * ndiswrapper-utils [amd64 i386]
 
  * nvidia-glx    # nvidia drivers, for multiseat, but also easy access
 

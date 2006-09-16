@@ -51,6 +51,8 @@ This list was originally constructed based on a [http://people.debian.org/~cjwat
  * kbd-chooser
  * console-setup-udeb
  * console-setup-pc-ekmap
+ * console-setup-sun4-ekmap [sparc]
+ * console-setup-sun5-ekmap [sparc]
  * console-setup-fonts-udeb
  * libdevmapper1.02-udeb
  * libfribidi0-udeb
@@ -139,15 +141,6 @@ This list was originally constructed based on a [http://people.debian.org/~cjwat
 
  * initrd-kickseed
 
-= Keymaps =
-
- * console-keymaps-at
- * console-keymaps-mac [powerpc]
- * console-keymaps-sun [sparc]
- * console-keymaps-usb
-
- * console-keymaps-tree
-
 == LTSP ==
 
  * ltsp-client-builder
@@ -177,36 +170,36 @@ Make sure to leave the Kernel-Version: lines and separated architectures in here
 
 == amd64 ==
 
- * Kernel-Version: 2.6.17-6-amd64-generic
+ * Kernel-Version: 2.6.17-7-generic
  * /^.*-firmware-.*-di/ [amd64]
  * /^.*-modules-.*-di/ [amd64]
 
 == hppa ==
 
- * Kernel-Version: 2.6.17-6-hppa32 2.6.17-6-hppa64
+ * Kernel-Version: 2.6.17-7-hppa32 2.6.17-7-hppa64
  * /^.*-firmware-.*-di/ [hppa]
  * /^.*-modules-.*-di/ [hppa]
 
 == i386 ==
 
- * Kernel-Version: 2.6.17-6-386
+ * Kernel-Version: 2.6.17-7-386
  * /^.*-firmware-.*-di/ [i386]
  * /^.*-modules-.*-di/ [i386]
 
 == ia64 ==
 
- * Kernel-Version: 2.6.17-6-itanium-smp
+ * Kernel-Version: 2.6.17-7-itanium
  * /^.*-firmware-.*-di/ [ia64]
  * /^.*-modules-.*-di/ [ia64]
 
 == powerpc ==
 
- * Kernel-Version: 2.6.17-6-powerpc 2.6.17-6-powerpc64-smp
+ * Kernel-Version: 2.6.17-7-powerpc 2.6.17-7-powerpc64-smp
  * /^.*-firmware-.*-di/ [powerpc]
  * /^.*-modules-.*-di/ [powerpc]
 
 == sparc ==
 
- * Kernel-Version: 2.6.17-6-sparc64
+ * Kernel-Version: 2.6.17-7-sparc64
  * /^.*-firmware-.*-di/ [sparc]
  * /^.*-modules-.*-di/ [sparc]

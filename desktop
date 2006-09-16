@@ -13,7 +13,7 @@ Task-Key: xubuntu-desktop
 Power management:
 
  * acpi-support
- * powernowd
+ * (powernowd)
  * powermanagement-interface [i386 amd64 powerpc ia64]
 
 == i386, i686, amd64 ==
@@ -67,7 +67,7 @@ Printing and printer configuration is a real weak spot in Debian, and in Linux i
  * cupsys-driver-gutenprint     # a ton of cupsys ppds, for real comprehensive printer support
  * pnm2ppa                      # several ppds require this
  * gs-esp			# some ppds require this, in place of standard gs
- * hplip     			# support for HP all-in-one printers
+ * (hplip)     			# support for HP all-in-one printers
  * min12xxw			# support for KonicaMinolta PagePro 1200W, 1300W printers
  * foo2zjs			# Support for printing to ZjStream-based printers
 
@@ -83,28 +83,28 @@ Fonts:
  * ttf-bitstream-vera
  * ttf-dejavu                    # includes characters missing in Vera
  * ttf-freefont
- * ttf-kochi-gothic
- * ttf-kochi-mincho
- * ttf-arphic-uming
- * ttf-arphic-ukai
- * ttf-arabeyes
- * ttf-baekmuk
- * ttf-indic-fonts
- * ttf-malayalam-fonts
- * ttf-mgopen
- * ttf-thai-tlwg
- * ttf-lao
- * ttf-gentium
+ * (ttf-kochi-gothic)
+ * (ttf-kochi-mincho)
+ * (ttf-arphic-uming)
+ * (ttf-arphic-ukai)
+ * (ttf-arabeyes)
+ * (ttf-baekmuk)
+ * (ttf-indic-fonts)
+ * (ttf-malayalam-fonts)
+ * (ttf-mgopen)
+ * (ttf-thai-tlwg)
+ * (ttf-lao)
+ * (ttf-gentium)
 
 =======
 Input methods:
 
- * scim
- * scim-gtk2-immodule
- * scim-pinyin
- * scim-anthy
- * scim-chewing
- * scim-hangul
+ * (scim)
+ * (scim-gtk2-immodule)
+ * (scim-pinyin)
+ * (scim-anthy)
+ * (scim-chewing)
+ * (scim-hangul)
 
 == Xfce Desktop ==
 
@@ -179,10 +179,10 @@ Input methods:
 
  * gtk2-engines-xfce
  * gtk2-engines-ubuntulooks
- * gnome-accessibility-themes
+ * (gnome-accessibility-themes)
  * tango-icon-theme
  * tango-icon-theme-common
- * xcursor-themes
+ * (xcursor-themes)
  * ubuntu-artwork # for Human cursor and icon themes
 
 Documentation:
@@ -198,17 +198,17 @@ drivers, so that this is possible on the live CD and in scenarios where
 it is problematic to get these packages onto the installed system in order
 to compile a driver. -mdz
 
- * gcc
- * make
- * linux-headers-686 [i386]
- * linux-headers-powerpc [powerpc]
- * linux-headers-powerpc64-smp [powerpc]
- * linux-headers-amd64-generic [amd64]
- * linux-headers-itanium-smp [ia64]
- * linux-headers-mckinley-smp [ia64]
- * linux-headers-sparc64 [sparc]
- * linux-headers-hppa32 [hppa]
- * linux-headers-hppa64 [hppa]
+ * (gcc)
+ * (make)
+ * (linux-headers-386) [i386]
+ * (linux-headers-powerpc) [powerpc]
+ * (linux-headers-powerpc64-smp) [powerpc]
+ * (linux-headers-generic) [amd64]
+ * (linux-headers-itanium) [ia64]
+ * (linux-headers-mckinley) [ia64]
+ * (linux-headers-sparc64) [sparc]
+ * (linux-headers-hppa32) [hppa]
+ * (linux-headers-hppa64) [hppa]
 
 = Other =
 
@@ -219,7 +219,7 @@ to compile a driver. -mdz
  * xubuntu-default-settings
  * libxp6 # required for some third party apps. See #15739
  * libpam-foreground
- * example-content	# dholbach: dapper feature goal (wiki.ubuntu.com/ExampleContent)
+ * (example-content) # dholbach: dapper feature goal (wiki.ubuntu.com/ExampleContent)
  * libstdc++5 [i386]	# doko: requested from some closed source applications
  * landscape-client
  * readahead
