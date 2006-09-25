@@ -103,11 +103,11 @@ modules instead.
  * Languages: en
  * language-support-${Languages}
  * language-pack-${Languages}
- * Languages: zh es bn hi ar ru xh pt
+ * Languages: zh es bn hi ar ru
  * language-support-${Languages} [i386]
 
  # most popular languages
- * Languages: ja de fr
+ * Languages: ja de fr pt xh
  * language-pack-${Languages}
 
  # small language support packages (only firefox translations)
