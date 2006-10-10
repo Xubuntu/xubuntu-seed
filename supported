@@ -36,7 +36,6 @@ Must also consider webmail and so on...
 
 Other:
 
- * avahi-daemon
  * racoon
  * sysvinit  # ScottJamesRemnant retain support for now
 
@@ -45,6 +44,7 @@ Utilities:
  * analog                 # essential for any web server, possible candidate for desktop integration
  * graphviz
  * logcheck		  # great security tool for any server
+ * logcheck-database	  # useful for above
 
 = Network =
 
@@ -363,6 +363,7 @@ These *-doc packages are in separate source packages, so Extra-Includes won't ca
 
  * %linux-meta
  * linux-kernel-devel
+ * linux-image-debug-*
 
 = Database =
 

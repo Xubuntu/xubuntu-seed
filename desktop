@@ -41,6 +41,7 @@ These tools are very commonly used by people who drop into a console shell to do
  * slocate              # tool to index user files
  * zip
  * unzip                # also used for .zip support in file-roller
+ * command-not-found
 
 = Network Services =
 
@@ -52,6 +53,7 @@ Basic network services and Windows integration.
 These packages help with system integration
 
  * libsasl2-modules    # allows integration with MTA and login system
+ * avahi-daemon
 
 = Printing =
 
@@ -64,6 +66,7 @@ Printing and printer configuration is a real weak spot in Debian, and in Linux i
  * foomatic-db                  # the foomatic printer driver database
  * foomatic-filters             # converter from postscript to printer-specific formats
  * foomatic-db-hpijs            # printer drivers from the hp inkjet project
+ * linuxprinting.org-ppds
  * cupsys-driver-gutenprint     # a ton of cupsys ppds, for real comprehensive printer support
  * pnm2ppa                      # several ppds require this
  * gs-esp			# some ppds require this, in place of standard gs
