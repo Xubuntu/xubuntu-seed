@@ -26,3 +26,8 @@ These packages are needed in order to build Ubuntu packages.
  * drdsl
  * libatm1	# suggested by ppp for PPP-over-ATM
  * setserial	# needed by folks with nonstandard serial ports
+
+== Accessibility ==
+
+ * xubuntu-at-mag
+ * xubuntu-at-speech
