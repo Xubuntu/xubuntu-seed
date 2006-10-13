@@ -6,12 +6,14 @@ Task-Relevance: 2
 Task-Key: ubiquity-frontend-gtk
 Task-Test-new-install: skip show
 
- * Languages: en zh es bn hi ar xh pt
+ * Languages: en zh es bn hi ar xh pt ru ja de fr
  * language-pack-${Languages}
-# * language-support-${Languages} need to bring ffox/tbird translations only otherwise OOo ends up in the install
+ * language-pack-gnome-${Languages}
+ * mozilla-firefox-locale-${Languages}
+ * mozilla-thunderbird-locale-${Languages}
 
  # other languages, alphabetically, up to CD limit
- * Languages:  ru ja de fr af am as az be bg br bs ca cs cy da el eo et eu fa fi ga gl gu he hr hu ia id is it ka kn ko ku lg li lo lt lv mg mi mk ml mn mr ms my nb ru se si sk sl uk vi yi hu ro ca af zu
+ * Languages: af am as az be bg br bs ca cs cy da el eo et eu fa fi ga gl gu he hr hu ia id is it ka kn ko ku lg li lo lt lv mg mi mk ml mn mr ms my nb ru se si sk sl uk vi yi hu ro ca af zu
  * language-pack-${Languages} [i386 amd64]
 
  * ntfsprogs
