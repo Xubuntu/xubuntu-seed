@@ -15,6 +15,9 @@ Task-Test-new-install: skip show
  # other languages, alphabetically, up to CD limit
  * Languages: af am as az be bg br bs ca cs cy da el eo et eu fa fi ga gl gu he hr hu ia id is it ka kn ko ku lg li lo lt lv mg mi mk ml mn mr ms my nb ru se si sk sl uk vi yi hu ro ca af zu
  * language-pack-${Languages} [i386 amd64]
+ * language-pack-gnome-${Languages}
+# * mozilla-firefox-locale-${Languages}
+# * thunderbird-locale-${Languages}
 
  * ntfsprogs
  * discover1    # for X autoconfiguration
