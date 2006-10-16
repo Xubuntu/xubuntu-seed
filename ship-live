@@ -29,5 +29,6 @@ These packages are needed in order to build Ubuntu packages.
 
 == Accessibility ==
 
- * xubuntu-at-mag
-#* xubuntu-at-speech
+ * at-spi
+ * gnome-orca
+ * gnome-mag
