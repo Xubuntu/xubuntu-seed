@@ -36,3 +36,9 @@ Ubiquity needs full filesystem support for the partitioner.
  * xfsprogs
  * jfsutils
  * hfsplus [powerpc]  # ColinWatson
+
+== Accessibility ==
+
+ * at-spi
+ * gnome-orca
+ * gnome-mag
