@@ -41,7 +41,6 @@ These tools are very commonly used by people who drop into a console shell to do
  * slocate              # tool to index user files
  * zip
  * unzip                # also used for .zip support in file-roller
- * command-not-found
  * vim-runtime
 
 = Network Services =
