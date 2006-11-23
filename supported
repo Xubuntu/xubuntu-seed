@@ -8,7 +8,7 @@
 
 == Bluetooth ==
 
- * bluez-passkey-gnome	# To do Bluetooth pairing
+ * bluez-gnome	# To do Bluetooth pairing
 
 == Filesystems ==
 
@@ -85,8 +85,7 @@ Download:
  * gdb
  * valgrind
  * autoconf
- * autoconf-doc      # Debian has this in non-free due to GFDL, but we're OK
- * automake1.9
+ * automake
  * autotools-dev
  * libtool
  * ccache            # C/C++ development, package development
@@ -191,6 +190,7 @@ Other:
  * kino
  * sabayon            # desktop profile management
  * tomboy
+ * liferea
 
 GNOME Office:
 
@@ -268,6 +268,10 @@ We need a consistent policy for -doc. At the least, any -doc package produced by
  * monodoc
  * monodoc-browser
  * diveintopython-zh
+ * autoconf-doc
+ * automake1.8-doc
+ * automake1.9-doc
+ * automake1.10-doc
 
 = Rescued from Extra =
 
@@ -332,6 +336,8 @@ Exclude some KDE-specific pieces:
 
 These *-doc packages are in separate source packages, so Extra-Includes won't catch them and they need to be listed explicitly.
 
+ * automake1.8-doc
+ * automake1.9-doc
  * bison-doc
  * diff-doc
  * gawk-doc
@@ -341,6 +347,7 @@ These *-doc packages are in separate source packages, so Extra-Includes won't ca
  * make-doc
  * python-gtk2-doc
  * python-gtk2-tutorial
+ * scribus-doc
  * tar-doc
 
 == System Administration ==
