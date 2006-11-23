@@ -182,6 +182,7 @@ Input methods:
  * system-config-printer
  * onboard
  * gcalctool-gtk
+ * zenity
 
  * gtk2-engines-xfce
  * gtk2-engines-ubuntulooks
