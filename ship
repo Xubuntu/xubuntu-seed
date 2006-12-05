@@ -126,6 +126,7 @@ modules instead.
 == Installer ==
 
  * oem-config-gtk
+ * mkvmlinuz [powerpc] # for nobootloader
 
 == Transitional packages ==
 

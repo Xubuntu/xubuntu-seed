@@ -47,6 +47,8 @@ These tools are very commonly used by people who drop into a console shell to do
 
 Basic network services and Windows integration.
 
+ * libnss-mdns         # IPv4 link-local DNS support
+ * avahi-autoipd       # IPv4 link-local interface configuration support
  * smbclient           # to access files on other SAMBA and Windows servers
  * wvdial              # for automatic dialup configuration via g-s-t
 
@@ -67,6 +69,7 @@ Printing and printer configuration is a real weak spot in Debian, and in Linux i
  * foomatic-filters             # converter from postscript to printer-specific formats
  * foomatic-db-hpijs            # printer drivers from the hp inkjet project
  * cupsys-driver-gutenprint     # a ton of cupsys ppds, for real comprehensive printer support
+ * linuxprinting.org-ppds       # Most common drivers we want in desktop; less common are in l-p-extra
  * pnm2ppa                      # several ppds require this
  * gs-esp			# some ppds require this, in place of standard gs
  * (hplip)     			# support for HP all-in-one printers

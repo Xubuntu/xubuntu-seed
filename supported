@@ -42,7 +42,7 @@ Other:
 
  * racoon
  * sysvinit  # ScottJamesRemnant retain support for now
- * linuxprinting.org-ppds # We want those in main, but not for desktop.
+ * linuxprinting.org-ppds-exta          # Less common printer drivers we don't want in main
 
 Utilities:
 
@@ -102,6 +102,7 @@ Download:
  * g++-3.3		# compiling and linking against older abis
  * ecj-bootstrap-gcj
  * autopkgtest
+ * cmake
 
 == Mono ==
 
@@ -168,7 +169,6 @@ Other:
  * emacs-nox
  * evms-gui            # gui tools for storage drive volume management
  * inkscape            # SVG drawing application
- * gtranslator             # we want Ubuntu users to participate in Rosetta!
  * screem                  # MRS, our default html editor
  * vim-gnome
  * vim-tiny
@@ -431,7 +431,7 @@ These *-doc packages are in separate source packages, so Extra-Includes won't ca
 = Installer =
 
  # Too late for edgy, but will become the default kernel udeb set later
- * Kernel-Version: 2.6.17-10-generic
+ * Kernel-Version: 2.6.19-7-generic
  * /^.*-firmware-.*-generic-di/ [i386]
  * /^.*-modules-.*-generic-di/ [i386]
 
