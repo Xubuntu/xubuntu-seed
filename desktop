@@ -186,7 +186,7 @@ Input methods:
  * onboard
  * gcalctool-gtk
  * zenity
-
+ * xvncviewer
  * gtk2-engines-xfce
  * gtk2-engines-ubuntulooks
  * (gnome-accessibility-themes)
