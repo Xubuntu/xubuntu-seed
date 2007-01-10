@@ -49,7 +49,6 @@ restricted modules.
  * lsb-cxx
  * ntp
  * ntp-simple
- * ntp-server
  * nis
  * mailx
  * mutt
@@ -229,7 +228,6 @@ kill if we run out of space
 
  * ltsp-server
  * ltsp-server-standalone
- * ltsp-utils
 
 = From desktop =
 
