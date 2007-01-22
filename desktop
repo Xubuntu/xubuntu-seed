@@ -195,12 +195,14 @@ Input methods:
  * tango-icon-theme-common
  * (xcursor-themes)
  * ubuntu-artwork # for Human cursor and icon themes
+ * (notification-daemon)
 
 Documentation:
 
  * doc-base
  * xubuntu-docs
  * doc-base			# integrates with scrollkeeper
+ * (thunar-doc)
 
 = Development =
 
