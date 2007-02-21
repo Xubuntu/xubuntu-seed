@@ -184,6 +184,7 @@ Input methods:
  * gnome-app-install
  * xubuntu-system-tools
  * system-config-printer
+ * hal-cups-utils
  * onboard
  * gcalctool-gtk
  * zenity
