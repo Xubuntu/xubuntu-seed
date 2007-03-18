@@ -112,6 +112,7 @@ This list was originally constructed based on a [http://people.debian.org/~cjwat
  * rootskel
  * save-logs
  * sparc-utils-udeb [sparc] # used for sbus detection
+ * strace-udeb # handy for debugging
  * tzsetup-udeb # first-stage timezone question
  * udev-udeb
  * udpkg
@@ -144,6 +145,7 @@ This list was originally constructed based on a [http://people.debian.org/~cjwat
 = Partition Management (architecture-specific) =
 
  * fdisk-udeb
+ * gptsync-udeb [amd64 i386]
  * mac-fdisk-udeb [powerpc]
  * pmac-fdisk-udeb [powerpc]
  * partman-efi [i386 ia64]
@@ -158,6 +160,7 @@ This list was originally constructed based on a [http://people.debian.org/~cjwat
  * grub-installer [amd64 i386]
  * lilo-installer [amd64 i386]
  * silo-installer [sparc]
+ * kboot-installer [powerpc]
  * yaboot-installer [powerpc]
  * palo-installer [hppa]
 
@@ -171,36 +174,36 @@ Make sure to leave the Kernel-Version: lines and separated architectures in here
 
 == amd64 ==
 
- * Kernel-Version: 2.6.20-9-generic
+ * Kernel-Version: 2.6.20-12-generic
  * /^.*-firmware-.*-di/ [amd64]
  * /^.*-modules-.*-di/ [amd64]
 
 == hppa ==
 
- * Kernel-Version: 2.6.20-9-hppa32 2.6.20-9-hppa64
+ * Kernel-Version: 2.6.20-12-hppa32 2.6.20-12-hppa64
  * /^.*-firmware-.*-di/ [hppa]
  * /^.*-modules-.*-di/ [hppa]
 
 == i386 ==
 
- * Kernel-Version: 2.6.20-9-generic
+ * Kernel-Version: 2.6.20-12-generic
  * /^.*-firmware-.*-di/ [i386]
  * /^.*-modules-.*-di/ [i386]
 
 == ia64 ==
 
- * Kernel-Version: 2.6.20-9-itanium
+ * Kernel-Version: 2.6.20-12-itanium
  * /^.*-firmware-.*-di/ [ia64]
  * /^.*-modules-.*-di/ [ia64]
 
 == powerpc ==
 
- * Kernel-Version: 2.6.20-9-powerpc 2.6.20-9-powerpc64-smp
+ * Kernel-Version: 2.6.20-12-powerpc 2.6.20-12-powerpc64-smp
  * /^.*-firmware-.*-di/ [powerpc]
  * /^.*-modules-.*-di/ [powerpc]
 
 == sparc ==
 
- * Kernel-Version: 2.6.20-9-sparc64
+ * Kernel-Version: 2.6.20-12-sparc64
  * /^.*-firmware-.*-di/ [sparc]
  * /^.*-modules-.*-di/ [sparc]

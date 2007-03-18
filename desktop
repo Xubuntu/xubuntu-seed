@@ -32,8 +32,8 @@ These tools are very commonly used by people who drop into a console shell to do
 
  * bc
  * dc
- * mkisofs
- * cdrecord
+ * genisoimage
+ * wodim
  * cdparanoia
  * dvd+rw-tools
  * screen
@@ -106,6 +106,7 @@ Input methods:
 
  * (scim)
  * (scim-gtk2-immodule)
+ * (scim-tables-additional) [i386] # input support for language packs that we ship
  * (scim-pinyin)
  * (scim-anthy)
  * (scim-chewing)
@@ -155,25 +156,25 @@ Input methods:
  
 == Other desktop apps ==
 
- * mozilla-thunderbird
+ * (mozilla-thunderbird)
  * gqview
  * libjpeg-progs 	#for gqview
- * gaim
+ * (gaim)
  * gdm
- * gimp
+ * (gimp)
  * evince-gtk
  * xfburn
  * libgoffice-gtk-0-3   #explicitely seed this for abiword and gnumeric gnomeless variants
  * gnumeric-gtk
- * gimp-print		# DanielHolbach: enable printing in gimp (part of gutenprint package)
+ * (gimp-print)		# DanielHolbach: enable printing in gimp (part of gutenprint package)
  * hal                     # it's not very polished but it's the future
  * libglib2.0-data
- * firefox
+ * (firefox)
  * scrollkeeper
  * synaptic                # will this be our default package manager?
  * dbus-1-utils # for session dbus, #895
- * abiword 
- * abiword-plugins 
+ * (abiword)
+ * (abiword-plugins)
  * xscreensaver
  * xscreensaver-gl # MRS, we will only ship a subset of the screensavers from rss-glx and xscreensaver
  * xscreensaver-data # subset package for the non-gl screensavers we ship
@@ -201,7 +202,7 @@ Input methods:
 Documentation:
 
  * doc-base
- * xubuntu-docs
+ * (xubuntu-docs)
  * doc-base			# integrates with scrollkeeper
  * (thunar-doc)
 
@@ -235,7 +236,7 @@ to compile a driver. -mdz
  * libpam-foreground
  * (example-content) # dholbach: dapper feature goal (wiki.ubuntu.com/ExampleContent)
  * libstdc++5 [i386]	# doko: requested from some closed source applications
- * landscape-client
+ * (landscape-client)
  * readahead
 
 = Germinate workarounds =

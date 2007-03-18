@@ -17,6 +17,7 @@
  * squashfs-tools
  * reiser4progs
  * hfsplus
+ * gparted # used to be used by ubiquity; still useful sometimes
 
 == Cluster ==
 
@@ -102,6 +103,7 @@ Download:
  * ecj-bootstrap-gcj
  * autopkgtest
  * cmake
+ * apport-retrace
 
 == Mono ==
 
@@ -116,7 +118,6 @@ Download:
  * python2.4-subversion
  * git-core
  * gitk
- * git-email
  * bzrtools
  * python2.4-paramiko	# for bzr sftp support
 
@@ -271,6 +272,8 @@ We need a consistent policy for -doc. At the least, any -doc package produced by
  * automake1.8-doc
  * automake1.9-doc
  * automake1.10-doc
+ * emacs21-common-non-dfsg # Non-DFSG docs
+ * packaging-guide
 
 = Rescued from Extra =
 
@@ -292,6 +295,7 @@ automatically:
  * Extra-Exclude: libcdio-*-dev libiso9660-dev
  * Extra-Exclude: libxaw6*		# built from the same source as libxaw7*
  * Extra-Exclude: nvidia-glx-legacy-dev # nvidia-glx-legacy is unsupportable
+ * Extra-Exclude: python-qt3-gl-dbg # We don't want python-qt3-gl in main
 
 Transitional packages:
 
@@ -373,9 +377,12 @@ These *-doc packages are in separate source packages, so Extra-Includes won't ca
 
 == Kernel ==
 
- * %linux-meta
+ * /^linux-(backports-modules-|headers-)?(386|686|amd64|generic|hppa|itanium|k7|mckinley|powerpc|ps3|server|sparc64).*/
+ * linux-doc
+ * linux-source
  * linux-kernel-devel
  * linux-image-debug-*
+ * vmware-*-kernel-modules
 
 = Database =
 
