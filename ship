@@ -106,15 +106,12 @@ modules instead.
  * Languages: en
  * language-support-${Languages}
  * language-pack-${Languages}
- * Languages: zh es bn hi ar ru
+ * Languages: zh es bn
  * language-support-${Languages} [i386]
 
  # most popular languages
- * Languages: ja de fr pt xh
+ * Languages: ja de fr pt xh hi ar ru
  * language-pack-${Languages}
-
- # small language support packages (only firefox translations)
- * language-support-ro
 
  # other languages, alphabetically, up to CD limit
  * Languages: af am as az be bg br bs ca cs cy da el eo et eu fa fi ga gl gu he hr hu ia id is it ka kn ko ku lg li lo lt lv mg mi mk ml mn mr ms my nb
