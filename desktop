@@ -163,7 +163,7 @@ Input methods:
  * gdm
  * (gimp)
  * (evince-gtk)
- * xfburn
+ * (xfburn)
  * (libgoffice-gtk-0-3)   #explicitely seed this for abiword and gnumeric gnomeless variants
  * (gnumeric-gtk)
  * (gimp-print)		# DanielHolbach: enable printing in gimp (part of gutenprint package)
@@ -184,8 +184,8 @@ Input methods:
  * update-manager
  * gnome-app-install
  * xubuntu-system-tools
- * system-config-printer
- * hal-cups-utils
+ * (system-config-printer)
+ * (hal-cups-utils)
  * (onboard)
  * gcalctool-gtk
  * zenity
