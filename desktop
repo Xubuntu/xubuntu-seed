@@ -192,6 +192,7 @@ Input methods:
  * xvncviewer
  * gtk2-engines-xfce
  * gtk2-engines-ubuntulooks
+ * gtk2-engines-pixbuf          # Required by some themes the user might install
  * (gnome-accessibility-themes)
  * tango-icon-theme
  * tango-icon-theme-common
