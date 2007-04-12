@@ -5,6 +5,7 @@
  * irda-utils
  * wacom-tools
  * palo            # hppa boot loader, but needed on other architectures to build hppa CD images
+ * ps3-kboot       # boot loader for Sony PlayStation 3
 
 == Bluetooth ==
 
@@ -44,6 +45,12 @@ Other:
  * racoon
  * sysvinit  # ScottJamesRemnant retain support for now
  * openprinting.org-ppds-extra          # Less common printer drivers we don't want in desktop
+
+Printing:
+
+ * m2300w
+ * splix
+ * pxljr
 
 Utilities:
 
@@ -104,6 +111,7 @@ Download:
  * autopkgtest
  * cmake
  * apport-retrace
+ * apport-cli
 
 == Mono ==
 
@@ -280,7 +288,8 @@ We need a consistent policy for -doc. At the least, any -doc package produced by
  * Extra-Include: *-dbg *-debug *-dev *-doc
 
 ... and some miscellaneous exclusions for things we don't want to drag in
-automatically:
+automatically (note that Extra-Exclude *only* prevents packages from being
+included due to matching Extra-Include patterns, and has no other effect):
 
  * Extra-Exclude: lib*stdc++*   # we want to consider these individually
  * Extra-Exclude: *gfortran* gpc*-doc libgnat*-dev libmudflap* gnat-doc
@@ -418,8 +427,6 @@ These *-doc packages are in separate source packages, so Extra-Includes won't ca
 
 = Miscellaneous =
 
- * ia32-libs [amd64 ia64]
- * ia32-libs-dev [amd64 ia64]
  * miscfiles
 
 = Germinate workarounds =
