@@ -74,7 +74,13 @@ Download:
 = Desktop =
 
  * openoffice.org-gcj
- * openoffice.org-filter-so52
+ * openoffice.org-filter-binfilter
+ * libuno-cil
+ * openoffice.org-style-andromeda
+ * openoffice.org-style-default
+ * openoffice.org-style-industrial
+ * openoffice.org-style-tango
+ * gnome-accessibility-themes-extras
 
 = Standards =
 
@@ -111,12 +117,15 @@ Download:
  * cmake
  * apport-retrace
  * apport-cli
+ * libservlet2.4-java-gcj # source needs to be in main anyway
+ * liblog4j1.2-java-gcj # source needs to be in main anyway
 
 == Mono ==
 
  * mono-devel
  * mono-jay
  * mono-classlib-1.0
+ * libmono-sqlite1.0-cil
 
 == Revision Control ==
 
@@ -137,6 +146,7 @@ Download:
  * lintian
  * pbuilder          # ColinWatson
  * apt-listchanges
+ * apt-transport-https # sanctioned by MichaelVogt
  * dput
  * pkgstriptranslations # for removing gettext data on the buildds
  * pkg-create-dbgsym # automatic creation of debug symbols
@@ -198,6 +208,8 @@ Other:
  * sabayon            # desktop profile management
  * tomboy
  * liferea
+ * libgnomedb2-bin
+ * gkbd-capplet      # we need to support the source anyway
 
 GNOME Office:
 
@@ -231,6 +243,7 @@ Ubuntu artwork:
  * dict
  * wdiff
  * libdb3-util
+ * xml-twig-tools  # we need libxml-twig-perl as build dep anyway, so we can as well support this binary
 
 = Libraries =
 
@@ -248,6 +261,7 @@ Ubuntu artwork:
  * libsdl1.2debian-alsa
  * libsdl1.2debian-esd
  * libsdl1.2debian-oss
+ * libgl1-mesa-swx11-i686
 
 = System Administration Tools =
 
@@ -382,6 +396,7 @@ These *-doc packages are in separate source packages, so Extra-Includes won't ca
 
  * flac
  * esound-clients
+ * eyed3			# we need to support the source anyway, harmless tool
 
 == Kernel ==
 
@@ -440,12 +455,11 @@ These *-doc packages are in separate source packages, so Extra-Includes won't ca
  * /^language-pack-gnome-[^-]+$/
  * /^language-support-[^-]+$/
  * openoffice.org-l10n-nr      # does not match a valid locale, so no l-support-*
- * openoffice.org-l10n-sh-yu   # does not match a valid locale, so no l-support-*
 
 = Installer =
 
  # Used for netboot installations
- * Kernel-Version: 2.6.19-7-386
+ * Kernel-Version: 2.6.20-15-386
  * /^.*-firmware-.*-386-di/ [i386]
  * /^.*-modules-.*-386-di/ [i386]
 
