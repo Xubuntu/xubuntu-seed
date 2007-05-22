@@ -20,9 +20,6 @@ Task-Test-new-install: skip show
 # * thunderbird-locale-${Languages}
 
  * ntfsprogs
- * discover1    # for X autoconfiguration
- * xresprobe
- * laptop-detect
 
  * gparted
 
