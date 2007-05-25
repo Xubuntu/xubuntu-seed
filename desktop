@@ -195,7 +195,7 @@ Input methods:
  * (onboard)
  * gcalctool-gtk
  * zenity
- * xvncviewer
+ * xvnc4viewer
  * gtk2-engines-xfce
  * gtk2-engines-ubuntulooks
  * gtk2-engines-pixbuf          # Required by some themes the user might install
