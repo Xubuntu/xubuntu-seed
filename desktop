@@ -198,6 +198,7 @@ Input methods:
  * xvnc4viewer
  * gtk2-engines-xfce
  * gtk2-engines-ubuntulooks
+ * gtk2-engines-murrine
  * (xdg-utils)		   # useful utilities
  * gtk2-engines			# DanielHolbach (gtk2-engines were merged into one package)
  * gtk2-engines-pixbuf          # Required by some themes the user might install
