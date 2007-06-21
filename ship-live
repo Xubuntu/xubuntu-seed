@@ -13,6 +13,7 @@ These packages are needed in order to build Ubuntu packages.
 == Hardware & Network Access ==
  * network-manager-gnome
  * pptp-linux             # client for Microsoft-compatible VPN's, needed for some ISPs
+ * sl-modem-daemon	# needed for some Winmodems (see OutoftheboxWinmodem)
  * eagle-usb-utils        # needed for some ADSL modems
  * bpalogin
  * ndiswrapper-utils [amd64 i386]
@@ -29,3 +30,13 @@ These packages are needed in order to build Ubuntu packages.
  * setserial	# needed by folks with nonstandard serial ports
  * mouseemu	# needed on Macs with single-button mice
  * ps3pf-utils [powerpc] # small utilities for PlayStation 3 systems
+
+== Installer ==
+
+ * oem-config-gtk
+
+== Blacklist ==
+
+libavcodec cannot be shipped on CDs (c.f. Ubuntu technical board resolution 2007-01-02).
+
+ * !libavcodec*

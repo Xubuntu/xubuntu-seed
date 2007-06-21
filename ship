@@ -52,6 +52,7 @@ modules instead.
 
  * mailx
  * mutt                # ThomMay; we need a basic mail client, this is the best-smallest
+ * vlan                   # userland tools to config 8021q support
 
 == Development ==
 
@@ -74,6 +75,7 @@ modules instead.
 == Hardware & Network Access ==
 
  * pptp-linux             # client for Microsoft-compatible VPN's, needed for some ISPs
+ * sl-modem-daemon	# needed for some Winmodems (see OutoftheboxWinmodem)
  * eagle-usb-utils        # needed for some ADSL modems
  * bpalogin
  * ndiswrapper-utils [amd64 i386]
@@ -122,3 +124,9 @@ modules instead.
 
  * openoffice.org-l10n-en-us	# mvo: make dapper->edgy cdrom upgrades happy
  * linux-image-amd64-generic [amd64]
+
+== Blacklist ==
+
+libavcodec cannot be shipped on CDs (c.f. Ubuntu technical board resolution 2007-01-02).
+
+ * !libavcodec*

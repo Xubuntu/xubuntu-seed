@@ -184,7 +184,6 @@ Other:
  * emacs               # won't fit on CDs
  * emacs-el
  * emacs-nox
- * evms-gui            # gui tools for storage drive volume management
  * inkscape            # SVG drawing application
  * screem                  # MRS, our default html editor
  * vim-gnome
@@ -295,6 +294,7 @@ We need a consistent policy for -doc. At the least, any -doc package produced by
  * automake1.10-doc
  * emacs21-common-non-dfsg # Non-DFSG docs
  * packaging-guide
+ * %texlive-doc
 
 = Rescued from Extra =
 
@@ -386,7 +386,6 @@ These *-doc packages are in separate source packages, so Extra-Includes won't ca
 
 == System Administration ==
 
- * evms-cli
  * fbset
  * libcap-bin
  * libpam-opie

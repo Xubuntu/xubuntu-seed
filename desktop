@@ -153,7 +153,7 @@ Input methods:
  * orage
  * thunar
  * thunar-media-tags-plugin
- * thunar-archive-plugin
+ * (thunar-archive-plugin)
  * thunar-volman-plugin
  * mousepad
  * (gxine) 
@@ -193,11 +193,14 @@ Input methods:
  * (system-config-printer)
  * (hal-cups-utils)
  * (onboard)
- * gcalctool-gtk
+ * gcalctool	# LionelLeFolgoc: drop gcalctool-gtk since gcalctool does not depend on libgnome2* anymore
  * zenity
  * xvnc4viewer
  * gtk2-engines-xfce
  * gtk2-engines-ubuntulooks
+ * gtk2-engines-murrine
+ * (xdg-utils)		   # useful utilities
+ * gtk2-engines			# DanielHolbach (gtk2-engines were merged into one package)
  * gtk2-engines-pixbuf          # Required by some themes the user might install
  * (gnome-accessibility-themes)
  * tango-icon-theme
