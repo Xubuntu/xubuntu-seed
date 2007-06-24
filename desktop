@@ -193,7 +193,7 @@ Input methods:
  * (system-config-printer)
  * (hal-cups-utils)
  * (onboard)
- * gcalctool-gtk
+ * gcalctool	# LionelLeFolgoc: drop gcalctool-gtk since gcalctool does not depend on libgnome2* anymore
  * zenity
  * xvnc4viewer
  * gtk2-engines-xfce
