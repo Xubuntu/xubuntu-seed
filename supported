@@ -35,7 +35,6 @@ Email:
 
  * fetchmail
  * procmail
- * bogofilter
 
 Must also consider webmail and so on...
 
@@ -136,6 +135,7 @@ Download:
  * gitk
  * bzrtools
  * python2.4-paramiko	# for bzr sftp support
+ * cvs
 
 == Package Maintainance ==
 
@@ -207,7 +207,6 @@ Other:
  * sabayon            # desktop profile management
  * tomboy
  * liferea
- * libgnomedb2-bin
  * gkbd-capplet      # we need to support the source anyway
 
 GNOME Office:
