@@ -60,7 +60,6 @@ modules instead.
  * fakeroot
  * devscripts          # Debian package development
  * bzr                 # Obvious
- * cvs                 # RobertCollins
 
 == Common UNIX stuff ==
 
