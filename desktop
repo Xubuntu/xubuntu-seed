@@ -171,7 +171,7 @@ Input methods:
  * (gimp)
  * (evince-gtk)
  * (xfburn)
- * (libgoffice-gtk-0-3)   #explicitely seed this for abiword and gnumeric gnomeless variants
+ * (libgoffice-gtk-0-4)   #explicitely seed this for abiword and gnumeric gnomeless variants
  * (gnumeric-gtk)
  * (gimp-print)		# DanielHolbach: enable printing in gimp (part of gutenprint package)
  * hal                     # it's not very polished but it's the future
