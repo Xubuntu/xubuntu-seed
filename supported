@@ -240,7 +240,6 @@ Ubuntu artwork:
  * freecdb
  * dict
  * wdiff
- * libdb3-util
  * xml-twig-tools  # we need libxml-twig-perl as build dep anyway, so we can as well support this binary
 
 = Libraries =
@@ -487,6 +486,7 @@ These *-doc packages are in separate source packages, so Extra-Includes won't ca
  * cdebconf # useful for testing, but not used by default yet
 
  * casper # needed by live CD build system
+ * livecd-rootfs # live CD build script
 
  * installation-guide-amd64 [amd64]
  * installation-guide-hppa [hppa]

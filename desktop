@@ -177,6 +177,7 @@ Input methods:
  * hal                     # it's not very polished but it's the future
  * libglib2.0-data
  * (firefox)
+ * (ubufox)                # ubuntu firefox tweaks - AlexanderSack
  * scrollkeeper
  * synaptic                # will this be our default package manager?
  * dbus-1-utils # for session dbus, #895
