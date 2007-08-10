@@ -11,9 +11,9 @@ Task-Test-new-install: install skip
  * at
  * cpio
  * cron
- * dselect           # old-school package management (maybe move further out?)
+ * (dselect)         # old-school package management (maybe move further out?)
  * ed
- * fdutils           # needed for debian kernel
+ * (fdutils)         # needed for debian kernel
  * file
  * hdparm            # speed up CD-ROM and disk access, used by installer
  * info
@@ -30,7 +30,7 @@ Task-Test-new-install: install skip
 
 These are commonly used filesystem support packages, here because someone setting up a server would begin with standard, configure filesystems and network and then add other services. NFS is explicitly not here, because it brings in nasties like portmap, and because the network will need to be running before it can be used, so we may as well put that in Supported.
 
- * reiserfsprogs
+ * (reiserfsprogs)
  * dosfstools
  * hfsutils [powerpc]
 
@@ -41,10 +41,10 @@ These provide various networking services, all should be configured in a client-
  * dnsutils       # LaMontJones
  * ftp
  * iptables       # FabioMassimoDiNitto
- * telnet
- * ppp
- * pppconfig
- * pppoeconf
+ * (telnet)
+ * (ppp)
+ * (pppconfig)
+ * (pppoeconf)
  * (openssh-client) # ColinWatson
  * rsync          # would be just client but they are the same binary apparently
  * w3m            # we need some text-based html presenter
@@ -72,10 +72,10 @@ These are used for debugging problems or examining the system.
 
 == Network ==
 
- * iputils-arping     # would have made my life easier at debconf
- * iputils-tracepath  # more secure sort of traceroute, will put compatibility symblink in for traceroute users
+ * (iputils-arping)     # would have made my life easier at debconf
+ * (iputils-tracepath)  # more secure sort of traceroute, will put compatibility symblink in for traceroute users
  * (mtr-tiny)           # LaMontJones
- * tcpdump
+ * (tcpdump)
 
 = Other =
 
