@@ -68,11 +68,12 @@ Printing and printer configuration is a real weak spot in Debian, and in Linux i
  * foomatic-db-engine           # integrate the foomatic printer driver engine
  * foomatic-db                  # the foomatic printer driver database
  * foomatic-filters             # converter from postscript to printer-specific formats
- * (foomatic-db-hpijs)          # printer drivers from the hp inkjet project
+ * foomatic-db-hpijs          # printer drivers from the hp inkjet project
  * cupsys-driver-gutenprint     # a ton of cupsys ppds, for real comprehensive printer support
  * openprinting-ppds            # Most common drivers we want in desktop; less common are in o-p-extra
  * pnm2ppa                      # several ppds require this
  * ghostscript-x
+ * (cups-pdf)			# PDF file writer virtual printer
  * (hplip)     			# support for HP all-in-one printers
  * (min12xxw)			# support for KonicaMinolta PagePro 1200W, 1300W printers
  * (foo2zjs)			# support for printing to ZjStream-based printers
@@ -100,7 +101,6 @@ Fonts:
  * (ttf-kochi-gothic)
  * (ttf-kochi-mincho)
  * (ttf-arphic-uming)
- * (ttf-arphic-ukai)
  * (ttf-arabeyes)
  * (ttf-baekmuk)
  * (ttf-indic-fonts)
@@ -116,10 +116,6 @@ Input methods:
  * (scim)
  * (scim-gtk2-immodule)
  * (scim-tables-additional) [i386] # input support for language packs that we ship
- * (scim-pinyin)
- * (scim-anthy)
- * (scim-chewing)
- * (scim-hangul)
 
 == Xfce Desktop ==
 
@@ -167,8 +163,8 @@ Input methods:
 == Other desktop apps ==
 
  * (mozilla-thunderbird)
- * gqview
- * libjpeg-progs 	#for gqview
+ * (gqview)
+ * (libjpeg-progs) 	#for gqview
  * (pidgin)
  * gdm
  * (gimp)
@@ -191,7 +187,7 @@ Input methods:
  * xscreensaver-gl # MRS, we will only ship a subset of the screensavers from rss-glx and xscreensaver
  * xscreensaver-data # subset package for the non-gl screensavers we ship
  * gdebi                   # view/install deb packages
- * apport-gtk
+ * (apport-gtk)
  * language-selector
  * update-manager
  * gnome-app-install
@@ -214,6 +210,7 @@ Input methods:
  * ubuntu-artwork # for Human cursor and icon themes
  * (notification-daemon)
  * (restricted-manager)
+ * (displayconfig-gtk)
 
 Documentation:
 
