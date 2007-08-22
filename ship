@@ -90,11 +90,11 @@ modules instead.
  * Languages: en
  * language-support-${Languages}
  * language-pack-${Languages}
- * Languages: zh es bn
+ * Languages: zh 
  * language-support-${Languages} [i386]
 
  # most popular languages
- * Languages: ja de fr pt xh hi ar ru
+ * Languages: es bn ja de fr pt xh hi ar ru
  * language-pack-${Languages}
 
  # other languages, alphabetically, up to CD limit
