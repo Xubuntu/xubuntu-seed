@@ -126,35 +126,35 @@ Input methods:
  * xfce4-utils
  * xfce4-mcs-plugins
  * xfce4-mixer
- * xfprint4
+ * (xfprint4)
  * xfce4-terminal
- * xfce4-appfinder
- * xfce4-taskmanager
+ * (xfce4-appfinder)
+ * (xfce4-taskmanager)
 
- * xfce4-mailwatch-plugin
- * xfce4-fsguard-plugin
- * xfce4-verve-plugin
- * xfce4-battery-plugin
- * xfce4-clipman-plugin
- * xfce4-mount-plugin
- * xfce4-quicklauncher-plugin
- * xfce4-weather-plugin
- * xfce4-xkb-plugin
- * xfce4-cpugraph-plugin
- * xfce4-systemload-plugin
- * xfce4-netload-plugin
- * xfce4-screenshooter-plugin
- * xfce4-notes-plugin
- * xfce4-smartbookmark-plugin
- * xfce4-dict-plugin
- * xfce4-places-plugin
+ * (xfce4-mailwatch-plugin)
+ * (xfce4-fsguard-plugin)
+ * (xfce4-verve-plugin)
+ * (xfce4-battery-plugin)
+ * (xfce4-clipman-plugin)
+ * (xfce4-mount-plugin)
+ * (xfce4-quicklauncher-plugin)
+ * (xfce4-weather-plugin)
+ * (xfce4-xkb-plugin)
+ * (xfce4-cpugraph-plugin)
+ * (xfce4-systemload-plugin)
+ * (xfce4-netload-plugin)
+ * (xfce4-screenshooter-plugin)
+ * (xfce4-notes-plugin)
+ * (xfce4-smartbookmark-plugin)
+ * (xfce4-dict-plugin)
+ * (xfce4-places-plugin)
 
  * orage
  * thunar
  * thunar-media-tags-plugin
  * (thunar-archive-plugin)
  * thunar-volman-plugin
- * mousepad
+ * (mousepad)
  * (gxine) 
  * (xarchiver)
  * python-exo
@@ -195,7 +195,7 @@ Input methods:
  * (onboard)
  * gcalctool	# LionelLeFolgoc: drop gcalctool-gtk since gcalctool does not depend on libgnome2* anymore
  * zenity
- * xvnc4viewer
+ * (xvnc4viewer)
  * gtk2-engines-xfce
  * gtk2-engines-ubuntulooks
  * gtk2-engines-murrine
