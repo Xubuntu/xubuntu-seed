@@ -129,7 +129,7 @@ Input methods:
  * (xfprint4)
  * xfce4-terminal
  * (xfce4-appfinder)
- * (xfce4-taskmanager)
+ * (gnome-system-monitor) 
 
  * (xfce4-mailwatch-plugin)
  * (xfce4-fsguard-plugin)
@@ -154,11 +154,11 @@ Input methods:
  * thunar-media-tags-plugin
  * (thunar-archive-plugin)
  * thunar-volman-plugin
+ * gnome-mount
  * (mousepad)
  * (gxine) 
  * (xarchiver)
  * python-exo
- 
 == Other desktop apps ==
 
  * (mozilla-thunderbird)
