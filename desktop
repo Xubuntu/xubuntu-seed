@@ -168,7 +168,6 @@ Input methods:
  * gdm
  * (gimp)
  * (evince-gtk)
- * (xfburn)
  * (libgoffice-gtk-0-4)   # explicitely seed this for abiword and gnumeric gnomeless variants
                           # any changes here need to be done in the livefs build script, too, ping infinity about this/send an RT
  * (gnumeric-gtk)
@@ -182,7 +181,8 @@ Input methods:
  * dbus-1-utils # for session dbus, #895
  * (abiword)
  * (abiword-plugins)
- * xscreensaver
+ * (gnome-screensaver)
+ * screensaver-default-images
  * xscreensaver-gl # MRS, we will only ship a subset of the screensavers from rss-glx and xscreensaver
  * xscreensaver-data # subset package for the non-gl screensavers we ship
  * gdebi                   # view/install deb packages
