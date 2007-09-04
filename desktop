@@ -190,7 +190,7 @@ Input methods:
  * language-selector
  * update-manager
  * gnome-app-install
- * xubuntu-system-tools
+ * gnome-system-tools
  * (system-config-printer)
  * (onboard)
  * gcalctool	# LionelLeFolgoc: drop gcalctool-gtk since gcalctool does not depend on libgnome2* anymore
