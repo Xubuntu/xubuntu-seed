@@ -5,11 +5,12 @@ standard: required minimal
 desktop: required minimal standard
 dns-server: required minimal standard
 lamp-server: required minimal standard
-server-ship: boot required minimal standard dns-server lamp-server
+openssh-server: required minimal standard
+server-ship: boot required minimal standard dns-server lamp-server openssh-server
 ship: boot required minimal standard desktop
 live: required minimal standard desktop
 ship-live: boot required minimal standard desktop live
 installer:
 build-essential: required
 development: required minimal standard desktop
-supported: boot required minimal standard desktop dns-server lamp-server server-ship ship live ship-live build-essential development
+supported: boot required minimal standard desktop dns-server lamp-server openssh-server server-ship ship live ship-live build-essential development

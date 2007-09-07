@@ -475,7 +475,7 @@ These *-doc packages are in separate source packages, so Extra-Includes won't ca
 = Installer =
 
  # Used for netboot installations
- * Kernel-Version: 2.6.22-10-386
+ * Kernel-Version: 2.6.22-11-386
  * /^.*-firmware-.*-386-di/ [i386]
  * /^.*-modules-.*-386-di/ [i386]
 
@@ -485,6 +485,7 @@ These *-doc packages are in separate source packages, so Extra-Includes won't ca
  * cdebconf # useful for testing, but not used by default yet
 
  * casper # needed by live CD build system
+ * lupin-casper # ditto, installer-for-windows
  * livecd-rootfs # live CD build script
 
  * installation-guide-amd64 [amd64]
