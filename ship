@@ -14,8 +14,8 @@ modules instead.
 
 == OOo2 ==
 
- * openoffice.org-gtk	# before OOo to avoid openoffice.org-style-default
- * openoffice.org
+== * openoffice.org-gtk	# before OOo to avoid openoffice.org-style-default
+== * openoffice.org
 
 == Server ==
 
