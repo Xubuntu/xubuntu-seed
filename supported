@@ -18,6 +18,7 @@
  * squashfs-tools
  * reiser4progs
  * hfsplus
+ * cryptsetup
 
 == Cluster ==
 
@@ -183,6 +184,7 @@ Other:
  * emacs               # won't fit on CDs
  * emacs-el
  * emacs-nox
+ * gimp-gnomevfs       # we need to support the source anyway, and this sounds useful
  * inkscape            # SVG drawing application
  * screem                  # MRS, our default html editor
  * vim-gnome
@@ -240,6 +242,7 @@ Ubuntu artwork:
  * dict
  * wdiff
  * xml-twig-tools  # we need libxml-twig-perl as build dep anyway, so we can as well support this binary
+ * tracker-utils
 
 = Libraries =
 
@@ -410,6 +413,7 @@ These *-doc packages are in separate source packages, so Extra-Includes won't ca
  * linux-kernel-devel
  * /^linux-image-debug-.*(?<!lowlatency)$/
  * vmware-*-kernel-modules
+ * kexec-tools
 
 === Transitional from dapper ===
 
