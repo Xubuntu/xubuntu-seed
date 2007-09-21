@@ -277,6 +277,7 @@ Ubuntu artwork:
  * xinetd               # JamesTroup, from hoglet
  * system-config-kickstart # Kickstart configuration GUI
  * mknbi                # for creating etherboot images for LTSP
+ * ldap-auth-client	# metapackage that pulls in lib{pam,nss}-ldap and configuration magic
 
 = Documentation =
 
@@ -479,7 +480,7 @@ These *-doc packages are in separate source packages, so Extra-Includes won't ca
 = Installer =
 
  # Used for netboot installations
- * Kernel-Version: 2.6.22-11-386
+ * Kernel-Version: 2.6.22-12-386
  * /^.*-firmware-.*-386-di/ [i386]
  * /^.*-modules-.*-386-di/ [i386]
 
