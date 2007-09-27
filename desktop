@@ -161,6 +161,10 @@ Input methods:
  * (file-roller)
  * (python-exo)
  * (brasero)
+ * (gnome-games)
+ * (network-manager-gnome)
+ * (update-notifier)
+ * (libgnome2-perl)
 
 == Other desktop apps ==
 
