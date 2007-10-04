@@ -198,6 +198,7 @@ Input methods:
  * language-selector
  * update-manager
  * gnome-app-install
+ * (app-install-data-commercial)
  * gnome-system-tools
  * (system-config-printer)
  * (onboard)

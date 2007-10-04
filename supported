@@ -18,7 +18,6 @@
  * squashfs-tools
  * reiser4progs
  * hfsplus
- * cryptsetup
 
 == Cluster ==
 
@@ -277,7 +276,6 @@ Ubuntu artwork:
  * xinetd               # JamesTroup, from hoglet
  * system-config-kickstart # Kickstart configuration GUI
  * mknbi                # for creating etherboot images for LTSP
- * ldap-auth-client	# metapackage that pulls in lib{pam,nss}-ldap and configuration magic
 
 = Documentation =
 
@@ -328,12 +326,21 @@ Transitional packages:
 
 Exclude some KDE-specific pieces:
 
+ * Extra-Exclude: kdebase-dbg
+ * Extra-Exclude: kdelibs-dbg
+ * Extra-Exclude: kdelibs4-doc
+ * Extra-Exclude: kdepim-dbg
+ * Extra-Exclude: kdesdk-dbg
  * Extra-Exclude: libdbus-qt-1-dev
  * Extra-Exclude: libdcop3-java-dev
  * Extra-Exclude: libindex0-dev
  * Extra-Exclude: libpoppler-qt-dev
- * Extra-Exclude: libqt4-debug-dev
+ * Extra-Exclude: libqt4-debug libqt4-debug-dev qt4-doc
  * Extra-Exclude: libsmokekde-dev
+ * Extra-Exclude: python-kde3-dbg
+ * Extra-Exclude: python-qt3-dbg
+ * Extra-Exclude: python-qtext-dbg
+ * Extra-Exclude: qt-x11-free-dbg
 
 == Development ==
 
@@ -408,7 +415,8 @@ These *-doc packages are in separate source packages, so Extra-Includes won't ca
 
 == Kernel ==
 
- * /^linux-(backports-modules-|headers-)?(386|686|amd64|generic|hppa|itanium|k7|mckinley|powerpc|ps3|server|sparc64).*/
+ * /^linux-(backports-modules-|headers-)?(386|686|amd64|cell|generic|hppa|itanium|k7|mckinley|powerpc|ps3|server|sparc64|virtual).*/
+ * linux-backports-modules
  * linux-doc
  * linux-source
  * linux-kernel-devel
@@ -483,6 +491,11 @@ These *-doc packages are in separate source packages, so Extra-Includes won't ca
  * Kernel-Version: 2.6.22-12-386
  * /^.*-firmware-.*-386-di/ [i386]
  * /^.*-modules-.*-386-di/ [i386]
+
+ # Used for powerpc+ps3 images
+ * Kernel-Version: 2.6.22-12-cell
+ * /^.*-firmware-.*-cell-di/ [powerpc]
+ * /^.*-modules-.*-cell-di/ [powerpc]
 
  * debian-installer # also has side-effect of pulling in installer image build system
  * gfxboot
