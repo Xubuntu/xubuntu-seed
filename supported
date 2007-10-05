@@ -117,6 +117,7 @@ Download:
  * apport-cli
  * libservlet2.4-java-gcj # source needs to be in main anyway
  * liblog4j1.2-java-gcj # source needs to be in main anyway
+ * libpurple-bin	# no particular reason to keep this single binary in universe
 
 == Mono ==
 
@@ -151,6 +152,7 @@ Download:
  * pkg-create-dbgsym # automatic creation of debug symbols
  * hello
  * hello-debhelper
+ * dselect            # old-school package management
 
 == Seed Management ==
 
@@ -193,8 +195,6 @@ Other:
  * enscript
  * emacs-goodies-el
  * bbdb
- * calc
- * gnus
  * auctex
  * lbdb
  * dictd
@@ -291,7 +291,6 @@ We need a consistent policy for -doc. At the least, any -doc package produced by
  * automake1.8-doc
  * automake1.9-doc
  * automake1.10-doc
- * emacs21-common-non-dfsg # Non-DFSG docs
  * packaging-guide
  * %texlive-doc
 
@@ -344,7 +343,6 @@ Exclude some KDE-specific pieces:
 
 == Development ==
 
- * python-mode
  * libc6-prof [amd64 i386 lpia powerpc sparc hppa]
  * libc6.1-prof [ia64]
  * g++-4.2-multilib [amd64 i386 powerpc sparc]
@@ -454,6 +452,7 @@ These *-doc packages are in separate source packages, so Extra-Includes won't ca
  * ttf-arphic-bsmi00lp
  * ttf-arphic-gbsn00lp
  * ttf-arphic-gkai00mp
+ * ttf-malayalam-fonts ttf-devanagari-fonts ttf-tamil-fonts ttf-oriya-fonts ttf-kannada-fonts ttf-malayalam-fonts-udeb ttf-bengali-fonts ttf-tamil-fonts-udeb ttf-indic-fonts ttf-indic-fonts-core ttf-telugu-fonts ttf-punjabi-fonts ttf-gujarati-fonts # from ttf-indic-fonts, but we do not want the udebs
  * nabi
  * imhangul
  * culmus
