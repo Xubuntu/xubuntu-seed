@@ -8,10 +8,6 @@
  * ps3-kboot       # boot loader for Sony PlayStation 3
  * powertop
 
-== Bluetooth ==
-
- * bluez-gnome	# To do Bluetooth pairing
-
 == Filesystems ==
 
  * xfsdump # only useful when machine is setup and working, and only for xfs people
@@ -62,8 +58,6 @@ Utilities:
  * irssi
 
 Security:
-
- * nessus                 # client for nessus security testing and monitoring framework
 
 Download:
 
@@ -220,22 +214,6 @@ GNOME Office:
  * gnumeric-plugins-extra
  * planner
 
-Ubuntu artwork:
-
- * ubuntu-calendar
- * ubuntu-calendar-january
- * ubuntu-calendar-february
- * ubuntu-calendar-march
- * ubuntu-calendar-april
- * ubuntu-calendar-may
- * ubuntu-calendar-june
- * ubuntu-calendar-july
- * ubuntu-calendar-august
- * ubuntu-calendar-september
- * ubuntu-calendar-october
- * ubuntu-calendar-november
- * ubuntu-calendar-december
-
 = Console Tools =
 
  * freecdb
@@ -303,8 +281,12 @@ We need a consistent policy for -doc. At the least, any -doc package produced by
 automatically (note that Extra-Exclude *only* prevents packages from being
 included due to matching Extra-Include patterns, and has no other effect):
 
- * Extra-Exclude: lib*stdc++*   # we want to consider these individually
- * Extra-Exclude: *gfortran* gpc*-doc libgnat*-dev libmudflap* gnat-doc
+ * Extra-Exclude: lib*stdc++5-3.3* libstdc++6-doc libstdc++6-dev libstdc++6-dbg lib*stdc++6-4.1*
+ * Extra-Exclude: libgnat*-dev gnat-doc
+ * Extra-Exclude: gpc*-doc
+ * Extra-Exclude: lib*mudflap*
+ * Extra-Exclude: gfortran-4.1-doc lib*gfortran1-dbg
+ * Extra-Exclude: lib*objc1-dbg
  * Extra-Exclude: libavformat-dev libpostproc-dev
  * Extra-Exclude: libgdchart-gd2-xpm-dev
  * Extra-Exclude: libgdome2-ocaml-dev
@@ -346,12 +328,7 @@ Exclude some KDE-specific pieces:
 
  * libc6-prof [amd64 i386 lpia powerpc sparc hppa]
  * libc6.1-prof [ia64]
- * g++-4.2-multilib [amd64 i386 powerpc sparc]
  * gcc-4.2-locales
- * gfortran-4.2
- * gobjc-4.2
- * libstdc++6-4.1-dbg
- * libstdc++6-4.2-dbg
  * openoffice.org-qa-tools
  * openoffice.org-qa-api-tests
  * openoffice.org-officebean

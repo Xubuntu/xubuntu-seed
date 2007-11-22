@@ -68,7 +68,7 @@ Printing and printer configuration is a real weak spot in Debian, and in Linux i
  * foomatic-db-engine           # integrate the foomatic printer driver engine
  * foomatic-db                  # the foomatic printer driver database
  * foomatic-filters             # converter from postscript to printer-specific formats
- * foomatic-db-hpijs          # printer drivers from the hp inkjet project
+ * (foomatic-db-hpijs)          # printer drivers from the hp inkjet project
  * cupsys-driver-gutenprint     # a ton of cupsys ppds, for real comprehensive printer support
  * openprinting-ppds            # Most common drivers we want in desktop; less common are in o-p-extra
  * pnm2ppa                      # several ppds require this
@@ -173,6 +173,7 @@ Input methods:
  * (gqview)
  * (libjpeg-progs) 	#for gqview
  * (pidgin)
+ * (pidgin-otr)
  * gdm
  * (gimp)
  * (evince-gtk)
@@ -252,7 +253,6 @@ to compile a driver. -mdz
  * xubuntu-artwork-usplash
  * xubuntu-default-settings
  * libxp6 # required for some third party apps. See #15739
- * libpam-foreground
  * (example-content) # dholbach: dapper feature goal (wiki.ubuntu.com/ExampleContent)
  * (landscape-client)
  * readahead
