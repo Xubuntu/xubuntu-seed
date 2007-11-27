@@ -180,7 +180,6 @@ Input methods:
  * (libgoffice-gtk-0-4)   # explicitely seed this for abiword and gnumeric gnomeless variants
                           # any changes here need to be done in the livefs build script, too, ping infinity about this/send an RT
  * (gnumeric-gtk)
- * (gimp-print)		# DanielHolbach: enable printing in gimp (part of gutenprint package)
  * hal                     # it's not very polished but it's the future
  * libglib2.0-data
  * (firefox)
