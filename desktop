@@ -147,21 +147,23 @@ Input methods:
  * (xfce4-notes-plugin)
  * (xfce4-smartbookmark-plugin)
  * (xfce4-dict-plugin)
- * (xfce4-places-plugin)
+ * xfce4-places-plugin
 
  * (orage)
  * thunar
- * (thunar-media-tags-plugin)
- * (thunar-archive-plugin)
+ * thunar-archive-plugin
+ * thunar-media-tags-plugin
+ * thunar-thumbnailers	# LionelLeFolgoc: currently in universe, but since we don't know where we go ^_~
  * thunar-volman
- * gnome-mount
- * (mousepad)
- * (totem) 
- * (totem-xine) 
- * (file-roller)
+ * mousepad
+ * ristretto	# LionelLeFolgoc: replacement for gqview (currently in NEW)
+ * squeeze	# LionelLeFolgoc: replacement for file-roller (currently in universe)
+ * xfmedia	# LionelLeFolgoc: replacement for totem (currently in universe)
+ * (totem-xine)	# LionelLeFolgoc: to drop as soon as we know where we go (universe?)
+ * (totem)	# LionelLeFolgoc: to drop as soon as we know where we go (universe?)
+ * (file-roller)	# LionelLeFolgoc: to drop as soon as we know where we go (universe?)
  * (python-exo)
  * (brasero)
- * (gnome-games)
  * (gucharmap)
  * (network-manager-gnome)
  * (update-notifier)
@@ -170,8 +172,8 @@ Input methods:
 == Other desktop apps ==
 
  * (mozilla-thunderbird)
- * (gqview)
- * (libjpeg-progs) 	#for gqview
+ * (gqview)				# LionelLeFolgoc: to drop as soon as we know where we go (universe?)
+ * (libjpeg-progs) 	#for gqview	# LionelLeFolgoc: to drop as soon as we know where we go (universe?)
  * (pidgin)
  * (pidgin-otr)
  * gdm
@@ -189,7 +191,7 @@ Input methods:
  * dbus-1-utils # for session dbus, #895
  * (abiword)
  * (abiword-plugins)
- * (gnome-screensaver)
+ * xscreensaver
  * screensaver-default-images
  * xscreensaver-gl # MRS, we will only ship a subset of the screensavers from rss-glx and xscreensaver
  * xscreensaver-data # subset package for the non-gl screensavers we ship
@@ -202,7 +204,7 @@ Input methods:
  * gnome-system-tools
  * (system-config-printer)
  * (onboard)
- * gcalctool	# LionelLeFolgoc: drop gcalctool-gtk since gcalctool does not depend on libgnome2* anymore
+ * (gcalctool)
  * zenity
  * (xvnc4viewer)
  * gtk2-engines-xfce
@@ -260,3 +262,4 @@ to compile a driver. -mdz
 
  * libglut3 # depended upon by freeglut3
  * libgl1-mesa-glx # depended upon by freeglut3
+ * (libgl1-mesa-dri)	# LP: #156467, and probably LP: #176689 too
