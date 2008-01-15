@@ -206,7 +206,8 @@ Input methods:
  * (onboard)
  * (gcalctool)
  * zenity
- * (xvnc4viewer)
+ * (transmission-gtk)
+ * (vinagre)
  * gtk2-engines-xfce
  * gtk2-engines-ubuntulooks
  * gtk2-engines-murrine
