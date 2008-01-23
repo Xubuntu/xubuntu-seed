@@ -153,15 +153,12 @@ Input methods:
  * thunar
  * thunar-archive-plugin
  * thunar-media-tags-plugin
- * thunar-thumbnailers	# LionelLeFolgoc: currently in universe, but since we don't know where we go ^_~
+ * thunar-thumbnailers
  * thunar-volman
  * mousepad
- * ristretto	# LionelLeFolgoc: replacement for gqview (currently in NEW)
- * squeeze	# LionelLeFolgoc: replacement for file-roller (currently in universe)
- * xfmedia	# LionelLeFolgoc: replacement for totem (currently in universe)
- * (totem-xine)	# LionelLeFolgoc: to drop as soon as we know where we go (universe?)
- * (totem)	# LionelLeFolgoc: to drop as soon as we know where we go (universe?)
- * (file-roller)	# LionelLeFolgoc: to drop as soon as we know where we go (universe?)
+ * ristretto
+ * squeeze
+ * xfmedia
  * (python-exo)
  * (brasero)
  * (gucharmap)
@@ -172,8 +169,6 @@ Input methods:
 == Other desktop apps ==
 
  * (mozilla-thunderbird)
- * (gqview)				# LionelLeFolgoc: to drop as soon as we know where we go (universe?)
- * (libjpeg-progs) 	#for gqview	# LionelLeFolgoc: to drop as soon as we know where we go (universe?)
  * (pidgin)
  * (pidgin-otr)
  * gdm
