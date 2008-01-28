@@ -215,7 +215,7 @@ Input methods:
  * (xcursor-themes)
  * ubuntu-artwork # for Human cursor and icon themes
  * (notification-daemon)
- * (restricted-manager)
+ * (jockey-gtk)
  * (displayconfig-gtk)
 
 Documentation:
