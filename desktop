@@ -197,7 +197,7 @@ Input methods:
  * gnome-app-install
  * (app-install-data-commercial)
  * gnome-system-tools
- * (system-config-printer)
+ * (system-config-printer-gnome)
  * (onboard)
  * (gcalctool)
  * zenity
