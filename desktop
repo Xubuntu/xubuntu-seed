@@ -174,8 +174,8 @@ Input methods:
  * gdm
  * (gimp)
  * (evince-gtk)
- * (libgoffice-gtk-0-6)   # explicitely seed this for abiword and gnumeric gnomeless variants
-                          # any changes here need to be done in the livefs build script, too, ping infinity about this/send an RT
+ * (libgoffice-gtk-0-6)   # explicitly seed this for abiword and gnumeric gnomeless variants
+                          # any changes here need to be done in livecd-rootfs too (by anyone in ubuntu-core-dev)
  * (gnumeric-gtk)
  * hal                     # it's not very polished but it's the future
  * libglib2.0-data
