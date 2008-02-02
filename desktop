@@ -158,7 +158,8 @@ Input methods:
  * mousepad
  * ristretto
  * squeeze
- * xfmedia
+ * (totem-gstreamer)
+ * (totem)
  * (python-exo)
  * (brasero)
  * (gucharmap)
