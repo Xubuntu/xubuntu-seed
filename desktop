@@ -155,9 +155,10 @@ Input methods:
  * thunar-media-tags-plugin
  * thunar-thumbnailers
  * thunar-volman
- * mousepad
- * ristretto
- * squeeze
+ * (mousepad)
+ * (a2ps)
+ * (ristretto)
+ * (squeeze)
  * (totem-gstreamer)
  * (totem)
  * (python-exo)
