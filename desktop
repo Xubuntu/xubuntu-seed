@@ -129,7 +129,7 @@ Input methods:
  * (xfprint4)
  * xfce4-terminal
  * (xfce4-appfinder)
- * (xfce4-taskmanager)
+ * (gnome-system-monitor)
 
  * (xfce4-mailwatch-plugin)
  * (xfce4-fsguard-plugin)
@@ -147,7 +147,7 @@ Input methods:
  * (xfce4-notes-plugin)
  * (xfce4-smartbookmark-plugin)
  * (xfce4-dict-plugin)
- * xfce4-places-plugin
+ * (xfce4-places-plugin)
 
  * (orage)
  * thunar
@@ -180,6 +180,7 @@ Input methods:
                           # any changes here need to be done in livecd-rootfs too (by anyone in ubuntu-core-dev)
  * (gnumeric-gtk)
  * hal                     # it's not very polished but it's the future
+ * gnome-mount
  * libglib2.0-data
  * (firefox)
  * (ubufox)                # ubuntu firefox tweaks - AlexanderSack
@@ -188,10 +189,10 @@ Input methods:
  * dbus-1-utils # for session dbus, #895
  * (abiword)
  * (abiword-plugins)
- * xscreensaver
- * screensaver-default-images
- * xscreensaver-gl # MRS, we will only ship a subset of the screensavers from rss-glx and xscreensaver
- * xscreensaver-data # subset package for the non-gl screensavers we ship
+ * (gnome-screensaver)
+ * (screensaver-default-images)
+ * (xscreensaver-gl) # MRS, we will only ship a subset of the screensavers from rss-glx and xscreensaver
+ * (xscreensaver-data) # subset package for the non-gl screensavers we ship
  * gdebi                   # view/install deb packages
  * (apport-gtk)
  * language-selector
@@ -202,6 +203,7 @@ Input methods:
  * (system-config-printer-gnome)
  * (onboard)
  * (gcalctool)
+ * (gnome-games)
  * zenity
  * (transmission-gtk)
  * (vinagre)
