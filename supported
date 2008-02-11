@@ -276,7 +276,7 @@ automatically (note that Extra-Exclude *only* prevents packages from being
 included due to matching Extra-Include patterns, and has no other effect):
 
  * Extra-Exclude: libstdc++6-doc libstdc++6-dev libstdc++6-dbg lib*stdc++6-4.1*
- * Extra-Exclude: libgnat*-dev gnat-doc
+ * Extra-Exclude: libgnat*-dev libgnat*-dbg gnat*-doc
  * Extra-Exclude: gpc*-doc
  * Extra-Exclude: lib*mudflap*
  * Extra-Exclude: gfortran-4.1-doc lib*gfortran1-dbg
@@ -390,7 +390,7 @@ These *-doc packages are in separate source packages, so Extra-Includes won't ca
  * linux-doc
  * linux-source
  * linux-kernel-devel
- * /^linux-image-debug-.*(?<!lowlatency)$/
+ * /^linux-image-debug.*(?<!-rt)$/
  * vmware-*-kernel-modules
  * kexec-tools
 
@@ -468,12 +468,12 @@ These *-doc packages are in separate source packages, so Extra-Includes won't ca
 = Installer =
 
  # Used for netboot installations
- * Kernel-Version: 2.6.24-5-386
+ * Kernel-Version: 2.6.24-7-386
  * /^.*-firmware-.*-386-di/ [i386]
  * /^.*-modules-.*-386-di/ [i386]
 
  # Used for powerpc+ps3 images
- * Kernel-Version: 2.6.24-5-cell
+ * Kernel-Version: 2.6.24-7-cell
  * /^.*-firmware-.*-cell-di/ [powerpc]
  * /^.*-modules-.*-cell-di/ [powerpc]
 
