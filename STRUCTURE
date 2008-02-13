@@ -11,6 +11,5 @@ server-ship: boot dns-server lamp-server openssh-server print-server samba-serve
 ship: boot desktop d-i-requirements
 live: desktop
 ship-live: boot live
-build-essential: required
 development: desktop
 supported: server-ship ship ship-live development supported-common
