@@ -48,6 +48,7 @@ Input methods:
  * xfce4-panel
  * xfce4-utils
  * xfce4-mcs-plugins
+ * xfce4-mcs-plugins-extra	# mrpouit: provides some items missing from MCS.
  * xfce4-mixer
  * (xfprint4)
  * xfce4-terminal
