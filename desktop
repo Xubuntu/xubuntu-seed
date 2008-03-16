@@ -142,6 +142,7 @@ Input methods:
  * tango-icon-theme-common
  * (xcursor-themes)
  * ubuntu-artwork # for Human cursor and icon themes
+ * software-properties-gtk
  * (notification-daemon)
  * (jockey-gtk)
  * (displayconfig-gtk)
@@ -156,4 +157,3 @@ Documentation:
  * xubuntu-desktop # metapackage for everything here
  * xubuntu-artwork-usplash
  * xubuntu-default-settings
- * (example-content) # dholbach: dapper feature goal (wiki.ubuntu.com/ExampleContent)
