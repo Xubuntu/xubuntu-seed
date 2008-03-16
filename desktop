@@ -142,6 +142,7 @@ Input methods:
  * tango-icon-theme-common
  * (xcursor-themes)
  * ubuntu-artwork # for Human cursor and icon themes
+ * software-properties-gtk
  * (notification-daemon)
  * (jockey-gtk)
  * (displayconfig-gtk)
