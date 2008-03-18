@@ -94,7 +94,6 @@ modules instead.
 
 == Transitional packages ==
 
- * openoffice.org-l10n-en-us	# mvo: make dapper->edgy cdrom upgrades happy
  * linux-image-amd64-generic [amd64]
 
 == Blacklist ==
