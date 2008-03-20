@@ -72,7 +72,6 @@ modules instead.
 
  # languages which have language-support installed too
  * Languages: en
- * language-support-${Languages}
  * language-pack-${Languages}
  * Languages: zh 
  * language-support-${Languages} [i386]
