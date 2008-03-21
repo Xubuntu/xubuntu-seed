@@ -73,8 +73,6 @@ modules instead.
  # languages which have language-support installed too
  * Languages: en
  * language-pack-${Languages}
- * Languages: zh 
- * language-support-${Languages} [i386]
 
  # most popular languages
  * Languages: es bn ja de fr pt xh hi ar ru
