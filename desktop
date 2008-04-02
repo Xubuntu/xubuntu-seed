@@ -146,6 +146,7 @@ Input methods:
  * (notification-daemon)
  * (jockey-gtk)
  * (displayconfig-gtk)
+ * (gnome-power-manager)
 
 Documentation:
 
