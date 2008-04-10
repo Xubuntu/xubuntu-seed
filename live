@@ -17,11 +17,9 @@ Task-Test-new-install: skip show
  * language-pack-gnome-${Languages}
  * thunderbird-locale-${Languages}
 
- * Languages: es bn ja de fr pt xh hi ar ru af am as az be bg br bs ca cs cy da el eo et eu fa fi ga gl gu he hr hu ia id is it ka kn ko ku lg li lo lt lv mg mi mk ml mn mr ms my nb  ne nl nn no or pa pl rm r$
+ * Languages: es bn ja de fr pt xh hi ar ru 
  * language-pack-${Languages}
- * aspell-${Languages}
  * myspell-${Languages}
- * gimp-help-${Languages}
  * language-pack-gnome-${Languages}
  * thunderbird-locale-${Languages}
 
