@@ -12,11 +12,6 @@ modules instead.
  * lsb-cxx [amd64 hppa i386 ia64 sparc]
  * lsb-graphics [amd64 hppa i386 ia64 sparc]
 
-== OOo2 ==
-
-== * openoffice.org-gtk	# before OOo to avoid openoffice.org-style-default
-== * openoffice.org
-
 == Server ==
 
  * ssh
@@ -70,20 +65,24 @@ modules instead.
 
 == Common language packs ==
 
- # languages which have language-support installed too
  * Languages: en
  * language-pack-${Languages}
+ * aspell-${Languages}
+ * myspell-en-gb
+ * myspell-en-us
+ * myspell-en-za
+ * myspell-en-au
+ * gimp-help-${Languages}
+ * language-pack-gnome-${Languages}
+ * thunderbird-locale-${Languages}
 
- # most popular languages
- * Languages: es bn ja de fr pt xh hi ar ru
+ * Languages: es bn ja de fr pt xh hi ar ru af am as az be bg br bs ca cs cy da el eo et eu fa fi ga gl gu he hr hu ia id is it ka kn ko ku lg li lo lt lv mg mi mk ml mn mr ms my nb  ne nl nn no or pa pl rm ro rw se si sk sl sq sr sv ta tg th tk tl tr ug uk ur uz vi wa wo yi yo zu
  * language-pack-${Languages}
-
- # other languages, alphabetically, up to CD limit
- * Languages: af am as az be bg br bs ca cs cy da el eo et eu fa fi ga gl gu he hr hu ia id is it ka kn ko ku lg li lo lt lv mg mi mk ml mn mr ms my nb
- * language-pack-${Languages} [i386 amd64]
-
- * Languages: ne nl nn no or pa pl rm ro rw se si sk sl sq sr sv ta tg th tk tl tr ug uk ur uz vi wa wo yi yo zu
- * language-pack-${Languages} [i386 amd64]
+ * aspell-${Languages}
+ * myspell-${Languages}
+ * gimp-help-${Languages}
+ * language-pack-gnome-${Languages}
+ * thunderbird-locale-${Languages}
 
 == Installer ==
 
