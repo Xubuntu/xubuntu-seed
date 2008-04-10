@@ -48,9 +48,6 @@ Other:
  * xnest
  * xrestop
  * unclutter           # super useful for anti-mouse freaks
- * emacs               # won't fit on CDs
- * emacs22-el
- * emacs22-nox
  * inkscape            # SVG drawing application
  * screem                  # MRS, our default html editor
  * vim-gnome
@@ -58,7 +55,6 @@ Other:
  * vorbis-tools
  * vorbisgain
  * enscript
- * emacs-goodies-el
  * bbdb
  * auctex
  * lbdb
@@ -136,6 +132,7 @@ included due to matching Extra-Include patterns, and has no other effect):
  * Extra-Exclude: nvidia-glx-legacy-dev # nvidia-glx-legacy is unsupportable
  * Extra-Exclude: python-qt3-gl-dbg # We don't want python-qt3-gl in main
  * Extra-Exclude: ubuntu-mobile-dev
+ * Extra-Exclude: g77-doc # pulls in gcc-3.4
 
 Transitional packages:
 
