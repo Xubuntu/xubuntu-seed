@@ -27,7 +27,7 @@ Basic network services and Windows integration.
 
 = GUI infrastructure =
 
- * xterm                         # Provide a backup terminal and complete X env.
+ * xterm                        # Provide a backup terminal and complete X env.
 
 Fonts:
 
@@ -49,10 +49,10 @@ Input methods:
  * xfce4-panel
  * xfce4-utils
  * xfce4-mcs-plugins
- * xfce4-mcs-plugins-extra	# mrpouit: provides some items missing from MCS.
+ * (xfce4-mcs-plugins-extra)	# mrpouit: provides some items missing from MCS.
  * xfce4-mixer
  * (xfprint4)
- * xfce4-terminal
+ * (xfce4-terminal)
  * (xfce4-appfinder)
  * (gnome-system-monitor)
 
@@ -83,6 +83,9 @@ Input methods:
  * thunar-volman
  * (mousepad)
  * (ristretto)
+
+== Other desktop apps ==
+
  * (file-roller)
  * (totem-gstreamer)
  * (totem)
@@ -92,8 +95,7 @@ Input methods:
  * (network-manager-gnome)
  * (update-notifier)
  * (libgnome2-perl)
-
-== Other desktop apps ==
+ * (catfish)
 
  * (mozilla-thunderbird)
  * (pidgin)
@@ -111,20 +113,20 @@ Input methods:
  * (ubufox)                # ubuntu firefox tweaks - AlexanderSack
  * scrollkeeper
  * synaptic                # will this be our default package manager?
- * dbus-1-utils # for session dbus, #895
+ * dbus-1-utils            # for session dbus, #895
  * (abiword)
  * (abiword-plugins)
  * (gnome-screensaver)
  * (screensaver-default-images)
- * (xscreensaver-gl) # MRS, we will only ship a subset of the screensavers from rss-glx and xscreensaver
- * (xscreensaver-data) # subset package for the non-gl screensavers we ship
+ * (xscreensaver-gl)       # MRS, we will only ship a subset of the screensavers from rss-glx and xscreensaver
+ * (xscreensaver-data)     # subset package for the non-gl screensavers we ship
  * gdebi                   # view/install deb packages
  * (apport-gtk)
  * language-selector
  * update-manager
  * gnome-app-install
  * (app-install-data-commercial)
- * gnome-system-tools
+ * (gnome-system-tools)
  * (system-config-printer-gnome)
  * (onboard)
  * (gcalctool)
@@ -135,14 +137,14 @@ Input methods:
  * gtk2-engines-xfce
  * gtk2-engines-ubuntulooks
  * gtk2-engines-murrine
- * (xdg-utils)		   # useful utilities
- * gtk2-engines			# DanielHolbach (gtk2-engines were merged into one package)
+ * (xdg-utils)		            # useful utilities
+ * gtk2-engines			        # DanielHolbach (gtk2-engines were merged into one package)
  * gtk2-engines-pixbuf          # Required by some themes the user might install
  * (gnome-accessibility-themes)
  * tango-icon-theme
  * tango-icon-theme-common
  * (xcursor-themes)
- * ubuntu-artwork # for Human cursor and icon themes
+ * ubuntu-artwork               # for Human cursor and icon themes
  * software-properties-gtk
  * (notification-daemon)
  * (jockey-gtk)
@@ -153,6 +155,7 @@ Documentation:
 
  * (xubuntu-docs)
  * doc-base			# integrates with scrollkeeper
+ * (yelp)
 
 = Other =
 

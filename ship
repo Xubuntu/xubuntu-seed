@@ -12,6 +12,12 @@ modules instead.
  * lsb-cxx [amd64 hppa i386 ia64 sparc]
  * lsb-graphics [amd64 hppa i386 ia64 sparc]
 
+For the xfce4 die-hard fans:
+
+ * xfburn
+ * xfmedia
+ * xarchiver
+
 == Server ==
 
  * ssh
