@@ -5,56 +5,26 @@ Task-Extended-Description: This task provides the Xubuntu desktop environment.
 Task-Key: xubuntu-desktop
 Task-Seeds: desktop-common
 
-= Hardware and Architecture Support =
+= Xubuntu =
 
-== Architecture-independent ==
+ * xubuntu-desktop
+ * (xubuntu-docs)
+ * xubuntu-artwork-usplash
+ * xubuntu-default-settings
 
- * (hal-cups-utils) # fully automagic printer configuration
+= Xfce4 Desktop Environment =
 
-= Console-Based Tools =
+== Core Components ==
 
- * vim-runtime
-
-= Network Services =
-
-Basic network services and Windows integration.
-
- * (avahi-autoipd)     # IPv4 link-local interface configuration support
-
-= Printing =
-
- * cupsys-driver-gutenprint     # a ton of cupsys ppds, for real comprehensive printer support
-
-= GUI infrastructure =
-
- * xterm                        # Provide a backup terminal and complete X env.
-
-Fonts:
-
- * (ttf-arphic-uming)
- * (ttf-unfonts-core)
-
-Input methods:
-
- * (scim)
- * (scim-gtk2-immodule)
- * (scim-tables-additional) [i386] # input support for language packs that we ship
-
-== Xfce Desktop ==
-
- * xfce4-session
  * xfwm4
- * xfwm4-themes
  * xfdesktop4
  * xfce4-panel
  * xfce4-utils
- * xfce4-mcs-plugins
- * (xfce4-mcs-plugins-extra)	# mrpouit: provides some items missing from MCS.
- * xfce4-mixer
- * (xfprint4)
- * (xfce4-terminal)
- * (xfce4-appfinder)
- * (gnome-system-monitor)
+ * xfce4-mcs-plguins
+ * xfce4-session
+ * thunar
+
+== Xfce Panel Plugins ==
 
  * (xfce4-mailwatch-plugin)
  * (xfce4-fsguard-plugin)
@@ -74,91 +44,159 @@ Input methods:
  * (xfce4-dict-plugin)
  * (xfce4-places-plugin)
  * (xfce4-governor-plugin)
+ * (xfce4-mixer)
+ 
+== Thunar Plugins ==
 
- * (orage)
- * thunar
- * thunar-archive-plugin
- * thunar-media-tags-plugin
- * thunar-thumbnailers
+ * (thunar-archive-plugin)
+ * (thunar-media-tags-plugin)
+ * (thunar-thumbnailers)
  * thunar-volman
+
+== Xfce Extras == 
+
+ * (xfwm4-themes)
+ * (xfce4-mcs-plugins-extra)
+ * (xfprint4)  # Deprecated in Xfce 4.6
+ * (python-exo)
+
+= Desktop Applications =
+
+== Utility ==
+
+ * (file-roller) 
+ * (gucharmap)
+ * (catfish)
+ * (onboard)
+ * (gcalctool)
+ * (xfce4-terminal)
+ * (xfce4-appfinder)
+ * (orage)
  * (mousepad)
- * (ristretto)
+ * (yelp)
+ 
+== Games ==
 
-== Other desktop apps ==
+ * (gnome-games)
+ 
+== Graphics ==
 
- * (file-roller)
+ * (gimp)
+ * (gpicview)
+ 
+== Multimedia == 
+
  * (totem-gstreamer)
  * (totem)
- * (python-exo)
  * (brasero)
- * (gucharmap)
- * (network-manager-gnome)
- * (update-notifier)
- * (libgnome2-perl)
- * (catfish)
+ * (audacious)
+ 
+== Network ==
 
- * (mozilla-thunderbird)
+ * (network-manager-gnome)
+ * (mozilla-thunderbird) 
  * (pidgin)
  * (pidgin-otr)
- * gdm
- * (gimp)
- * (evince-gtk)
- * (libgoffice-gtk-0-6)   # explicitly seed this for abiword and gnumeric gnomeless variants
-                          # any changes here need to be done in livecd-rootfs too (by anyone in ubuntu-core-dev)
- * (gnumeric-gtk)
- * hal                     # it's not very polished but it's the future
- * gnome-mount
- * libglib2.0-data
  * (firefox)
- * (ubufox)                # ubuntu firefox tweaks - AlexanderSack
- * scrollkeeper
- * synaptic                # will this be our default package manager?
- * dbus-1-utils            # for session dbus, #895
+ * (ubufox)
+ * (transmission-gtk)
+ * (vinagre)
+ 
+== Office ==
+
+ * (evince-gtk)
+ * (libgoffice-gtk-0-6)
+ * (gnumeric-gtk)
  * (abiword)
- * (abiword-plugins)
- * (gnome-screensaver)
- * (screensaver-default-images)
- * (xscreensaver-gl)       # MRS, we will only ship a subset of the screensavers from rss-glx and xscreensaver
- * (xscreensaver-data)     # subset package for the non-gl screensavers we ship
- * gdebi                   # view/install deb packages
+ * (abiword-plugins) 
+
+== System ==
+
+ * (gnome-system-monitor)
+ * (update-notifier)
+ * synaptic   
+ * gdebi
  * (apport-gtk)
  * language-selector
  * update-manager
  * gnome-app-install
  * (app-install-data-commercial)
  * (gnome-system-tools)
- * (system-config-printer-gnome)
- * (onboard)
- * (gcalctool)
- * (gnome-games)
- * zenity
- * (transmission-gtk)
- * (vinagre)
+ * (system-config-printer-gnome) 
+ * software-properties-gtk  
+ * (jockey-gtk)
+ * (displayconfig-gtk)
+ * (gnome-power-manager)
+ 
+= Look & Feel =
+
+== Engines ==
+
  * gtk2-engines-xfce
  * gtk2-engines-ubuntulooks
  * gtk2-engines-murrine
- * (xdg-utils)		            # useful utilities
- * gtk2-engines			        # DanielHolbach (gtk2-engines were merged into one package)
- * gtk2-engines-pixbuf          # Required by some themes the user might install
+ * gtk2-engines
+ * gtk2-engines-pixbuf
+ 
+== Themes ==
+
  * (gnome-accessibility-themes)
  * tango-icon-theme
  * tango-icon-theme-common
  * (xcursor-themes)
- * ubuntu-artwork               # for Human cursor and icon themes
- * software-properties-gtk
+ * ubuntu-artwork
+ 
+== Fonts ==
+
+ * (ttf-arphic-uming)
+ * (ttf-unfonts-core)  
+ 
+= Supporting Components =
+
+ * hal
+ * dbus 
+ * libglib2.0-data
  * (notification-daemon)
- * (jockey-gtk)
- * (displayconfig-gtk)
- * (gnome-power-manager)
+  
+== Docs == 
 
-Documentation:
+ * scrollkeeper
+ * doc-base
+ 
+== X == 
 
- * (xubuntu-docs)
- * doc-base			# integrates with scrollkeeper
- * (yelp)
+ * gdm
+ * xterm
 
-= Other =
+== Utils ==
 
- * xubuntu-desktop # metapackage for everything here
- * xubuntu-artwork-usplash
- * xubuntu-default-settings
+ * vim-runtime
+ * zenity
+ * (xdg-utils)
+  
+== Gnome ==
+
+ * (libgnome2-perl)
+ * gnome-mount 
+  
+== Network ==
+
+ * (avahi-autoipd)
+ 
+== Input Methods ==
+
+ * (scim)
+ * (scim-gtk2-immodule)
+ * (scim-tables-additional) [i386]
+ 
+== Printing == 
+
+ * (hal-cups-utils)
+ * cupsys-driver-gutenprint
+ 
+= Screensaver =
+
+ * (gnome-screensaver)
+ * (screensaver-default-images)
+ * (xscreensaver-gl)
+ * (xscreensaver-data)
