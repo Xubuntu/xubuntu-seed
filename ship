@@ -92,10 +92,6 @@ For the xfce4 die-hard fans:
 
  * oem-config-gtk
 
-== Transitional packages ==
-
- * linux-image-amd64-generic [amd64]
-
 == Blacklist ==
 
 libavcodec cannot be shipped on CDs (cf. Ubuntu technical board resolution 2007-01-02).
