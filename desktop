@@ -98,6 +98,7 @@ Task-Seeds: desktop-common
  * (pidgin)
  * (pidgin-otr)
  * (firefox)
+ * (midori) # Will probably be removed before Intrepid release.
  * (ubufox)
  * (transmission-gtk)
  * (vinagre)
@@ -127,6 +128,7 @@ Task-Seeds: desktop-common
  * (jockey-gtk)
  * (displayconfig-gtk)
  * (gnome-power-manager)
+ * policykit-gnome
  
 = Look & Feel =
 
@@ -144,7 +146,8 @@ Task-Seeds: desktop-common
  * tango-icon-theme
  * tango-icon-theme-common
  * (xcursor-themes)
- * ubuntu-artwork
+ * human-cursors-theme
+ * dmz-cursor-theme
  
 == Fonts ==
 
@@ -157,6 +160,7 @@ Task-Seeds: desktop-common
  * dbus 
  * libglib2.0-data
  * (notification-daemon)
+ * (apt-xapian-index)
   
 == Docs == 
 
@@ -174,10 +178,10 @@ Task-Seeds: desktop-common
  * zenity
  * (xdg-utils)
   
-== Gnome ==
-
- * (libgnome2-perl)
- * gnome-mount 
+# == Gnome ==
+#
+# * (libgnome2-perl)
+# * gnome-mount
   
 == Network ==
 

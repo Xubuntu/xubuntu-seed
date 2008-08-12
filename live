@@ -6,18 +6,14 @@ Task-Relevance: 2
 Task-Key: ubiquity-frontend-gtk
 Task-Test-new-install: skip show
 
- * Languages: en
- * language-pack-${Languages}
- * aspell-${Languages}
- * myspell-en-gb       
+ * aspell-en
+ * myspell-en-gb
  * myspell-en-us
  * myspell-en-za
  * myspell-en-au
- * gimp-help-${Languages}
- * language-pack-gnome-${Languages}
- * thunderbird-locale-${Languages}
+ * gimp-help-en
 
- * Languages: es bn ja de fr pt xh hi ar ru 
+ * Languages: en es bn ja de fr pt xh hi ar ru 
  * language-pack-${Languages}
  * myspell-${Languages}
  * language-pack-gnome-${Languages}

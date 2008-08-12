@@ -71,18 +71,14 @@ For the xfce4 die-hard fans:
 
 == Common language packs ==
 
- * Languages: en
- * language-pack-${Languages}
- * aspell-${Languages}
+ * aspell-en
  * myspell-en-gb       
  * myspell-en-us
  * myspell-en-za
  * myspell-en-au
- * gimp-help-${Languages}
- * language-pack-gnome-${Languages}
- * thunderbird-locale-${Languages}
+ * gimp-help-en
 
- * Languages: es bn ja de fr pt xh hi ar ru 
+ * Languages: en es bn ja de fr pt xh hi ar ru 
  * language-pack-${Languages}
  * myspell-${Languages}
  * language-pack-gnome-${Languages}
