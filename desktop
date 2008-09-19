@@ -90,7 +90,8 @@ Task-Seeds: desktop-common
  * (totem)
  * (brasero)
  * (audacious)
- 
+ * (listen)
+
 == Network ==
 
  * (network-manager-gnome)
@@ -178,8 +179,8 @@ Task-Seeds: desktop-common
  * zenity
  * (xdg-utils)
   
-# == Gnome ==
-#
+== Gnome ==
+
 # * (libgnome2-perl)
 # * gnome-mount
   
