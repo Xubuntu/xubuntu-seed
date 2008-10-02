@@ -83,6 +83,7 @@ Task-Seeds: desktop-common
 
  * (gimp)
  * (gpicview)
+ * (xsane)
  
 == Multimedia == 
 
@@ -98,7 +99,6 @@ Task-Seeds: desktop-common
  * (pidgin)
  * (pidgin-otr)
  * (firefox)
- * (midori) # Will probably be removed before Intrepid release.
  * (ubufox)
  * (transmission-gtk)
  * (vinagre)
@@ -129,6 +129,8 @@ Task-Seeds: desktop-common
  * (displayconfig-gtk)
  * (gnome-power-manager)
  * policykit-gnome
+ * (seahorse)
+ * (ssh-askpass-gnome)
  
 = Look & Feel =
 
@@ -153,6 +155,7 @@ Task-Seeds: desktop-common
 
  * (ttf-arphic-uming)
  * (ttf-unfonts-core)  
+ * (ttf-opensymbol)
  
 = Supporting Components =
 
