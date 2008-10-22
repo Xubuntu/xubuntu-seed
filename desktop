@@ -137,7 +137,6 @@ Task-Seeds: desktop-common
 == Engines ==
 
  * gtk2-engines-xfce
- * gtk2-engines-ubuntulooks
  * gtk2-engines-murrine
  * gtk2-engines
  * gtk2-engines-pixbuf
