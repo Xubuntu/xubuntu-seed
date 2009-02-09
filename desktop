@@ -20,7 +20,7 @@ Task-Seeds: desktop-common
  * xfdesktop4
  * xfce4-panel
  * xfce4-utils
- * xfce4-mcs-plguins
+ * xfce4-settings
  * xfce4-session
  * thunar
 
@@ -38,7 +38,7 @@ Task-Seeds: desktop-common
  * (xfce4-cpugraph-plugin)
  * (xfce4-systemload-plugin)
  * (xfce4-netload-plugin)
- * (xfce4-screenshooter-plugin)
+ * (xfce4-screenshooter)
  * (xfce4-notes-plugin)
  * (xfce4-smartbookmark-plugin)
  * (xfce4-dict-plugin)
@@ -56,9 +56,7 @@ Task-Seeds: desktop-common
 == Xfce Extras == 
 
  * (xfwm4-themes)
- * (xfce4-mcs-plugins-extra)
  * (xfprint4)  # Deprecated in Xfce 4.6
- * (python-exo)
 
 = Desktop Applications =
 
