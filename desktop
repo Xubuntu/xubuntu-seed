@@ -45,6 +45,7 @@ Task-Seeds: desktop-common
  * (xfce4-places-plugin)
  * (xfce4-governor-plugin)
  * (xfce4-mixer)
+ * (xfswitch-plugin)
  
 == Thunar Plugins ==
 
