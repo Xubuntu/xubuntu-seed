@@ -8,9 +8,10 @@ Task-Seeds: desktop-common
 = Xubuntu =
 
  * xubuntu-desktop
- * (xubuntu-docs)
+ * xubuntu-artwork
  * xubuntu-artwork-usplash
  * xubuntu-default-settings
+ * (xubuntu-docs)
 
 = Xfce4 Desktop Environment =
 
@@ -102,6 +103,7 @@ Task-Seeds: desktop-common
  * (transmission-gtk)
  * (vinagre)
  * (xchat)
+ * (gigolo)
  
 == Office ==
 
