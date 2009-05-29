@@ -94,7 +94,7 @@ Task-Seeds: desktop-common
 == Network ==
 
  * (network-manager-gnome)
- * (mozilla-thunderbird) 
+ * (thunderbird) 
  * (pidgin)
  * (pidgin-otr)
  * (firefox)
@@ -108,8 +108,8 @@ Task-Seeds: desktop-common
 == Office ==
 
  * (evince-gtk)
- * (libgoffice-gtk-0-6)
- * (gnumeric-gtk)
+ * (libgoffice-0-6)
+ * (gnumeric)
  * (abiword)
  * (abiword-plugins) 
 
@@ -200,7 +200,7 @@ Task-Seeds: desktop-common
 == Printing == 
 
  * (hal-cups-utils)
- * cupsys-driver-gutenprint
+ * cups-driver-gutenprint
  
 = Screensaver =
 
