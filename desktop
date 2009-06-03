@@ -116,7 +116,7 @@ Task-Seeds: desktop-common
 
  * (gnome-system-monitor)
  * (update-notifier)
- * synaptic   
+ * synaptic
  * gdebi
  * (apport-gtk)
  * language-selector
@@ -127,11 +127,9 @@ Task-Seeds: desktop-common
  * (system-config-printer-gnome) 
  * software-properties-gtk  
  * (jockey-gtk)
- * (displayconfig-gtk)
  * (gnome-power-manager)
  * policykit-gnome
  * (seahorse)
- * (ssh-askpass-gnome)
  
 = Look & Feel =
 
@@ -154,7 +152,7 @@ Task-Seeds: desktop-common
 == Fonts ==
 
  * (ttf-arphic-uming)
- * (ttf-unfonts-core)  
+ * (ttf-unfonts-core)
  * (ttf-opensymbol)
  
 = Supporting Components =
@@ -162,7 +160,7 @@ Task-Seeds: desktop-common
  * hal
  * dbus 
  * libglib2.0-data
- * (notification-daemon)
+ * (notify-osd)
  * (apt-xapian-index)
   
 == Docs == 
