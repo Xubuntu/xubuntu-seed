@@ -145,7 +145,6 @@ Task-Seeds: desktop-common
  * tango-icon-theme
  * tango-icon-theme-common
  * (xcursor-themes)
- * human-cursors-theme
  * dmz-cursor-theme
  
 == Fonts ==
@@ -203,4 +202,3 @@ Task-Seeds: desktop-common
  * (screensaver-default-images)
  * (xscreensaver-gl)
  * (xscreensaver-data)
- * (screensaver-default-images)
