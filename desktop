@@ -44,7 +44,6 @@ Task-Seeds: desktop-common
  * (xfce4-smartbookmark-plugin)
  * (xfce4-dict)
  * (xfce4-places-plugin)
- * (xfce4-governor-plugin)
  * (xfce4-mixer)
  * (xfswitch-plugin)
  
@@ -58,7 +57,6 @@ Task-Seeds: desktop-common
 == Xfce Extras == 
 
  * (xfwm4-themes)
- * (xfprint4)  # Deprecated in Xfce 4.6
 
 = Desktop Applications =
 
@@ -89,7 +87,7 @@ Task-Seeds: desktop-common
  * (totem-gstreamer)
  * (totem)
  * (brasero)
- * (listen)
+ * (exaile)
 
 == Network ==
 
@@ -107,7 +105,7 @@ Task-Seeds: desktop-common
  
 == Office ==
 
- * (evince-gtk)
+ * (evince)
  * (gnumeric)
  * (abiword)
  * (abiword-plugins) 
@@ -122,6 +120,7 @@ Task-Seeds: desktop-common
  * language-selector
  * update-manager
  * gnome-app-install
+ * (gnome-codec-install)
  * (app-install-data-commercial)
  * (gnome-system-tools)
  * (system-config-printer-gnome) 
@@ -129,7 +128,7 @@ Task-Seeds: desktop-common
  * (jockey-gtk)
  * (gnome-power-manager)
  * policykit-gnome
- * (seahorse)
+ * (usb-creator) [i386 amd64 lpia]
  
 = Look & Feel =
 
@@ -155,13 +154,17 @@ Task-Seeds: desktop-common
  * (ttf-unfonts-core)
  * (ttf-opensymbol)
  
+== Misc ==
+
+ * (notify-osd)
+ 
 = Supporting Components =
 
  * hal
  * dbus 
  * libglib2.0-data
- * (notify-osd)
  * (apt-xapian-index)
+ * libpam-gnome-keyring
   
 == Docs == 
 
@@ -178,11 +181,6 @@ Task-Seeds: desktop-common
  * vim-runtime
  * zenity
  * (xdg-utils)
-  
-== Gnome ==
-
-# * (libgnome2-perl)
-# * gnome-mount
   
 == Network ==
 
@@ -205,3 +203,4 @@ Task-Seeds: desktop-common
  * (screensaver-default-images)
  * (xscreensaver-gl)
  * (xscreensaver-data)
+ * (screensaver-default-images)
