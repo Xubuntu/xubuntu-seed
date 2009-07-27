@@ -127,7 +127,7 @@ Task-Seeds: desktop-common
  * (system-config-printer-gnome) 
  * software-properties-gtk  
  * (jockey-gtk)
- * (gnome-power-manager)
+ * (xfce4-power-manager)
  * policykit-gnome
  * (usb-creator) [i386 amd64 lpia]
  
