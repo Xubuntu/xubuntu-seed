@@ -194,7 +194,7 @@ Task-Seeds: desktop-common
  
 == Printing == 
 
- * (hal-cups-utils)
+ * system-config-printer-udev
  * cups-driver-gutenprint
  
 = Screensaver =
