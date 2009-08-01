@@ -8,8 +8,8 @@ Task-Seeds: desktop-common
 = Xubuntu =
 
  * xubuntu-desktop
- * xubuntu-artwork
- * xubuntu-artwork-usplash
+ * (xubuntu-artwork)
+ * (xubuntu-artwork-usplash)
  * xubuntu-default-settings
  * (xubuntu-docs)
 
@@ -194,8 +194,8 @@ Task-Seeds: desktop-common
  
 == Printing == 
 
- * system-config-printer-udev
- * cups-driver-gutenprint
+ * (system-config-printer-udev)
+ * (cups-driver-gutenprint)
  
 = Screensaver =
 
