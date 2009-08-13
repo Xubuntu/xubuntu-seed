@@ -161,10 +161,11 @@ Task-Seeds: desktop-common
 = Supporting Components =
 
  * hal
- * dbus 
+ * dbus
  * libglib2.0-data
  * (apt-xapian-index)
  * libpam-gnome-keyring
+ * libasound2-plugins
   
 == Docs == 
 
