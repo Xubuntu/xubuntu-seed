@@ -57,7 +57,8 @@ Task-Seeds: desktop-common
 == Xfce Extras == 
 
  * (xfwm4-themes)
- * (xfprint4)  # Deprecated in Xfce 4.6, but still required by mousepad 0.2.x
+ * (xfprint4)      # Deprecated in Xfce 4.6 but still required by mousepad 0.2.x
+ * (xfce4-volumed) # Developed and maintained by Xubuntu's own SiDi :)
 
 = Desktop Applications =
 
