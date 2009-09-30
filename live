@@ -20,6 +20,7 @@ Task-Test-new-install: skip show
  * thunderbird-locale-${Languages}
 
  * ntfsprogs
+ * resierfsprogs
  * gparted
 
 == Ubiquity components ==
