@@ -177,6 +177,7 @@ Task-Seeds: desktop-common
 
  * gdm
  * xterm
+ * xsplash
 
 == Utils ==
 
