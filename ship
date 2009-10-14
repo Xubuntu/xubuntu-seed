@@ -81,6 +81,7 @@ modules instead.
 
 == Installer ==
 
+ * grub # needed for dmraid et al
  * oem-config-gtk
 
 == Blacklist ==
