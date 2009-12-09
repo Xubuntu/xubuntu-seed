@@ -76,7 +76,11 @@ Task-Seeds: desktop-common
  
 == Games ==
 
- * (gnome-games)
+ * (aisleriot)
+ * (gnome-mahjongg)
+ * (gnomine)
+ * (gnome-sudoku)
+ * (gnometris)
  
 == Graphics ==
 
