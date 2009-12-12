@@ -9,7 +9,6 @@ Task-Seeds: desktop-common
 
  * xubuntu-desktop
  * (xubuntu-artwork)
- * (xubuntu-artwork-usplash)
  * xubuntu-default-settings
  * (xubuntu-docs)
 
@@ -125,7 +124,7 @@ Task-Seeds: desktop-common
  * (apport-gtk)
  * language-selector
  * update-manager
- * gnome-app-install
+ * software-center
  * (gnome-codec-install)
  * (app-install-data-commercial)
  * (gnome-system-tools)
