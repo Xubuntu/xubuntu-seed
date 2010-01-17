@@ -170,6 +170,7 @@ Task-Seeds: desktop-common
  * (apt-xapian-index)
  * libpam-gnome-keyring
  * libasound2-plugins
+ * libsdl1.2debian-alsa
   
 == Docs == 
 
