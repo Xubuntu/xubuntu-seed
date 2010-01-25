@@ -79,7 +79,7 @@ Task-Seeds: desktop-common
  * (gnome-mahjongg)
  * (gnomine)
  * (gnome-sudoku)
- * (gnometris)
+ * (quadrassel)
  
 == Graphics ==
 
@@ -113,7 +113,8 @@ Task-Seeds: desktop-common
  * (evince)
  * (gnumeric)
  * (abiword)
- * (abiword-plugins) 
+ * (abiword-plugin-grammar)
+ * (abiword-plugin-mathview)
 
 == System ==
 
