@@ -1,15 +1,7 @@
 include platform.lucid
 desktop: desktop-common
-dns-server: standard
-lamp-server: standard
-openssh-server: standard
-print-server: standard
-samba-server: standard
-postgresql-server: standard
-mail-server: standard
-server-ship: boot dns-server lamp-server openssh-server print-server samba-server postgresql-server mail-server
 ship: boot desktop d-i-requirements
 live: desktop
 ship-live: boot live
 development: desktop
-supported: server-ship ship ship-live development supported-common
+supported: ship ship-live development supported-common
