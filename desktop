@@ -206,7 +206,7 @@ Task-Seeds: desktop-common
  
 = Screensaver =
 
- * (gnome-screensaver)
+ * (xscreensaver)
  * (screensaver-default-images)
  * (xscreensaver-gl)
  * (xscreensaver-data)
