@@ -19,7 +19,6 @@ modules instead.
  * nfs-kernel-server   # need an NFS server
  * apache2-mpm-worker [amd64 hppa i386 ia64 sparc]  # ThomMay; for simple file/web serving -> add zeroconf and we have swish mac os x style :-)
  * samba  [amd64 i386] # for Windows filesharing and integration
- * nis                 # allows Kickstart to configure NIS
  * ltsp-server-standalone [amd64 hppa i386 ia64 sparc] # for LTSP-on-install
  * ltsp-client [amd64 hppa i386 ia64 sparc]            # for LTSP-on-install
  * ldm [amd64 hppa i386 ia64 sparc] # seeded because its not a hard dependency of ltsp-client anymore
