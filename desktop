@@ -133,7 +133,6 @@ Task-Seeds: desktop-common
  * software-properties-gtk  
  * (jockey-gtk)
  * (xfce4-power-manager)
- * policykit-gnome
  * (usb-creator) [i386 amd64 lpia]
  
 = Look & Feel =
