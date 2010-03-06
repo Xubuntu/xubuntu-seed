@@ -29,8 +29,7 @@ Task-Seeds: desktop-common
  * (xfce4-mailwatch-plugin)
  * (xfce4-fsguard-plugin)
  * (xfce4-verve-plugin)
- * (xfce4-battery-plugin)
- * (xfce4-clipman-plugin)
+ * (xfce4-clipman-plugin)           # drop it from the seeds when xfce4-settings >= 4.7.1 is here
  * (xfce4-mount-plugin)
  * (xfce4-quicklauncher-plugin)
  * (xfce4-weather-plugin)
@@ -170,7 +169,6 @@ Task-Seeds: desktop-common
  * (apt-xapian-index)
  * libpam-gnome-keyring
  * libasound2-plugins
- * libsdl1.2debian-pulseaudio
   
 == Docs == 
 
