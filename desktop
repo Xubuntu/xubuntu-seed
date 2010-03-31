@@ -153,9 +153,9 @@ Task-Seeds: desktop-common
  
 == Fonts ==
 
- * (ttf-arphic-uming)
+ * (ttf-wqy-microhei)
  * (ttf-unfonts-core)
- * (ttf-opensymbol)
+ * (ttf-liberation)
  
 == Misc ==
 
