@@ -88,7 +88,6 @@ Task-Seeds: desktop-common
  
 == Multimedia == 
 
- * (totem-gstreamer)
  * (totem)
  * (brasero)
  * (exaile)
@@ -170,6 +169,8 @@ Task-Seeds: desktop-common
  * (apt-xapian-index)
  * libpam-gnome-keyring
  * libasound2-plugins
+ * (libsdl1.2debian-alsa)
+ * (gstreamer0.10-alsa)
   
 == Docs == 
 
