@@ -4,4 +4,5 @@ ship: boot desktop d-i-requirements
 live: desktop
 ship-live: boot live
 development: desktop
+# make sure supported remains the last entry
 supported: ship ship-live development supported-common
