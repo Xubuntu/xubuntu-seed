@@ -1,4 +1,4 @@
-include platform.lucid
+include platform.maverick
 desktop: desktop-common
 ship: boot desktop d-i-requirements
 live: desktop
