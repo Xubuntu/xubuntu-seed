@@ -5,6 +5,7 @@ Task-Extended-Description: This task provides the extra packages installed on th
 Task-Relevance: 2
 Task-Key: ubiquity-frontend-gtk
 Task-Test-new-install: skip show
+Task-Seeds: live-common
 
  * aspell-en
  * myspell-en-gb
@@ -19,8 +20,6 @@ Task-Test-new-install: skip show
  * language-pack-gnome-${Languages}
  * thunderbird-locale-${Languages}
 
- * ntfsprogs
- * reiserfsprogs
  * gparted
 
 == Ubiquity components ==
@@ -31,12 +30,6 @@ These packages make up the Ubiquity live installer.
  * ubiquity-ubuntu-artwork
  * ubiquity-slideshow-xubuntu
  * python-webkit # Needed by ubiquity-frontend-gtk for ubiquity-slideshow.
-
-Ubiquity needs full filesystem support for the partitioner.
-
- * xfsprogs
- * jfsutils
- * hfsplus [powerpc]  # ColinWatson
 
 == Accessibility ==
 
