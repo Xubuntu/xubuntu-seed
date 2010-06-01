@@ -72,7 +72,7 @@ modules instead.
  * myspell-en-au
  * gimp-help-en
 
- * Languages: en es bn ja de fr pt xh hi ar ru 
+ * Languages: en es bn ja de
  * language-pack-${Languages}
  * myspell-${Languages}
  * language-pack-gnome-${Languages}
