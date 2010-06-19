@@ -85,6 +85,7 @@ Xfce core:
  * xfce4-settings
  * xfce4-session
  * thunar
+ * (xfce4-appfinder)
 
 Xfce goodies:
  * (xfce4-mailwatch-plugin)
@@ -113,7 +114,6 @@ Xfce goodies:
  * (xfprint4)      # Deprecated in Xfce 4.6 but still required by mousepad 0.2.x
  * (xfce4-volumed) # Developed and maintained by Xubuntu's own SiDi :)
  * (xfce4-terminal)
- * (xfce4-appfinder)
  * (orage)
  * (mousepad)
  * (ristretto)
