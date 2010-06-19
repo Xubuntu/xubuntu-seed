@@ -1,8 +1,7 @@
 include platform.maverick
 desktop: desktop-common
-ship: boot desktop d-i-requirements
 live: desktop
+ship: boot installer desktop d-i-requirements
 ship-live: boot live
-development: desktop
 # make sure supported remains the last entry
-supported: ship ship-live development supported-common
+supported: desktop ship-live supported-common

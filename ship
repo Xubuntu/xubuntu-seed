@@ -17,17 +17,15 @@ modules instead.
  * ssh
  * lilo [amd64 i386]   # MattZimmerman wants this for server admins; needed for LVM installs
  * nfs-kernel-server   # need an NFS server
- * apache2-mpm-worker [amd64 hppa i386 ia64 sparc]  # ThomMay; for simple file/web serving -> add zeroconf and we have swish mac os x style :-)
  * samba  [amd64 i386] # for Windows filesharing and integration
  * ltsp-server-standalone [amd64 hppa i386 ia64 sparc] # for LTSP-on-install
  * ltsp-client [amd64 hppa i386 ia64 sparc]            # for LTSP-on-install
  * ldm [amd64 hppa i386 ia64 sparc] # seeded because its not a hard dependency of ltsp-client anymore
- * ldm-xubuntu-theme # for LTSP-on-install
+ * ldm-xubuntu-theme [amd64 hppa i386 ia64 sparc] # seeded to make it available for LTSP-on-install
 
 == Networking ==
 
- * mailx
- * mutt
+ * bsd-mailx
  * vlan                   # userland tools to config 8021q support
 
 == Development ==
@@ -35,53 +33,61 @@ modules instead.
  * build-essential
  * fakeroot
  * devscripts          # Debian package development
- * bzr                 # Obvious
+ * bzr [i386]          # amd64 CD overflowing, and the package became a hog
 
 == Common UNIX stuff ==
 
- * nfs-common         # allows people to access NFS filesystems
- * vim                # vim-tiny is in minimal; vim includes syntax highlighting, help files, etc.
+ * nfs-common		  # allows people to access NFS filesystems
+ # * vim                    # vim-tiny is in minimal; vim includes syntax highlighting, help files, etc.
 
 == Hardware & Network Access ==
 
  * pptp-linux             # client for Microsoft-compatible VPN's, needed for some ISPs
- * sl-modem-daemon	# needed for some Winmodems (see OutoftheboxWinmodem)
  * eagle-usb-utils        # needed for some ADSL modems
  * bpalogin
- * ndiswrapper-utils [amd64 i386]
  * ndiswrapper-utils-1.9 [amd64 i386]
+ * ndisgtk
 
- * nvidia-glx-new          # nvidia drivers, for multiseat, but also easy access
-
- * ipppd
- * isdnutils-xtools
- * capiutils
- * pppdcapiplugin
  * linux-wlan-ng
- * avm-fritz-firmware
- * drdsl
  * libatm1	# suggested by ppp for PPP-over-ATM
  * setserial	# needed by folks with nonstandard serial ports
+ * b43-fwcutter
 
 == Common language packs ==
 
- * aspell-en
- * myspell-en-gb
- * myspell-en-us
- * myspell-en-za
- * myspell-en-au
- * gimp-help-en
-
- * Languages: en es bn ja de
+ # must have
+ * Languages: en
  * language-pack-${Languages}
- * myspell-${Languages}
  * language-pack-gnome-${Languages}
+ * language-support-${Languages}
+ * myspell-${Languages}
  * thunderbird-locale-${Languages}
+
+Enough room on amd64 armel i386, not enough on ia64 powerpc:
+ * Languages: es xh pt
+ * language-pack-${Languages} [!ia64 !powerpc]
+ * language-pack-gnome-${Languages} [!ia64 !powerpc]
+
+ * Languages: de
+ * language-pack-${Languages} [i386]
+ * language-pack-gnome-${Languages} [i386]
+
+# * Languages: fr bn hi ar ru zh-hans ja
+# * language-pack-${Languages}
+# * language-pack-gnome-${Languages}
 
 == Installer ==
 
  * grub # needed for dmraid et al
  * oem-config-gtk
+
+== Transitional packages ==
+
+ * mktemp # replaced by coreutils in karmic
+
+== Germinate workarounds ==
+
+ * wamerican  # iamerican Depends: ispell Recommends: wordlist, but wamerican isn't spotted in time so germinate arbitrarily picks miscfiles instead
 
 == Blacklist ==
 

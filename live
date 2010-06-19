@@ -7,18 +7,16 @@ Task-Key: ubiquity-frontend-gtk
 Task-Test-new-install: skip show
 Task-Seeds: live-common
 
- * aspell-en
- * myspell-en-gb
- * myspell-en-us
- * myspell-en-za
- * myspell-en-au
- * gimp-help-en
-
- * Languages: en es bn ja de
+ * Languages: en
  * language-pack-${Languages}
- * myspell-${Languages}
  * language-pack-gnome-${Languages}
+ * language-support-${Languages}
+ * myspell-${Languages}
  * thunderbird-locale-${Languages}
+
+ * Languages: es xh de fr bn
+ * language-pack-${Languages} [i386 amd64 powerpc]
+ * language-pack-gnome-${Languages} [i386 amd64 powerpc]
 
  * gparted
 
@@ -30,9 +28,3 @@ These packages make up the Ubiquity live installer.
  * ubiquity-ubuntu-artwork
  * ubiquity-slideshow-xubuntu
  * python-webkit # Needed by ubiquity-frontend-gtk for ubiquity-slideshow.
-
-== Accessibility ==
-
- * at-spi
- * gnome-orca
- * gnome-mag

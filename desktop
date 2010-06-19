@@ -3,19 +3,81 @@ Task-Section: user
 Task-Description: Xubuntu desktop
 Task-Extended-Description: This task provides the Xubuntu desktop environment.
 Task-Key: xubuntu-desktop
+Task-Name: xubuntu-desktop
 Task-Seeds: desktop-common
 
-= Xubuntu =
+= Hardware and Architecture Support =
 
- * xubuntu-desktop
- * (xubuntu-artwork)
- * xubuntu-default-settings
- * (xubuntu-docs)
+== Architecture-independent ==
 
-= Xfce4 Desktop Environment =
+ * libgd2-xpm # force the xpm-enabled version for edubuntu compatibility
 
-== Core Components ==
+= Network Services =
 
+Basic network services and Windows integration.
+
+ * (avahi-autoipd)     # IPv4 link-local interface configuration support
+ * (network-manager-gnome) # see NetworkRoaming spec
+ * (network-manager-pptp)
+ * (network-manager-pptp-gnome)
+
+= GUI infrastructure =
+
+ * xterm                         # Provide a backup terminal and complete X env.
+
+Extra fonts (should be common, but not so for space reasons):
+
+ * (ttf-wqy-microhei)
+ * (ttf-unfonts-core)
+ * (ttf-opensymbol)
+ * (ttf-liberation)
+
+Input methods:
+
+ * (im-switch)
+ * (ibus)
+ * (ibus-gtk)
+ * (ibus-table)
+ * (ibus-m17n)
+
+= Desktop Xfce Apps =
+
+Common with Ubuntu:
+ * (apport-gtk)
+ * desktop-file-utils
+ * (file-roller)
+ * (gcalctool)
+ * gdm
+ * software-center
+ * (app-install-data-partner)
+ * (gnome-codec-install)    # new default codec installation tool (from debian)
+ * (transmission-gtk)       # simple GNOME frontend for bittorrent downloads
+ * (system-config-printer-gnome)
+ * (libpam-gnome-keyring)
+ * (gnome-system-monitor)     # SebastienBacher
+ * (gnome-system-tools)
+ * (gucharmap)               # SebastienBacher
+ * language-selector	   # MichaelVogt
+ * (firefox)
+ * (firefox-gnome-support)
+ * (ubufox)                # ubuntu firefox tweaks - AlexanderSack
+ * (brasero)		   # Oliver Grawert
+ * rarian-compat
+ * synaptic                # default GUI package manager
+ * libgnome2-perl          # so that the debconf GNOME frontend can be used from synaptic
+ * software-properties-gtk # default GUI sources.list editor
+ * (totem)
+ * (totem-mozilla)
+ * update-manager
+ * (update-notifier)
+ * gdebi                   # view/install deb packages
+ * zenity
+ * (xdg-utils)		   # useful utilities
+ * xdg-user-dirs
+ * xdg-user-dirs-gtk
+ * (gvfs-fuse)			# let non-GNOME apps see GVFS via fuse
+
+Xfce core:
  * xfwm4
  * xfdesktop4
  * xfce4-panel
@@ -24,8 +86,7 @@ Task-Seeds: desktop-common
  * xfce4-session
  * thunar
 
-== Xfce Panel Plugins ==
-
+Xfce goodies:
  * (xfce4-mailwatch-plugin)
  * (xfce4-fsguard-plugin)
  * (xfce4-verve-plugin)
@@ -44,168 +105,111 @@ Task-Seeds: desktop-common
  * (xfce4-places-plugin)
  * (xfce4-mixer)
  * (xfswitch-plugin)
- 
-== Thunar Plugins ==
-
  * (thunar-archive-plugin)
  * (thunar-media-tags-plugin)
  * (thunar-thumbnailers)
  * thunar-volman
-
-== Xfce Extras == 
-
  * (xfwm4-themes)
  * (xfprint4)      # Deprecated in Xfce 4.6 but still required by mousepad 0.2.x
  * (xfce4-volumed) # Developed and maintained by Xubuntu's own SiDi :)
-
-= Desktop Applications =
-
-== Utility ==
-
- * (file-roller) 
- * (gucharmap)
- * (catfish)
- * (onboard)
- * (gcalctool)
  * (xfce4-terminal)
  * (xfce4-appfinder)
  * (orage)
  * (mousepad)
- 
-== Games ==
+ * (ristretto)
+ * (xfce4-power-manager)
+ * (gigolo)
 
+Games: We only ship a few by default.
  * (aisleriot)
  * (gnome-mahjongg)
  * (gnomine)
  * (gnome-sudoku)
  * (quadrapassel)
- 
-== Graphics ==
+ * (gbrainy)
 
- * (gimp)
- * (ristretto)
- * (simple-scan)
- 
-== Multimedia == 
+Themes:
+ * gtk2-engines			# DanielHolbach (gtk2-engines were merged into one package)
+ * gtk2-engines-pixbuf          # Required by some themes the user might install
+ * gtk2-engines-xfce
+ * gtk2-engines-murrine
+ * tango-icon-theme
+ * tango-icon-theme-common
+ * dmz-cursor-theme
 
- * (totem)
- * (brasero)
- * (exaile)
+The gstreamer0.10 packages we want to install:
 
-== Network ==
+ * (gstreamer0.10-alsa)
+ * (gstreamer0.10-plugins-base-apps)
+ * libasound2-plugins
 
- * (network-manager-gnome)
- * (thunderbird) 
- * (pidgin)
- * (pidgin-otr)
- * (firefox)
- * (firefox-gnome-support)
- * (ubufox)
- * (transmission-gtk)
- * (vinagre)
- * (xchat)
- * (gigolo)
- 
-== Office ==
+Accessibility tools:
+
+ * (gnome-accessibility-themes)
+ * (gnome-mag)
+ * (gnome-orca)
+ * (onboard)
+ * (brltty)
+ * (brltty-x11)
+ * (xcursor-themes)
+ * (espeak)
+ * (speech-dispatcher)
+
+= Other Desktop GUI Apps =
 
  * (evince)
  * (gnumeric)
  * (abiword)
  * (abiword-plugin-grammar)
  * (abiword-plugin-mathview)
-
-== System ==
-
- * (gnome-system-monitor)
- * (update-notifier)
- * synaptic
- * gdebi
- * (apport-gtk)
- * language-selector
- * update-manager
- * software-center
- * (gnome-codec-install)
- * (app-install-data-commercial)
- * (gnome-system-tools)
- * (system-config-printer-gnome) 
- * software-properties-gtk  
- * (jockey-gtk)
- * (xfce4-power-manager)
- * (usb-creator) [i386 amd64 lpia]
- 
-= Look & Feel =
-
-== Engines ==
-
- * gtk2-engines-xfce
- * gtk2-engines-murrine
- * gtk2-engines
- * gtk2-engines-pixbuf
- 
-== Themes ==
-
- * (gnome-accessibility-themes)
- * tango-icon-theme
- * tango-icon-theme-common
- * (xcursor-themes)
- * dmz-cursor-theme
- 
-== Fonts ==
-
- * (ttf-wqy-microhei)
- * (ttf-unfonts-core)
- * (ttf-opensymbol)
- * (ttf-liberation)
- 
-== Misc ==
-
- * (notify-osd)
- 
-= Supporting Components =
-
- * hal
- * dbus
- * libglib2.0-data
- * (apt-xapian-index)
- * libpam-gnome-keyring
- * libasound2-plugins
- * (libsdl1.2debian-alsa)
- * (gstreamer0.10-alsa)
-  
-== Docs == 
-
- * rarian-compat
- * doc-base
- 
-== X == 
-
- * gdm
- * xterm
-
-== Utils ==
-
- * vim-runtime
- * zenity
- * (xdg-utils)
-  
-== Network ==
-
- * (avahi-autoipd)
- 
-== Input Methods ==
-
- * (scim)
- * (scim-gtk2-immodule)
- * (scim-tables-additional) [i386]
- 
-== Printing == 
-
- * (system-config-printer-udev)
- * (cups-driver-gutenprint)
- 
-= Screensaver =
-
  * (xscreensaver)
  * (screensaver-default-images)
  * (xscreensaver-gl)
  * (xscreensaver-data)
+ * (jockey-gtk) # enable non-free graphics and other drivers easily
+ * (usb-creator-gtk) [i386 amd64 lpia]
+ * (computer-janitor-gtk)
+ * (simple-scan)
+ * (catfish)
+ * (gimp)
+ * (exaile)
+ * (thunderbird) 
+ * (pidgin)
+ * (pidgin-otr)
+ * (vinagre)
+ * (xchat)
+
+Desktop Experience:
+ * (notify-osd)           # backend for libnotify
+
+= Documentation =
+
+ * doc-base			# integrates with scrollkeeper
+ * (xubuntu-docs)
+
+= Development =
+
+Here we provide a minimal development environment sufficient to build kernel
+drivers, so that this is possible on the live CD and in scenarios where
+it is problematic to get these packages onto the installed system in order
+to compile a driver. -mdz
+
+ * (gcc)
+ * (make)
+ * (linux-headers-generic) [i386]
+ * (linux-headers-generic) [amd64]
+ * (linux-headers-ia64) [ia64]
+ * (linux-headers-sparc64) [sparc]
+ * (linux-headers-hppa32) [hppa]
+ * (linux-headers-hppa64) [hppa]
+ * (linux-headers-lpia) [lpia]
+ * (linux-headers-imx51) [armel]
+ * (linux-headers-dove) [armel]
+
+= Other =
+
+ * xubuntu-desktop # metapackage for everything here
+ * xubuntu-default-settings
+ * (example-content) # dholbach: dapper feature goal (wiki.ubuntu.com/ExampleContent)
+ * (xubuntu-artwork)
+ * hal
