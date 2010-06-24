@@ -62,7 +62,7 @@ Common with Ubuntu:
  * (ubufox)                # ubuntu firefox tweaks - AlexanderSack
  * rarian-compat
  * synaptic                # default GUI package manager
- * libgnome2-perl          # so that the debconf GNOME frontend can be used from synaptic
+ * (libgnome2-perl)          # so that the debconf GNOME frontend can be used from synaptic
  * software-properties-gtk # default GUI sources.list editor
  * update-manager
  * (update-notifier)
@@ -126,7 +126,6 @@ Games: We only ship a few by default.
  * (gnomine)
  * (gnome-sudoku)
  * (quadrapassel)
- * (gbrainy)
 
 Themes:
  * gtk2-engines			# DanielHolbach (gtk2-engines were merged into one package)
@@ -146,8 +145,6 @@ The gstreamer0.10 packages we want to install:
 Accessibility tools:
 
  * (gnome-accessibility-themes)
- * (gnome-mag)
- * (gnome-orca)
  * (onboard)
  * (brltty)
  * (brltty-x11)
@@ -168,7 +165,6 @@ Accessibility tools:
  * (xscreensaver-data)
  * (jockey-gtk) # enable non-free graphics and other drivers easily
  * (usb-creator-gtk) [i386 amd64 lpia]
- * (computer-janitor-gtk)
  * (simple-scan)
  * (catfish)
  * (gimp)
@@ -210,6 +206,5 @@ to compile a driver. -mdz
 
  * xubuntu-desktop # metapackage for everything here
  * xubuntu-default-settings
- * (example-content) # dholbach: dapper feature goal (wiki.ubuntu.com/ExampleContent)
  * (xubuntu-artwork)
  * hal
