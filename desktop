@@ -54,20 +54,16 @@ Common with Ubuntu:
  * (transmission-gtk)       # simple GNOME frontend for bittorrent downloads
  * (system-config-printer-gnome)
  * (libpam-gnome-keyring)
- * (gnome-system-monitor)     # SebastienBacher
  * (gnome-system-tools)
  * (gucharmap)               # SebastienBacher
  * language-selector	   # MichaelVogt
  * (firefox)
  * (firefox-gnome-support)
  * (ubufox)                # ubuntu firefox tweaks - AlexanderSack
- * (brasero)		   # Oliver Grawert
  * rarian-compat
  * synaptic                # default GUI package manager
  * libgnome2-perl          # so that the debconf GNOME frontend can be used from synaptic
  * software-properties-gtk # default GUI sources.list editor
- * (totem)
- * (totem-mozilla)
  * update-manager
  * (update-notifier)
  * gdebi                   # view/install deb packages
@@ -119,6 +115,10 @@ Xfce goodies:
  * (ristretto)
  * (xfce4-power-manager)
  * (gigolo)
+ * (xfce4-taskmanager)
+ * (xfburn)
+ * (parole)
+ * (browser-plugin-parole)
 
 Games: We only ship a few by default.
  * (aisleriot)
