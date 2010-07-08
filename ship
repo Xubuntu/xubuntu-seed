@@ -17,7 +17,6 @@ modules instead.
  * ssh
  * lilo [amd64 i386]   # MattZimmerman wants this for server admins; needed for LVM installs
  * nfs-kernel-server   # need an NFS server
- * samba  [amd64 i386] # for Windows filesharing and integration
  * ltsp-server-standalone [amd64 hppa i386 ia64 sparc] # for LTSP-on-install
  * ltsp-client [amd64 hppa i386 ia64 sparc]            # for LTSP-on-install
  * ldm [amd64 hppa i386 ia64 sparc] # seeded because its not a hard dependency of ltsp-client anymore
