@@ -67,7 +67,6 @@ Common with Ubuntu:
  * software-properties-gtk # default GUI sources.list editor
  * update-manager
  * (update-notifier)
- * gdebi                   # view/install deb packages
  * zenity
  * (xdg-utils)		   # useful utilities
  * xdg-user-dirs
