@@ -67,6 +67,7 @@ Common with Ubuntu:
  * software-properties-gtk # default GUI sources.list editor
  * update-manager
  * (update-notifier)
+ * gdebi #TODO: drop it in natty, too late for maverick
  * zenity
  * (xdg-utils)		   # useful utilities
  * xdg-user-dirs
