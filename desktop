@@ -106,7 +106,6 @@ Xfce goodies:
  * (thunar-media-tags-plugin)
  * (thunar-thumbnailers)
  * thunar-volman
- * (xfwm4-themes)
  * (xfprint4)      # Deprecated in Xfce 4.6 but still required by mousepad 0.2.x
  * (xfce4-volumed) # Developed and maintained by Xubuntu's own SiDi :)
  * (xfce4-terminal)
@@ -199,7 +198,6 @@ to compile a driver. -mdz
  * (linux-headers-hppa32) [hppa]
  * (linux-headers-hppa64) [hppa]
  * (linux-headers-lpia) [lpia]
- * (linux-headers-imx51) [armel]
  * (linux-headers-dove) [armel]
 
 = Other =
