@@ -38,6 +38,7 @@ included due to matching Extra-Include patterns, and has no other effect):
  * Extra-Exclude: libcommons-dbcp-java-doc # depends on classpath
  * Extra-Exclude: javacc-doc # depends on classpath
  * Extra-Exclude: libvirtodbc-dev libvirtodbc0 virtuoso-opensource virtuoso-opensource-6.0 virtuoso-opensource-6.0-bin virtuoso-opensource-6.0-common virtuoso-vad-conductor virtuoso-vad-doc virtuoso-vsp-startpage # not MIR approved
+ * Extra-Exclude: libgl1-mesa-dri-experimental-dbg # LP: #638097
 
 Transitional packages:
 
