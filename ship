@@ -62,15 +62,15 @@ modules instead.
  * thunderbird-locale-${Languages}
 
 Enough room on amd64 armel i386, not enough on ia64 powerpc:
- * Languages: es xh pt
+ * Languages: es xh pt de fr zh-hans
  * language-pack-${Languages} [!ia64 !powerpc]
  * language-pack-gnome-${Languages} [!ia64 !powerpc]
 
- * Languages: de
+ * Languages: bn hi
  * language-pack-${Languages} [i386]
  * language-pack-gnome-${Languages} [i386]
 
-# * Languages: fr bn hi ar ru zh-hans ja
+# * Languages: ar ru ja
 # * language-pack-${Languages}
 # * language-pack-gnome-${Languages}
 
