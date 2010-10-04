@@ -14,7 +14,7 @@ Task-Seeds: live-common
  * myspell-${Languages}
  * thunderbird-locale-${Languages}
 
- * Languages: es xh de fr bn
+ * Languages: es xh de fr bn hi ar ru zh-hans ja it
  * language-pack-${Languages} [i386 amd64 powerpc]
  * language-pack-gnome-${Languages} [i386 amd64 powerpc]
 
