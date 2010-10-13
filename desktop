@@ -67,7 +67,6 @@ Common with Ubuntu:
  * software-properties-gtk # default GUI sources.list editor
  * update-manager
  * (update-notifier)
- * gdebi #TODO: drop it in natty, too late for maverick
  * zenity
  * (xdg-utils)		   # useful utilities
  * xdg-user-dirs
@@ -164,7 +163,7 @@ Accessibility tools:
  * (xscreensaver-gl)
  * (xscreensaver-data)
  * (jockey-gtk) # enable non-free graphics and other drivers easily
- * (usb-creator-gtk) [i386 amd64 lpia]
+ * (usb-creator-gtk) [i386 amd64]
  * (simple-scan)
  * (catfish)
  * (gimp)
@@ -194,11 +193,6 @@ to compile a driver. -mdz
  * (make)
  * (linux-headers-generic) [i386]
  * (linux-headers-generic) [amd64]
- * (linux-headers-ia64) [ia64]
- * (linux-headers-sparc64) [sparc]
- * (linux-headers-hppa32) [hppa]
- * (linux-headers-hppa64) [hppa]
- * (linux-headers-lpia) [lpia]
  * (linux-headers-dove) [armel]
 
 = Other =
