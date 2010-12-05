@@ -99,13 +99,13 @@ Xfce goodies:
  * (xfce4-dict)
  * (xfce4-places-plugin)
  * (xfce4-mixer)
- * (xfswitch-plugin)
  * (thunar-archive-plugin)
  * (thunar-media-tags-plugin)
  * (thunar-thumbnailers)
+ * tumbler
  * thunar-volman
  * (xfprint4)      # Deprecated in Xfce 4.6 but still required by mousepad 0.2.x
- * (xfce4-volumed) # Developed and maintained by Xubuntu's own SiDi :)
+ * (xfce4-volumed)
  * (xfce4-terminal)
  * (orage)
  * (mousepad)
