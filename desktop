@@ -97,7 +97,8 @@ Xfce goodies:
  * (xfce4-notes-plugin)
  * (xfce4-smartbookmark-plugin)
  * (xfce4-dict)
- * (xfce4-places-plugin)
+# depends on exo-mount, won't work with Xfce 4.8
+# * (xfce4-places-plugin)
  * (xfce4-mixer)
  * (thunar-archive-plugin)
  * (thunar-media-tags-plugin)
