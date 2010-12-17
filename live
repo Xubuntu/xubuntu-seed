@@ -23,6 +23,7 @@ Task-Seeds: live-common
  * language-pack-gnome-${Languages} [i386]
 
  * gparted
+ * cifs-utils # Needed by casper for CIFS root=
 
 == Ubiquity components ==
 

@@ -63,7 +63,6 @@ Common with Ubuntu:
  * (ubufox)                # ubuntu firefox tweaks - AlexanderSack
  * rarian-compat
  * synaptic                # default GUI package manager
- * (libgnome2-perl)          # so that the debconf GNOME frontend can be used from synaptic
  * software-properties-gtk # default GUI sources.list editor
  * update-manager
  * (update-notifier)
@@ -117,6 +116,7 @@ Xfce goodies:
  * (xfburn)
  * (parole)
  * (browser-plugin-parole)
+ * (xfce4-notifyd)
 
 Games: We only ship a few by default.
  * (aisleriot)
@@ -172,9 +172,6 @@ Accessibility tools:
  * (pidgin-otr)
  * (vinagre)
  * (xchat)
-
-Desktop Experience:
- * (notify-osd)           # backend for libnotify
 
 = Documentation =
 
