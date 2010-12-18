@@ -116,7 +116,7 @@ Xfce goodies:
  * (xfburn)
  * (parole)
  * (browser-plugin-parole)
- * (xfce4-notifyd)
+ * xfce4-notifyd
 
 Games: We only ship a few by default.
  * (aisleriot)
