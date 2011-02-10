@@ -80,7 +80,9 @@ Xfce core:
  * xfce4-settings
  * xfce4-session
  * thunar
- * (xfce4-appfinder)
+ * xfce4-appfinder
+ * tumbler
+ * thunar-volman
 
 Xfce goodies:
  * (xfce4-mailwatch-plugin)
@@ -101,9 +103,6 @@ Xfce goodies:
  * (xfce4-mixer)
  * (thunar-archive-plugin)
  * (thunar-media-tags-plugin)
- * (thunar-thumbnailers)
- * tumbler
- * thunar-volman
  * (xfprint4)      # Deprecated in Xfce 4.6 but still required by mousepad 0.2.x
  * (xfce4-volumed)
  * (xfce4-terminal)
