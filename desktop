@@ -57,7 +57,7 @@ Common with Ubuntu:
  * (libpam-gnome-keyring)
  * (gnome-system-tools)
  * (gucharmap)               # SebastienBacher
- * language-selector	   # MichaelVogt
+ * language-selector-gnome	   # MichaelVogt
  * (firefox)
  * (firefox-gnome-support)
  * (ubufox)                # ubuntu firefox tweaks - AlexanderSack
