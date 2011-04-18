@@ -121,7 +121,6 @@ Xfce goodies:
 Indicator/Ayatana stuff:
  * (xfce4-indicator-plugin)
  * (indicator-application)
- * (indicator-messages)
  * (indicator-sound)
 
 Games: We only ship a few by default.
