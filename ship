@@ -57,9 +57,13 @@ modules instead.
  * Languages: en
  * language-pack-${Languages}
  * language-pack-gnome-${Languages}
- * language-support-${Languages}
- * myspell-${Languages}
- * thunderbird-locale-${Languages}
+
+# subset of English language support which we want by default:
+ * firefox-locale-en
+ * libreoffice-help-en-us
+ * hunspell-en-us
+ * openoffice.org-hyphenation
+ * wamerican
 
 Enough room on amd64 armel i386, not enough on powerpc:
  * Languages: es xh pt de fr zh-hans
