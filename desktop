@@ -48,7 +48,7 @@ Common with Ubuntu:
  * desktop-file-utils
  * (file-roller)
  * (gcalctool)
- * gdm
+ * lightdm
  * software-center
  * (app-install-data-partner)
  * (gnome-codec-install)    # new default codec installation tool (from debian)
@@ -200,4 +200,5 @@ to compile a driver. -mdz
 
  * xubuntu-desktop # metapackage for everything here
  * xubuntu-default-settings
+ * lightdm-greeter-example-gtk
  * (xubuntu-artwork)
