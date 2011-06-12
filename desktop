@@ -46,7 +46,6 @@ Input methods:
 Common with Ubuntu:
  * (apport-gtk)
  * desktop-file-utils
- * (file-roller)
  * (gcalctool)
  * lightdm
  * software-center
@@ -177,6 +176,7 @@ Accessibility tools:
  * (pidgin-otr)
  * (vinagre)
  * (xchat)
+ * (xarchiver)
 
 = Documentation =
 
