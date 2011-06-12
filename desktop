@@ -103,11 +103,9 @@ Xfce goodies:
  * (xfce4-mixer)
  * (thunar-archive-plugin)
  * (thunar-media-tags-plugin)
- * (xfprint4)      # Deprecated in Xfce 4.6 but still required by mousepad 0.2.x
  * (xfce4-volumed)
  * (xfce4-terminal)
  * (orage)
- * (mousepad)
  * (ristretto)
  * (xfce4-power-manager)
  * (gigolo)
@@ -177,6 +175,7 @@ Accessibility tools:
  * (vinagre)
  * (xchat)
  * (xarchiver)
+ * (leafpad)
 
 = Documentation =
 
