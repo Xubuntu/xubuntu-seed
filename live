@@ -19,8 +19,8 @@ Task-Seeds: live-common
  * wamerican
 
  * Languages: es xh de fr bn hi ar
- * language-pack-${Languages} [i386 amd64 powerpc]
- * language-pack-gnome-${Languages} [i386 amd64 powerpc]
+ * language-pack-${Languages} [!powerpc]
+ * language-pack-gnome-${Languages} [!powerpc]
 
  * Languages: ru zh-hans ja it
  * language-pack-${Languages} [i386]
@@ -36,4 +36,3 @@ These packages make up the Ubiquity live installer.
  * ubiquity-frontend-gtk
  * ubiquity-ubuntu-artwork
  * ubiquity-slideshow-xubuntu
- * python-webkit # Needed by ubiquity-frontend-gtk for ubiquity-slideshow.
