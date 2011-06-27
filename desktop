@@ -24,6 +24,7 @@ Basic network services and Windows integration.
 = GUI infrastructure =
 
  * xterm                         # Provide a backup terminal and complete X env.
+ * libnotify-bin		 # various scripts need notify-send (such as .bashrc's "alert")
 
 Extra fonts (should be common, but not so for space reasons):
 
@@ -45,9 +46,10 @@ Input methods:
 
 Common with Ubuntu:
  * (apport-gtk)
- * desktop-file-utils
+ * (desktop-file-utils)
+ * (file-roller)
  * (gcalctool)
- * lightdm
+ * lightdm                 # Proposed GDM replacement for Oneiric, see https://blueprints.launchpad.net/ubuntu/+spec/desktop-o-lightdm
  * software-center
  * (app-install-data-partner)
  * (gnome-codec-install)    # new default codec installation tool (from debian)
@@ -60,7 +62,7 @@ Common with Ubuntu:
  * language-selector-gnome	   # MichaelVogt
  * (firefox)
  * (firefox-gnome-support)
- * (ubufox)                # ubuntu firefox tweaks - AlexanderSack
+ * (xul-ext-ubufox)        # ubuntu firefox tweaks - AlexanderSack
  * rarian-compat
  * synaptic                # default GUI package manager
  * software-properties-gtk # default GUI sources.list editor
@@ -119,11 +121,11 @@ Indicator/Ayatana stuff:
  * (indicator-sound)
 
 Games: We only ship a few by default.
- * (aisleriot)
- * (gnome-mahjongg)
- * (gnomine)
- * (gnome-sudoku)
- * (quadrapassel)
+ * (aisleriot) [!powerpc]
+ * (gnome-mahjongg) [!powerpc]
+ * (gnomine) [!powerpc]
+ * (gnome-sudoku) [!powerpc]
+ * (gbrainy) [!powerpc]
 
 Themes:
  * gtk2-engines			# DanielHolbach (gtk2-engines were merged into one package)
@@ -152,6 +154,7 @@ Accessibility tools:
 
 = Other Desktop GUI Apps =
 
+ * (simple-scan)
  * (gnumeric)
  * (abiword)
  * (abiword-plugin-grammar)
@@ -162,7 +165,6 @@ Accessibility tools:
  * (xscreensaver-data)
  * (jockey-gtk) # enable non-free graphics and other drivers easily
  * (usb-creator-gtk) [i386 amd64]
- * (simple-scan)
  * (catfish)
  * (gimp)
  * (gmusicbrowser)
@@ -171,7 +173,6 @@ Accessibility tools:
  * (pidgin-otr)
  * (vinagre)
  * (xchat)
- * (xarchiver)
  * (leafpad)
  * (epdfview)
 
