@@ -62,10 +62,10 @@ clamav
 # mdz, 2004-06-20: CAN-2002-0757, CAN-2003-0101, SNS 74, SNS 75
 webmin
 
-# Xubuntu does not want OpenOffice.org at this time.
-openoffice.org-core
-openoffice.org-writer
-openoffice.org-common
-openoffice.org-hyphenation
-openoffice.org-base-core
-openoffice.org-l10n
+# Xubuntu does not want LibreOffice at this time.
+libreoffice-core
+libreoffice-writer
+libreoffice-common
+libreoffice-hyphenation
+libreoffice-base-core
+libreoffice-l10n
