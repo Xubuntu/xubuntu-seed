@@ -24,7 +24,7 @@ Basic network services and Windows integration.
 = GUI infrastructure =
 
  * xterm                         # Provide a backup terminal and complete X env.
- * libnotify-bin		 # various scripts need notify-send (such as .bashrc's "alert")
+ * (libnotify-bin)		 # various scripts need notify-send (such as .bashrc's "alert")
 
 Extra fonts (should be common, but not so for space reasons):
 
@@ -64,7 +64,7 @@ Common with Ubuntu:
  * (firefox-gnome-support)
  * (xul-ext-ubufox)        # ubuntu firefox tweaks - AlexanderSack
  * rarian-compat
- * synaptic                # default GUI package manager
+ * (synaptic)                # previous default GUI package manager
  * software-properties-gtk # default GUI sources.list editor
  * update-manager
  * (update-notifier)
