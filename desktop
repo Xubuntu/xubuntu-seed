@@ -197,5 +197,5 @@ to compile a driver. -mdz
 
  * xubuntu-desktop # metapackage for everything here
  * xubuntu-default-settings
- * lightdm-greeter-example-gtk
+ * lightdm-gtk-greeter
  * (xubuntu-artwork)
