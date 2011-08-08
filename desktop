@@ -167,6 +167,7 @@ Accessibility tools:
  * (usb-creator-gtk) [i386 amd64]
  * (catfish)
  * (gimp)
+ * (gthumb)
  * (gmusicbrowser)
  * (thunderbird) 
  * (pidgin)
@@ -200,4 +201,5 @@ to compile a driver. -mdz
  * xubuntu-desktop # metapackage for everything here
  * xubuntu-default-settings
  * lightdm-gtk-greeter
+ * (pastebinit)
  * (xubuntu-artwork)
