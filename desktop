@@ -50,7 +50,6 @@ Common with Ubuntu:
  * (file-roller)
  * (gcalctool)
  * lightdm                 # Proposed GDM replacement for Oneiric, see https://blueprints.launchpad.net/ubuntu/+spec/desktop-o-lightdm
- * accountsservice         # needed for user list on login screen
  * software-center
  * (app-install-data-partner)
  * (gnome-codec-install)    # new default codec installation tool (from debian)
