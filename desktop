@@ -121,6 +121,7 @@ Indicator/Ayatana stuff:
  * (indicator-sound-gtk2)
 
 Games: We only ship a few by default.
+ * (aisleriot) [!powerpc]
  * (gnome-mahjongg) [!powerpc]
  * (gnomine) [!powerpc]
  * (gnome-sudoku) [!powerpc]
