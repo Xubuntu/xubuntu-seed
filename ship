@@ -51,9 +51,9 @@ Enough room on amd64 armel i386, not enough on powerpc:
  * language-pack-${Languages} [!powerpc]
  * language-pack-gnome-${Languages} [!powerpc]
 
- * Languages: ar ru ja
- * language-pack-${Languages} [i386]
- * language-pack-gnome-${Languages} [i386]
+# * Languages: ar ru ja
+# * language-pack-${Languages} [i386]
+# * language-pack-gnome-${Languages} [i386]
 
 == Installer ==
 
