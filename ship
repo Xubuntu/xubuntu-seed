@@ -47,7 +47,7 @@
  * wamerican
 
 Enough room on amd64 armel i386, not enough on powerpc:
- * Languages: de fr bn hi zh-hans
+ * Languages: de fr bn hi zh-hans ja
  * language-pack-${Languages} [!powerpc]
  * language-pack-gnome-${Languages} [!powerpc]
 
