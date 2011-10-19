@@ -73,6 +73,7 @@ Common with Ubuntu:
  * xdg-user-dirs
  * xdg-user-dirs-gtk
  * (gvfs-fuse)			# let non-GNOME apps see GVFS via fuse
+ * (gvfs-backends)      # otherwise no network tab
 
 Xfce core:
  * xfwm4
