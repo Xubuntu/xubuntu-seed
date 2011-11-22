@@ -28,6 +28,8 @@ Task-Seeds: live-common
  * gparted
  * cifs-utils # Needed by casper for CIFS root=
 
+ * xubuntu-live-settings # lp: #840094
+
 == Ubiquity components ==
 
 These packages make up the Ubiquity live installer.
