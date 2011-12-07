@@ -31,7 +31,7 @@ Extra fonts (should be common, but not so for space reasons):
  * (ttf-wqy-microhei)
  * (ttf-unfonts-core)
  * (ttf-opensymbol)
- * (ttf-liberation)
+ * (fonts-liberation)
 
 Input methods:
 
