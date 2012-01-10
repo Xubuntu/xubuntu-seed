@@ -3,5 +3,6 @@ desktop: desktop-common
 live: desktop
 ship: boot installer desktop d-i-requirements
 ship-live: boot live
+supported-desktop-extra: desktop ship-live supported-common
 # make sure supported remains the last entry
-supported: desktop ship-live supported-common
+supported: supported-desktop-extra
