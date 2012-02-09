@@ -87,10 +87,9 @@ Xfce core:
  * thunar-volman
 
 Xfce goodies:
+ * (xfce4-xkb-plugin)
  * (xfce4-mailwatch-plugin)
- * (xfce4-fsguard-plugin)
  * (xfce4-verve-plugin)
- * (xfce4-mount-plugin)
  * (xfce4-quicklauncher-plugin)
  * (xfce4-weather-plugin)
  * (xfce4-cpugraph-plugin)
@@ -98,7 +97,6 @@ Xfce goodies:
  * (xfce4-netload-plugin)
  * (xfce4-screenshooter)
  * (xfce4-notes-plugin)
- * (xfce4-smartbookmark-plugin)
  * (xfce4-dict)
  * (xfce4-places-plugin)
  * (xfce4-mixer)
@@ -172,7 +170,6 @@ Accessibility tools:
  * (pidgin)
  * (pidgin-microblog)
  * (pidgin-otr)
- * (vinagre)
  * (xchat)
  * (leafpad)
  * (evince)
