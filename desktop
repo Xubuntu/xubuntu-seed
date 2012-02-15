@@ -129,8 +129,6 @@ Themes:
  * gtk2-engines			# DanielHolbach (gtk2-engines were merged into one package)
  * gtk2-engines-pixbuf          # Required by some themes the user might install
  * gtk2-engines-murrine
- * tango-icon-theme
- * tango-icon-theme-common
  * dmz-cursor-theme
 
 The gstreamer0.10 packages we want to install:
