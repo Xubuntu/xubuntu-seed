@@ -128,7 +128,6 @@ Games: We only ship a few by default.
 Themes:
  * gtk2-engines			# DanielHolbach (gtk2-engines were merged into one package)
  * gtk2-engines-pixbuf          # Required by some themes the user might install
- * gtk2-engines-murrine
  * dmz-cursor-theme
 
 The gstreamer0.10 packages we want to install:
@@ -195,6 +194,6 @@ to compile a driver. -mdz
 
  * xubuntu-desktop # metapackage for everything here
  * xubuntu-default-settings
+ * xubuntu-artwork
  * lightdm-gtk-greeter
  * (pastebinit)
- * (xubuntu-artwork)
