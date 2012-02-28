@@ -123,7 +123,6 @@ Games: We only ship a few by default.
  * (mahjongg) [!powerpc]
  * (gnomine) [!powerpc]
  * (gnome-sudoku) [!powerpc]
- * (quadrapassel) [!powerpc]
 
 Themes:
  * gtk2-engines			# DanielHolbach (gtk2-engines were merged into one package)
