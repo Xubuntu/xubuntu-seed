@@ -99,7 +99,6 @@ Xfce goodies:
  * (xfce4-notes-plugin)
  * (xfce4-dict)
  * (xfce4-places-plugin)
- * (xfce4-mixer)
  * (thunar-archive-plugin)
  * (thunar-media-tags-plugin)
  * (xfce4-volumed)
@@ -131,7 +130,7 @@ Themes:
 
 The gstreamer0.10 packages we want to install:
 
- * (gstreamer0.10-alsa)
+ * (gstreamer0.10-pulseaudio)
  * (gstreamer0.10-plugins-base-apps)
  * libasound2-plugins
 
@@ -171,6 +170,7 @@ Accessibility tools:
  * (evince)
  * (blueman)
  * (alacarte) # menu editor
+ * (pavucontrol) # mixer
 
 = Documentation =
 
