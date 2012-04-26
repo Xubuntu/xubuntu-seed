@@ -1,4 +1,4 @@
-include platform.precise
+include platform.quantal
 desktop: desktop-common
 live: desktop
 ship: boot installer desktop d-i-requirements
