@@ -78,13 +78,13 @@ Xfce core:
  * xfwm4
  * xfdesktop4
  * xfce4-panel
- * xfce4-utils
  * xfce4-settings
  * xfce4-session
  * thunar
  * xfce4-appfinder
  * tumbler
  * thunar-volman
+ * (libxfce4ui-utils)   # for xfce4-about
 
 Xfce goodies:
  * (xfce4-datetime-plugin)
