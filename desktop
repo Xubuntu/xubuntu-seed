@@ -63,7 +63,6 @@ Common with Ubuntu:
  * (firefox)
  * (firefox-gnome-support)
  * (xul-ext-ubufox)        # ubuntu firefox tweaks - AlexanderSack
- * rarian-compat
  * (synaptic)                # previous default GUI package manager
  * software-properties-gtk # default GUI sources.list editor
  * update-manager
