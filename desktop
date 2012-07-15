@@ -46,6 +46,7 @@ Input methods:
 
 Common with Ubuntu:
  * (apport-gtk)
+ * (whoopsie)              # http://wiki.ubuntu.com/ErrorTracker
  * (desktop-file-utils)
  * (file-roller)
  * (gcalctool)
