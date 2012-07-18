@@ -64,7 +64,7 @@ Common with Ubuntu:
  * (firefox-gnome-support)
  * (xul-ext-ubufox)        # ubuntu firefox tweaks - AlexanderSack
  * (synaptic)                # previous default GUI package manager
- * software-properties-gtk # default GUI sources.list editor
+ * software-properties-gtk # default GUI sources.list editor / extra drivers
  * update-manager
  * (update-notifier)
  * zenity
@@ -156,7 +156,6 @@ Accessibility tools:
  * (screensaver-default-images)
  * (xscreensaver-gl)
  * (xscreensaver-data)
- * (jockey-gtk) # enable non-free graphics and other drivers easily
  * (usb-creator-gtk) [i386 amd64]
  * (catfish)
  * (gimp)
