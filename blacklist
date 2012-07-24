@@ -74,4 +74,4 @@ libreoffice-l10n
 ubuntu-sso-client-qt
 
 # Temporarily blacklist due to bug 1028486
-gstreamer0.10-plugins-ffmpeg
+gstreamer0.10-ffmpeg
