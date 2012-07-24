@@ -72,3 +72,6 @@ libreoffice-l10n
 
 # We don't want Qt on the images
 ubuntu-sso-client-qt
+
+# Temporarily blacklist due to bug 1028486
+gstreamer0.10-plugins-ffmpeg
