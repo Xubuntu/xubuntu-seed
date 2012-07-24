@@ -69,3 +69,6 @@ libreoffice-common
 libreoffice-hyphenation
 libreoffice-base-core
 libreoffice-l10n
+
+# We don't want Qt on the images
+ubuntu-sso-client-qt
