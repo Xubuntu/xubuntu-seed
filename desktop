@@ -86,7 +86,6 @@ Xfce core:
  * (libxfce4ui-utils)   # for xfce4-about
 
 Xfce goodies:
- * (xfce4-datetime-plugin)
  * (xfce4-xkb-plugin)
  * (xfce4-mailwatch-plugin)
  * (xfce4-verve-plugin)
