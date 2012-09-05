@@ -119,7 +119,7 @@ Indicator/Ayatana stuff:
 
 Games: We only ship a few by default.
  * (aisleriot) [!powerpc]
- * (gnome-mahjongg) [!powerpc]
+# * (gnome-mahjongg) [!powerpc]
  * (gnomine) [!powerpc]
  * (gnome-sudoku) [!powerpc]
 
