@@ -16,14 +16,14 @@ Task-Seeds: live-common
  * hunspell-en-us
  * wamerican
 
- * Languages: es xh fr pt zh-hans
+ * Languages: es pt zh-hans
  * language-pack-${Languages} [!powerpc]
  * language-pack-gnome-${Languages} [!powerpc]
 
 #Enough room on i386, not enough on amd64:
-# * Languages: de
-# * language-pack-${Languages} [i386]
-# * language-pack-gnome-${Languages} [i386]
+ * Languages: xh fr
+ * language-pack-${Languages} [i386]
+ * language-pack-gnome-${Languages} [i386]
 
  * gparted
  * cifs-utils # Needed by casper for CIFS root=
