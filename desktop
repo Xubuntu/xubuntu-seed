@@ -147,7 +147,7 @@ Accessibility tools:
 = Other Desktop GUI Apps =
 
  * (simple-scan)
- * (gnumeric)
+# * (gnumeric)
  * (abiword)
  * (abiword-plugin-grammar)
  * (abiword-plugin-mathview)
