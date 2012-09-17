@@ -112,10 +112,9 @@ Xfce goodies:
  * xfce4-notifyd
 
 Indicator/Ayatana stuff:
-## commented out for now, we need to reupload them first
  * (xfce4-indicator-plugin)
  * (indicator-application-gtk2)
-# * (indicator-sound-gtk2)
+ * (indicator-sound-gtk2)
 
 Games: We only ship a few by default.
  * (aisleriot) [!powerpc]
