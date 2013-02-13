@@ -1,0 +1,211 @@
+This list was originally constructed based on a [http://people.debian.org/~cjwatson/d-i/ list of packages in the current d-i netinst images], and from initrd.list files in d-i daily builds.
+
+= Common Packages =
+
+ * anna
+ * apt-cdrom-setup
+ * apt-mirror-setup
+ * apt-setup-udeb # first-stage apt configuration question
+ * archdetect
+ * base-installer
+ * binutils-static-udeb # for restricted modules
+ * biosdevname-udeb [amd64 i386]
+ * bogl-bterm-udeb
+ * bootstrap-base
+ * brltty-udeb
+ * bterm-unifont
+ * busybox-udeb
+ * cdebconf-newt-entropy
+ * cdebconf-newt-terminal
+ * cdebconf-newt-udeb
+ * cdebconf-priority
+ * cdebconf-text-entropy
+ * cdebconf-text-udeb
+ * cdebconf-udeb
+ * cdrom-checker
+ * cdrom-detect
+ * cdrom-retriever
+ * choose-mirror
+ * clock-setup
+ * debootstrap-udeb
+ * di-utils
+ * di-utils-mapdevfs
+ * di-utils-reboot
+ * di-utils-shell
+ * di-utils-terminfo
+ * disk-detect
+ * dmraid-udeb
+ * download-installer
+ * driver-injection-disk-detect
+ * e2fsprogs-udeb
+ * eject-udeb
+ * env-preseed
+ * ethdetect
+ * fbset-udeb
+ * file-preseed
+ * finish-install
+ * hdparm-udeb # not currently used, but may be used by cdrom-detect in the future
+ * hw-detect
+ * initrd-preseed
+ * installation-locale
+ * installation-report
+ * isc-dhcp-client-udeb
+ * iso-3166-udeb
+ * iso-scan # for USB boot
+ * jfsutils-udeb
+ * console-setup-udeb
+ * console-setup-pc-ekmap
+ * console-setup-fonts-udeb
+ * libdevmapper1.02-udeb
+ * libfribidi0-udeb
+ * libnss-dns-udeb
+ * libnss-files-udeb
+ * load-cdrom
+ * load-iso # for USB boot
+ * localechooser # replaces languagechooser and countrychooser
+ * lowmem
+ * lowmemcheck
+ * lsb-release-udeb
+ * lvm2-udeb
+ * main-menu
+ * mdadm-udeb
+ * mii-diag-udeb
+ * mkreiserfs-udeb
+ * module-init-tools-udeb
+ * nano-udeb
+ * net-retriever
+ * netcfg
+ * network-preseed
+ * nobootloader
+ * oem-config-udeb # first-stage component of OEM installer
+ * openssh-client-udeb
+ * os-prober-udeb
+ * partconf-find-partitions
+ * partconf-mkfstab
+ * parted-udeb
+ * partman-auto
+ * partman-auto-crypto
+ * partman-auto-loop
+ * partman-auto-lvm
+ * partman-auto-raid
+ * partman-base
+ * partman-basicfilesystems
+ * partman-basicmethods
+ * partman-btrfs
+ * partman-crypto-dm
+ * partman-ext3
+ * partman-jfs
+ * partman-lvm
+ * partman-md
+ * partman-multipath
+ * partman-partitioning
+ * partman-reiserfs
+ * partman-target
+ * partman-xfs
+ * pciutils-udeb # for lspci, so we can show descriptive names for devices
+ * pcmciautils-udeb
+ * pkgsel # after installing the base system, install everything else
+ * preseed-common
+ * reiserfsprogs-udeb
+ * rescue-check # initrd part of rescue mode
+ * rescue-mode  # main part of rescue mode, installed if rescue/enable=true
+ * rootskel
+ * save-logs
+ * strace-udeb # handy for debugging
+ * tzsetup-udeb # first-stage timezone question
+ * udev-udeb
+ * udpkg
+ * usb-discover
+ * usbutils-udeb # for lsusb, so we can show descriptive names for devices
+ * user-setup-udeb # first-stage username/password question
+ * util-linux-udeb
+ * wget-udeb # HTTPS support
+ * wireless-tools-udeb
+ * xfsprogs-udeb
+
+= Floppy Support =
+
+ * busybox-floppy-udeb
+ * media-retriever
+ * load-media
+ * rootskel-bootfloppy
+
+= Release File Authentication =
+
+ * gpgv-udeb
+ * ubuntu-keyring-udeb
+
+= Kickstart Compatibility =
+
+ * initrd-kickseed
+
+= Partition Management (architecture-specific) =
+
+ * fdisk-udeb
+ * gptsync-udeb [amd64 i386]
+ * mac-fdisk-udeb [powerpc]
+ * pmac-fdisk-udeb [powerpc]
+ * partman-efi [amd64 i386]
+ * partman-newworld [powerpc]
+ * partman-prep [powerpc]
+ * partman-uboot [armel armhf]
+
+= Bootloader Installers =
+
+ * devio-udeb [armel]
+ * elilo-installer [i386]
+ * flash-kernel-installer [armel armhf]
+ * grub-installer [amd64 i386]
+ * kboot-installer [powerpc]
+ * yaboot-installer [powerpc]
+
+= Experimental stuff =
+
+ * network-console
+
+= Thin client computing =
+
+ * ltsp-client-builder
+
+= Specialised hardware =
+
+ * beep-udeb [armel]
+ * oldsys-preseed [armel armhf]
+
+= Kernel Modules =
+
+Make sure to leave the Kernel-Version: lines and separated architectures in here! germinate needs them.
+
+ * nic-firmware
+ * scsi-firmware
+
+== amd64 ==
+
+ * Kernel-Version: 3.2.0-37-generic
+ * /^.*-firmware-.*-di/ [amd64]
+ * /^.*-modules-.*-di/ [amd64]
+ * kernel-signed-image-${Kernel-Version}-di [amd64]
+
+== armel ==
+
+ * Kernel-Version: 3.0.0-1007-linaro-omap 3.0.0-1007-linaro-vexpress 3.2.0-37-omap 3.2.0-1425-omap4
+ * /^.*-firmware-.*-di/ [armel]
+ * /^.*-modules-.*-di/ [armel]
+
+== armhf ==
+
+ * Kernel-Version: 3.2.0-37-omap 3.2.0-37-highbank 3.2.0-1425-omap4 3.2.0-1614-armadaxp
+ * /^.*-firmware-.*-di/ [armhf]
+ * /^.*-modules-.*-di/ [armhf]
+
+== i386 ==
+
+ * Kernel-Version: 3.2.0-37-generic
+ * /^.*-firmware-.*-di/ [i386]
+ * /^.*-modules-.*-di/ [i386]
+
+== powerpc ==
+
+ * Kernel-Version: 3.2.0-37-powerpc-smp 3.2.0-37-powerpc64-smp
+ * /^.*-firmware-.*-di/ [powerpc]
+ * /^.*-modules-.*-di/ [powerpc]
