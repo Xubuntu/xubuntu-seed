@@ -190,3 +190,4 @@ to compile a driver. -mdz
  * xubuntu-artwork
  * lightdm-gtk-greeter
  * (pastebinit)
+ * apt-offline # added as per discussion in the 2013 Three Nights of Xubuntu discussion to align with offline docs to ensure full access to users in bandwidth-constrained environments
