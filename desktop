@@ -6,12 +6,6 @@ Task-Key: xubuntu-desktop
 Task-Name: xubuntu-desktop
 Task-Seeds: desktop-common
 
-= Hardware and Architecture Support =
-
-== Architecture-independent ==
-
- * libgd2-xpm # force the xpm-enabled version for edubuntu compatibility
-
 = Network Services =
 
 Basic network services and Windows integration.
