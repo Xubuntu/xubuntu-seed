@@ -55,7 +55,6 @@ Common with Ubuntu:
  * (gucharmap)               # SebastienBacher
  * language-selector-gnome	   # MichaelVogt
  * (firefox)
- * (firefox-gnome-support)
  * (xul-ext-ubufox)        # ubuntu firefox tweaks - AlexanderSack
  * software-properties-gtk # default GUI sources.list editor / extra drivers
  * update-manager
