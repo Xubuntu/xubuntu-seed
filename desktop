@@ -65,6 +65,7 @@ Common with Ubuntu:
  * xdg-user-dirs-gtk
  * (gvfs-fuse)			# let non-GNOME apps see GVFS via fuse
  * (gvfs-backends)      # otherwise no network tab
+ * (upower) # Recommends so people can keep hal if they want it
 
 Xfce core:
  * xfwm4
