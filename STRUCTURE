@@ -1,4 +1,4 @@
-include platform.saucy
+include platform.trusty
 desktop: desktop-common
 live: desktop
 ship: boot installer desktop d-i-requirements
