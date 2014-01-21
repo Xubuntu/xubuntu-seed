@@ -45,13 +45,12 @@ Common with Ubuntu:
  * (file-roller)
  * (gcalctool)
  * lightdm                 # Proposed GDM replacement for Oneiric, see https://blueprints.launchpad.net/ubuntu/+spec/desktop-o-lightdm
- * software-center
+ * (software-center)
  * (app-install-data-partner)
  * (transmission-gtk)       # simple GNOME frontend for bittorrent downloads
  * (system-config-printer-gnome)
  * (libpam-gnome-keyring)
  * (gnome-system-tools)
- * (gnome-time-admin)
  * (gucharmap)               # SebastienBacher
  * language-selector-gnome	   # MichaelVogt
  * (firefox)
