@@ -43,7 +43,7 @@ Common with Ubuntu:
  * (whoopsie)              # http://wiki.ubuntu.com/ErrorTracker
  * (desktop-file-utils)
  * (file-roller)
- * (gcalctool)
+ * (gnome-calculator)
  * lightdm                 # Proposed GDM replacement for Oneiric, see https://blueprints.launchpad.net/ubuntu/+spec/desktop-o-lightdm
  * (software-center)
  * (app-install-data-partner)
