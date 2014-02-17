@@ -158,7 +158,8 @@ Accessibility tools:
  * (mousepad)
  * (evince)
  * (blueman)
- * (alacarte) # menu editor
+ * (menulibre) # menu editor
+ * (mugshot) # user config
  * (pavucontrol) # mixer
  * (gtk-theme-config)
 
