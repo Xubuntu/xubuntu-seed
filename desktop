@@ -93,6 +93,7 @@ Xfce goodies:
  * (xfce4-places-plugin)
  * (thunar-archive-plugin)
  * (thunar-media-tags-plugin)
+ * (xfce4-whiskermenu-plugin)
  * (xfce4-volumed)
  * (xfce4-terminal)
  * (orage)
@@ -145,7 +146,6 @@ Accessibility tools:
  * (abiword-plugin-mathview)
  * (light-locker)
  * (catfish)
- * (gthumb)
  * (gmusicbrowser)
  * (thunderbird) 
  * (pidgin)
@@ -181,5 +181,6 @@ to compile a driver. -mdz
  * xubuntu-default-settings
  * xubuntu-artwork
  * lightdm-gtk-greeter
+ * (xubuntu-community-artwork)
  * (pastebinit)
  * (apt-offline) 
