@@ -107,8 +107,10 @@ Xfce goodies:
 
 Indicator/Ayatana stuff:
  * (xfce4-indicator-plugin)
- * (indicator-application-gtk2)
- * (indicator-sound-gtk2)
+ * (indicator-application)
+ * (indicator-sound)
+ * (indicator-messages)
+ * (indicator-power)
 
 Games: We only ship a few by default.
 # * (aisleriot) [!powerpc]
