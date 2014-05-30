@@ -1,5 +1,6 @@
 include platform.utopic
 desktop: desktop-common
+core: desktop-common
 live: desktop
 ship: boot installer desktop d-i-requirements
 ship-live: boot live
