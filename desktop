@@ -178,6 +178,7 @@ to compile a driver. -mdz
  * xubuntu-desktop # metapackage for everything here
  * xubuntu-default-settings
  * xubuntu-artwork
+ * (inxi)
  * lightdm-gtk-greeter
  * (xubuntu-community-wallpapers)
  * (pastebinit)
