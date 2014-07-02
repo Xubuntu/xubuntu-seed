@@ -1,3 +1,6 @@
+Xubuntu ship
+============
+
 == Kernel ==
 
  * linux [amd64] # not i386 because top-level 'linux' is -generic-pae now
@@ -19,7 +22,7 @@
 == Common UNIX stuff ==
 
  * nfs-common		  # allows people to access NFS filesystems
- # * vim                    # vim-tiny is in minimal; vim includes syntax highlighting, help files, etc.
+// * vim                    # vim-tiny is in minimal; vim includes syntax highlighting, help files, etc.
 
 == Hardware & Network Access ==
 
@@ -33,12 +36,12 @@
 
 == Common language packs ==
 
- # must have
+// must have
  * Languages: en es xh pt
  * language-pack-${Languages}
  * language-pack-gnome-${Languages}
 
-# subset of English language support which we want by default:
+// subset of English language support which we want by default:
  * firefox-locale-en
  * hunspell-en-us
  * wamerican
@@ -48,9 +51,9 @@ Enough room on amd64 armel i386, not enough on powerpc:
  * language-pack-${Languages} [!powerpc]
  * language-pack-gnome-${Languages} [!powerpc]
 
-# * Languages: ar ru ja
-# * language-pack-${Languages} [i386]
-# * language-pack-gnome-${Languages} [i386]
+// * Languages: ar ru ja
+// * language-pack-${Languages} [i386]
+// * language-pack-gnome-${Languages} [i386]
 
 == Installer ==
 

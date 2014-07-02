@@ -1,3 +1,7 @@
+Xubuntu live seed
+=================
+
+----------------------
 Task-Per-Derivative: 1
 Task-Section: user
 Task-Description: Xubuntu live CD
@@ -6,6 +10,7 @@ Task-Relevance: 2
 Task-Key: ubiquity-frontend-gtk
 Task-Test-new-install: skip show
 Task-Seeds: live-common
+----------------------
 
  * Languages: en
  * language-pack-${Languages}
