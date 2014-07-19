@@ -1,3 +1,7 @@
+Xubuntu core seed
+=================
+
+----------------------
 Task-Per-Derivative: 1
 Task-Section: user
 Task-Description: Xubuntu minimal installation
@@ -5,24 +9,25 @@ Task-Extended-Description: This task provides minimal packages for Xubuntu deskt
 Task-Key: xubuntu-core
 Task-Name: xubuntu-core
 Task-Seeds: desktop-common
+----------------------
 
 ## If you are using tasksel, you should get packages in parenthesis.  If following instructions with apt-get, you will not.
 
-= Network Services =
+== Network Services ==
 
 Basic network services and Windows integration.
 
  * (avahi-autoipd)     # IPv4 link-local interface configuration support
  * network-manager-gnome # see NetworkRoaming spec
 
-= GUI infrastructure =
+== GUI infrastructure ==
 
  * xterm                         # Provide a backup terminal and complete X env.
  * libnotify-bin		 # various scripts need notify-send (such as .bashrc's "alert")
 
-= Desktop Xfce Apps =
+== Desktop Xfce Apps ==
 
-Common with Ubuntu:
+=== Common with Ubuntu ===
  * lightdm                 # Proposed GDM replacement for Oneiric, see https://blueprints.launchpad.net/ubuntu/+spec/desktop-o-lightdm
  * (libpam-gnome-keyring)
  * (gucharmap)               # SebastienBacher
@@ -32,7 +37,7 @@ Common with Ubuntu:
  * xdg-user-dirs-gtk
  * pm-utils		# needed for sane power management
 
-Xfce core:
+=== Xfce core ===
  * xfwm4
  * xfdesktop4
  * xfce4-panel
@@ -42,7 +47,7 @@ Xfce core:
  * xfce4-appfinder
  * thunar-volman
 
-Xfce goodies:
+=== Xfce goodies ===
  * (xfce4-screenshooter)
  * (xfce4-whiskermenu-plugin)
  * (xfce4-volumed)
@@ -50,7 +55,7 @@ Xfce goodies:
  * (xfce4-power-manager)
  * xfce4-notifyd
 
-Indicator/Ayatana stuff:
+=== Indicator/Ayatana stuff ===
  * (xfce4-indicator-plugin)
  * (indicator-application)
  * (indicator-sound)
@@ -58,7 +63,7 @@ Indicator/Ayatana stuff:
 Other Desktop GUI Apps:
  * (pavucontrol)
 
-Themes:
+=== Themes ===
  * gtk2-engines-pixbuf          # Required by some themes the user might install
  * dmz-cursor-theme
  * plymouth-theme-xubuntu-logo
@@ -66,15 +71,15 @@ Themes:
  * xubuntu-wallpapers
  * xubuntu-icon-theme
 
-The gstreamer0.10 packages we want to install:
+=== The gstreamer0.10 packages we want to install ===
  * libasound2-plugins
 
-= Documentation =
+== Documentation ==
 
  * doc-base			# integrates with scrollkeeper
  * xubuntu-docs
 
-= Development =
+== Development ==
 
 Here we provide a minimal development environment sufficient to build kernel
 drivers, so that this is possible on the live CD and in scenarios where
@@ -84,7 +89,7 @@ to compile a driver. -mdz
  * gcc
  * make
 
-= Other =
+== Other ==
 
  * xubuntu-core # metapackage for everything here
  * xubuntu-default-settings

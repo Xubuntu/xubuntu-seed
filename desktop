@@ -1,3 +1,7 @@
+Xubuntu desktop seed
+====================
+
+----------------------
 Task-Per-Derivative: 1
 Task-Section: user
 Task-Description: Xubuntu desktop
@@ -5,8 +9,9 @@ Task-Extended-Description: This task provides the Xubuntu desktop environment.
 Task-Key: xubuntu-desktop
 Task-Name: xubuntu-desktop
 Task-Seeds: desktop-common
+----------------------
 
-= Network Services =
+== Network Services ==
 
 Basic network services and Windows integration.
 
@@ -15,25 +20,25 @@ Basic network services and Windows integration.
  * (network-manager-pptp)
  * (network-manager-pptp-gnome)
 
-= GUI infrastructure =
+== GUI infrastructure ==
 
  * xterm                         # Provide a backup terminal and complete X env.
  * (libnotify-bin)		 # various scripts need notify-send (such as .bashrc's "alert")
 
-Extra fonts (should be common, but not so for space reasons):
+== Extra fonts (should be common, but not so for space reasons) ==
 
  * (fonts-droid)
  * (fonts-nanum)
  * (fonts-opensymbol)
  * (fonts-liberation)
 
-Input methods:
+== Input methods ==
 
  * (im-config)
 
-= Desktop Xfce Apps =
+== Desktop Xfce Apps ==
 
-Common with Ubuntu:
+=== Common with Ubuntu ===
  * (apport-gtk)
  * (whoopsie)              # http://wiki.ubuntu.com/ErrorTracker
  * (desktop-file-utils)
@@ -61,7 +66,7 @@ Common with Ubuntu:
  * (gvfs-backends)      # otherwise no network tab
  * pm-utils		# needed for sane power management
 
-Xfce core:
+=== Xfce core ===
  * xfwm4
  * xfdesktop4
  * xfce4-panel
@@ -73,7 +78,7 @@ Xfce core:
  * thunar-volman
  * (libxfce4ui-utils)   # for xfce4-about
 
-Xfce goodies:
+=== Xfce goodies ===
  * (xfce4-xkb-plugin)
  * (xfce4-mailwatch-plugin)
  * (xfce4-verve-plugin)
@@ -100,30 +105,30 @@ Xfce goodies:
  * (parole)
  * xfce4-notifyd
 
-Indicator/Ayatana stuff:
+=== Indicator/Ayatana stuff ===
  * (xfce4-indicator-plugin)
  * (indicator-application)
  * (indicator-sound)
  * (indicator-messages)
  * (indicator-power)
 
-Games: We only ship a few by default.
-# * (aisleriot) [!powerpc]
-# * (gnome-mahjongg) [!powerpc]
+=== Games: We only ship a few by default ===
+// * (aisleriot) [!powerpc]
+// * (gnome-mahjongg) [!powerpc]
  * (gnomine) [!powerpc]
  * (gnome-sudoku) [!powerpc]
 
-Themes:
+=== Themes ===
  * gtk2-engines-pixbuf          # Required by some themes the user might install
  * dmz-cursor-theme
 
-The gstreamer0.10 packages we want to install:
+== The gstreamer0.10 packages we want to install ==
 
  * (gstreamer0.10-pulseaudio)
  * (gstreamer0.10-plugins-base-apps)
  * libasound2-plugins
 
-Accessibility tools:
+== Accessibility tools ==
 
  * (gnome-accessibility-themes)
  * (onboard)
@@ -133,7 +138,7 @@ Accessibility tools:
  * (espeak)
  * (speech-dispatcher)
 
-= Other Desktop GUI Apps =
+== Other Desktop GUI Apps ==
 
  * (simple-scan)
  * (gimp)
@@ -147,7 +152,7 @@ Accessibility tools:
  * (gmusicbrowser)
  * (thunderbird) 
  * (pidgin)
-# * (pidgin-microblog) Mostly broken LP: #1190406
+// * (pidgin-microblog) Mostly broken LP: #1190406
  * (pidgin-otr)
  * (xchat)
  * (mousepad)
@@ -158,12 +163,12 @@ Accessibility tools:
  * (pavucontrol) # mixer
  * (gtk-theme-config)
 
-= Documentation =
+== Documentation ==
 
  * doc-base			# integrates with scrollkeeper
  * (xubuntu-docs)
 
-= Development =
+== Development ==
 
 Here we provide a minimal development environment sufficient to build kernel
 drivers, so that this is possible on the live CD and in scenarios where
@@ -173,7 +178,7 @@ to compile a driver. -mdz
  * (gcc)
  * (make)
 
-= Other =
+== Other ==
 
  * xubuntu-desktop # metapackage for everything here
  * xubuntu-default-settings
