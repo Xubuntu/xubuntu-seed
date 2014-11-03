@@ -154,7 +154,7 @@ Basic network services and Windows integration.
 // * (pidgin-microblog) Mostly broken LP: #1190406
  * (pidgin-otr)
  * (mousepad)
- * (evince)
+ * (evince-gtk)
  * (blueman)
  * (menulibre) # menu editor
  * (mugshot) # user config
