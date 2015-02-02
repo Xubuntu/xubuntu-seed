@@ -182,3 +182,7 @@ to compile a driver. -mdz
  * (xubuntu-community-wallpapers)
  * (pastebinit)
  * (apt-offline) 
+ * xserver-xorg-lts-utopic
+ * libegl1-mesa-drivers-lts-utopic
+ * xserver-xorg-video-all-lts-utopic
+ * xserver-xorg-video-geode-lts-utopic [i386]
