@@ -30,3 +30,10 @@ libreoffice-l10n
 
 # Xubuntu doesn't need GNOME's user guide.
 gnome-user-guide
+
+# We don't use unity or gnome, and use lightdm-gtk-greeter
+gnome-control-center
+gnome-session
+unity
+unity-control-center
+unity-greeter
