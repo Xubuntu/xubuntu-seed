@@ -28,3 +28,5 @@ libreoffice-hyphenation
 libreoffice-base-core
 libreoffice-l10n
 
+# Xubuntu doesn't need GNOME's user guide.
+gnome-user-guide
