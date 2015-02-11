@@ -21,19 +21,16 @@ Basic network services and Windows integration.
  * (network-manager-pptp-gnome)
 
 == GUI infrastructure ==
-
  * xterm                         # Provide a backup terminal and complete X env.
  * (libnotify-bin)		 # various scripts need notify-send (such as .bashrc's "alert")
 
 == Extra fonts (should be common, but not so for space reasons) ==
-
  * (fonts-droid)
  * (fonts-nanum)
  * (fonts-opensymbol)
  * (fonts-liberation)
 
 == Input methods ==
-
  * (im-config)
 
 == Desktop Xfce Apps ==
@@ -105,40 +102,7 @@ Basic network services and Windows integration.
  * (parole)
  * xfce4-notifyd
 
-=== Indicator/Ayatana stuff ===
- * (xfce4-indicator-plugin)
- * (indicator-application)
- * (indicator-sound)
- * (indicator-messages)
-
-=== Games: We only ship a few by default ===
-// * (aisleriot) [!powerpc]
-// * (gnome-mahjongg) [!powerpc]
- * (gnome-mines) [!powerpc]
- * (gnome-sudoku) [!powerpc]
-
-=== Themes ===
- * gtk2-engines-pixbuf          # Required by some themes the user might install
- * dmz-cursor-theme
-
-== The gstreamer0.10 packages we want to install ==
-
- * (gstreamer0.10-pulseaudio)
- * (gstreamer0.10-plugins-base-apps)
- * libasound2-plugins
-
-== Accessibility tools ==
-
- * (gnome-accessibility-themes)
- * (onboard)
- * (brltty)
- * (brltty-x11)
- * (xcursor-themes)
- * (espeak)
- * (speech-dispatcher)
-
-== Other Desktop GUI Apps ==
-
+=== Other Desktop GUI Apps ===
  * (simple-scan)
  * (gimp)
  * (gnumeric)
@@ -150,7 +114,6 @@ Basic network services and Windows integration.
  * (gmusicbrowser)
  * (thunderbird) 
  * (pidgin)
-// * (pidgin-microblog) Mostly broken LP: #1190406
  * (pidgin-otr)
  * (mousepad)
  * (evince-gtk)
@@ -160,8 +123,37 @@ Basic network services and Windows integration.
  * (pavucontrol) # mixer
  * (gtk-theme-config)
 
-== Documentation ==
+=== Indicator/Ayatana stuff ===
+ * (xfce4-indicator-plugin)
+ * (indicator-application)
+ * (indicator-sound)
+ * (indicator-messages)
 
+=== Games: We only ship a few by default ===
+ * (gnome-mines) [!powerpc]
+ * (gnome-sudoku) [!powerpc]
+
+=== Themes ===
+ * gtk2-engines-pixbuf          # Required by some themes the user might install
+ * dmz-cursor-theme
+ * xubuntu-artwork
+ * (xubuntu-community-wallpapers)
+
+== The gstreamer0.10 packages we want to install ==
+ * (gstreamer0.10-pulseaudio)
+ * (gstreamer0.10-plugins-base-apps)
+ * libasound2-plugins
+
+== Accessibility tools ==
+ * (gnome-accessibility-themes)
+ * (onboard)
+ * (brltty)
+ * (brltty-x11)
+ * (xcursor-themes)
+ * (espeak)
+ * (speech-dispatcher)
+
+== Documentation ==
  * doc-base			# integrates with scrollkeeper
  * (xubuntu-docs)
 
@@ -176,12 +168,9 @@ to compile a driver. -mdz
  * (make)
 
 == Other ==
-
- * xubuntu-desktop # metapackage for everything here
- * xubuntu-default-settings
- * xubuntu-artwork
+ * (apt-offline) 
  * (inxi)
  * lightdm-gtk-greeter
- * (xubuntu-community-wallpapers)
  * (pastebinit)
- * (apt-offline) 
+ * xubuntu-default-settings
+ * xubuntu-desktop # metapackage for everything here
