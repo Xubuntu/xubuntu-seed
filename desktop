@@ -8,21 +8,19 @@ Task-Description: Xubuntu desktop
 Task-Extended-Description: This task provides the Xubuntu desktop environment.
 Task-Key: xubuntu-desktop
 Task-Name: xubuntu-desktop
-Task-Seeds: desktop-common
+Task-Seeds: desktop-common core
 ----------------------
+
+## This seed inherits packages from 'core', so will appear to be missing many important packages.
 
 == Network Services ==
 
 Basic network services and Windows integration.
 
- * (avahi-autoipd)     # IPv4 link-local interface configuration support
- * (network-manager-gnome) # see NetworkRoaming spec
  * (network-manager-pptp)
  * (network-manager-pptp-gnome)
 
 == GUI infrastructure ==
- * xterm                         # Provide a backup terminal and complete X env.
- * (libnotify-bin)		 # various scripts need notify-send (such as .bashrc's "alert")
 
 == Extra fonts (should be common, but not so for space reasons) ==
  * (fonts-droid)
@@ -41,38 +39,22 @@ Basic network services and Windows integration.
  * (desktop-file-utils)
  * (file-roller)
  * (gnome-calculator)
- * lightdm                 # Proposed GDM replacement for Oneiric, see https://blueprints.launchpad.net/ubuntu/+spec/desktop-o-lightdm
  * (software-center)
  * (app-install-data-partner)
  * (transmission-gtk)       # simple GNOME frontend for bittorrent downloads
  * (system-config-printer-gnome)
- * (libpam-gnome-keyring)
  * (gnome-system-tools)
- * (gucharmap)               # SebastienBacher
  * language-selector-gnome	   # MichaelVogt
  * (firefox)
  * (xul-ext-ubufox)        # ubuntu firefox tweaks - AlexanderSack
- * software-properties-gtk # default GUI sources.list editor / extra drivers
  * update-manager
  * (update-notifier)
  * zenity
- * (xdg-utils)		   # useful utilities
- * xdg-user-dirs
- * xdg-user-dirs-gtk
  * (gvfs-fuse)			# let non-GNOME apps see GVFS via fuse
  * (gvfs-backends)      # otherwise no network tab
- * pm-utils		# needed for sane power management
 
 === Xfce core ===
- * xfwm4
- * xfdesktop4
- * xfce4-panel
- * xfce4-settings
- * xfce4-session
- * thunar
- * xfce4-appfinder
  * tumbler
- * thunar-volman
  * (libxfce4ui-utils)   # for xfce4-about
 
 === Xfce goodies ===
@@ -84,23 +66,17 @@ Basic network services and Windows integration.
  * (xfce4-cpugraph-plugin)
  * (xfce4-systemload-plugin)
  * (xfce4-netload-plugin)
- * (xfce4-screenshooter)
  * (xfce4-notes-plugin)
  * (xfce4-dict)
  * (xfce4-places-plugin)
  * (thunar-archive-plugin)
  * (thunar-media-tags-plugin)
- * (xfce4-whiskermenu-plugin)
- * (xfce4-volumed)
- * (xfce4-terminal)
  * (orage)
  * (ristretto)
- * (xfce4-power-manager)
  * (gigolo)
  * (xfce4-taskmanager)
  * (xfburn)
  * (parole)
- * xfce4-notifyd
 
 === Other Desktop GUI Apps ===
  * (simple-scan)
@@ -120,13 +96,9 @@ Basic network services and Windows integration.
  * (blueman)
  * (menulibre) # menu editor
  * (mugshot) # user config
- * (pavucontrol) # mixer
  * (gtk-theme-config)
 
 === Indicator/Ayatana stuff ===
- * (xfce4-indicator-plugin)
- * (indicator-application)
- * (indicator-sound)
  * (indicator-messages)
 
 === Games: We only ship a few by default ===
@@ -134,15 +106,11 @@ Basic network services and Windows integration.
  * (gnome-sudoku) [!powerpc]
 
 === Themes ===
- * gtk2-engines-pixbuf          # Required by some themes the user might install
- * dmz-cursor-theme
- * xubuntu-artwork
  * (xubuntu-community-wallpapers)
 
 == The gstreamer0.10 packages we want to install ==
  * (gstreamer0.10-pulseaudio)
  * (gstreamer0.10-plugins-base-apps)
- * libasound2-plugins
 
 == Accessibility tools ==
  * (gnome-accessibility-themes)
@@ -154,23 +122,11 @@ Basic network services and Windows integration.
  * (speech-dispatcher)
 
 == Documentation ==
- * doc-base			# integrates with scrollkeeper
- * (xubuntu-docs)
 
 == Development ==
-
-Here we provide a minimal development environment sufficient to build kernel
-drivers, so that this is possible on the live CD and in scenarios where
-it is problematic to get these packages onto the installed system in order
-to compile a driver. -mdz
-
- * (gcc)
- * (make)
 
 == Other ==
  * (apt-offline) 
  * (inxi)
- * lightdm-gtk-greeter
  * (pastebinit)
- * xubuntu-default-settings
  * xubuntu-desktop # metapackage for everything here
