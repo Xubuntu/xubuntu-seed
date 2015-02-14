@@ -63,11 +63,7 @@ Basic network services and Windows integration.
 === Themes ===
  * gtk2-engines-pixbuf          # Required by some themes the user might install
  * dmz-cursor-theme
- * plymouth-theme-xubuntu-logo
- * plymouth-theme-xubuntu-text
  * xubuntu-artwork
- * xubuntu-wallpapers
- * xubuntu-icon-theme
 
 == The gstreamer0.10 packages we want to install ==
  * libasound2-plugins
