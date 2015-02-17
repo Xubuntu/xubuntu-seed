@@ -20,6 +20,7 @@ apache
 # debian#209084
 clamav
 
+# blacklist: libreoffice
 # Xubuntu does not want LibreOffice at this time.
 libreoffice-core
 libreoffice-writer
@@ -31,6 +32,7 @@ libreoffice-l10n
 # Xubuntu doesn't need GNOME's user guide.
 gnome-user-guide
 
+# blacklist: unity
 # We don't use unity or gnome, and use lightdm-gtk-greeter
 gnome-control-center
 gnome-session

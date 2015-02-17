@@ -1,5 +1,5 @@
 include platform.vivid
-desktop: desktop-common
+desktop: desktop-common core
 core: desktop-common
 live: desktop
 ship: boot installer desktop d-i-requirements
