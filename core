@@ -83,6 +83,7 @@ to compile a driver. -mdz
  * (make)
 
 == Other ==
+ * (light-locker)
  * lightdm-gtk-greeter
  * xubuntu-core # metapackage for everything here
  * xubuntu-default-settings
