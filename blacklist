@@ -20,15 +20,6 @@ apache
 # debian#209084
 clamav
 
-# blacklist: libreoffice
-# Xubuntu does not want LibreOffice at this time.
-libreoffice-core
-libreoffice-writer
-libreoffice-common
-libreoffice-hyphenation
-libreoffice-base-core
-libreoffice-l10n
-
 # Xubuntu doesn't need GNOME's user guide.
 gnome-user-guide
 

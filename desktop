@@ -80,11 +80,6 @@ Basic network services and Windows integration.
 
 === Other Desktop GUI Apps ===
  * (simple-scan)
- * (gimp)
- * (gnumeric)
- * (abiword)
- * (abiword-plugin-grammar)
- * (abiword-plugin-mathview)
  * (lightdm-gtk-greeter-settings)
  * (catfish)
  * (gmusicbrowser)
@@ -97,6 +92,12 @@ Basic network services and Windows integration.
  * (menulibre) # menu editor
  * (mugshot) # user config
  * (gtk-theme-config)
+
+=== LibreOffice ===
+ * (libreoffice-style-tango) [!powerpc !armhf]
+ * (libreoffice-gtk) [!powerpc !armhf]
+ * (libreoffice-writer) [!powerpc !armhf]
+ * (libreoffice-calc) [!powerpc !armhf]
 
 === Indicator/Ayatana stuff ===
  * (indicator-messages)
