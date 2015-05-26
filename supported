@@ -62,3 +62,33 @@ Exclude some KDE-specific pieces:
  * Extra-Exclude: python-qt3-dbg
  * Extra-Exclude: python-qtext-dbg
  * Extra-Exclude: qt-x11-free-dbg
+
+Xfce:
+
+ * gtk2-engines-xfce
+ * thunar-vcs-plugin
+ * xfce4
+ * xfce4-artwork
+ * xfce4-battery-plugin
+ * xfce4-cellmodem-plugin
+ * xfce4-clipman-plugin
+ * xfce4-cpufreq-plugin
+ * xfce4-datetime-plugin
+ * xfce4-diskperf-plugin
+ * xfce4-fsguard-plugin
+ * xfce4-genmon-plugin
+ * xfce4-goodies
+ * xfce4-hdaps
+ * xfce4-linelight-plugin
+ * xfce4-messenger-plugin
+ * xfce4-mixer
+ * xfce4-mount-plugin
+ * xfce4-mpc-plugin
+ * xfce4-radio-plugin
+ * xfce4-sensors-plugin
+ * xfce4-smartbookmark-plugin
+ * xfce4-timer-plugin
+ * xfce4-wavelan-plugin
+ * xfce4-wmdock-plugin
+ * xfswitch-plugin
+ * xfwm4-themes
