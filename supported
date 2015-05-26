@@ -75,6 +75,7 @@ Xfce:
  * xfce4-cpufreq-plugin
  * xfce4-datetime-plugin
  * xfce4-diskperf-plugin
+ * xfce4-eyes-plugin
  * xfce4-fsguard-plugin
  * xfce4-genmon-plugin
  * xfce4-goodies
@@ -87,6 +88,7 @@ Xfce:
  * xfce4-radio-plugin
  * xfce4-sensors-plugin
  * xfce4-smartbookmark-plugin
+ * xfce4-time-out-plugin
  * xfce4-timer-plugin
  * xfce4-wavelan-plugin
  * xfce4-wmdock-plugin
