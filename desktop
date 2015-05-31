@@ -109,9 +109,10 @@ Basic network services and Windows integration.
 === Themes ===
  * (xubuntu-community-wallpapers)
 
-== The gstreamer0.10 packages we want to install ==
- * (gstreamer0.10-pulseaudio)
- * (gstreamer0.10-plugins-base-apps)
+== The gstreamer1.0 packages we want to install ==
+
+ * (gstreamer1.0-pulseaudio)
+ * (gstreamer1.0-plugins-base-apps)
 
 == Accessibility tools ==
  * (gnome-accessibility-themes)
