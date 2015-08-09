@@ -27,6 +27,7 @@ Basic network services and Windows integration.
 === Common with Ubuntu ===
  * lightdm                 # Proposed GDM replacement for Oneiric, see https://blueprints.launchpad.net/ubuntu/+spec/desktop-o-lightdm
  * (libpam-gnome-keyring)
+ * (pinentry-gtk2)           # for gnome-keyring, LP: #1473952
  * (gucharmap)               # SebastienBacher
  * (software-properties-gtk) # default GUI sources.list editor / extra drivers
  * xdg-utils		   # useful utilities
