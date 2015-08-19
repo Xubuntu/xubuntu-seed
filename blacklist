@@ -30,3 +30,7 @@ gnome-session
 unity
 unity-control-center
 unity-greeter
+
+# blacklist other libreoffice themes until lp #1483914 is sorted
+libreoffice-style-human
+libreoffice-style-tango
