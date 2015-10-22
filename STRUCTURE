@@ -1,4 +1,4 @@
-include platform.wily
+include platform.xenial
 desktop: desktop-common core
 core: desktop-common
 live: desktop
