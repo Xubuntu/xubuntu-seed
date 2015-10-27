@@ -85,6 +85,7 @@ Xfce:
  * xfce4-mixer
  * xfce4-mount-plugin
  * xfce4-mpc-plugin
+ * xfce4-pulseaudio-plugin
  * xfce4-radio-plugin
  * xfce4-sensors-plugin
  * xfce4-smartbookmark-plugin
