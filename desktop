@@ -83,7 +83,6 @@ Basic network services and Windows integration.
  * (simple-scan)
  * (lightdm-gtk-greeter-settings)
  * (catfish)
- * (gmusicbrowser)
  * (thunderbird) 
  * (pidgin)
  * (pidgin-otr)
