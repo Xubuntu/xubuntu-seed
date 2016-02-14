@@ -182,7 +182,7 @@ to compile a driver. -mdz
  * (xubuntu-community-wallpapers)
  * (pastebinit)
  * (apt-offline) 
- * xserver-xorg-lts-vivid
- * libwayland-egl1-mesa-lts-vivid
- * xserver-xorg-video-all-lts-vivid
- * xserver-xorg-video-geode-lts-vivid [i386]
+ * xserver-xorg-lts-wily
+ * libwayland-egl1-mesa-lts-wily
+ * xserver-xorg-video-all-lts-wily
+ * xserver-xorg-video-geode-lts-wily [i386]
