@@ -112,7 +112,6 @@ Basic network services and Windows integration.
 == The gstreamer1.0 packages we want to install ==
 
  * (gstreamer1.0-pulseaudio)
- * (gstreamer1.0-plugins-base-apps)
 
 == Accessibility tools ==
  * (gnome-accessibility-themes)
