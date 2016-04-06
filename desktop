@@ -23,7 +23,7 @@ Basic network services and Windows integration.
 == GUI infrastructure ==
 
 == Extra fonts (should be common, but not so for space reasons) ==
- * (fonts-noto-hinted)
+ * (fonts-noto-cjk)
  * (fonts-nanum)
  * (fonts-opensymbol)
  * (fonts-liberation)
