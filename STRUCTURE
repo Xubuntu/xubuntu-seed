@@ -2,7 +2,6 @@ include platform.xenial
 desktop: desktop-common core
 core: desktop-common
 live: desktop
-ship: boot installer desktop d-i-requirements
 ship-live: boot live
 supported-desktop-extra: desktop ship-live supported-common
 # make sure supported remains the last entry
