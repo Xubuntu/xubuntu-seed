@@ -109,6 +109,8 @@ Basic network services and Windows integration.
 
 === Themes ===
  * (xubuntu-community-wallpapers)
+ * (greybird-gtk-theme)
+ * (numix-gtk-theme)
 
 == The gstreamer1.0 packages we want to install ==
 
