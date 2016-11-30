@@ -33,7 +33,6 @@ Basic network services and Windows integration.
  * xdg-utils		   # useful utilities
  * xdg-user-dirs
  * xdg-user-dirs-gtk
- * pm-utils		# needed for sane power management
 
 === Xfce core ===
  * xfwm4
