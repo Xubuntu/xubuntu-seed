@@ -43,7 +43,7 @@ Basic network services and Windows integration.
  * (gnome-software)
  * (app-install-data-partner)
  * (transmission-gtk)       # simple GNOME frontend for bittorrent downloads
- * (system-config-printer-gnome)
+ * (system-config-printer)
  * (gnome-system-tools)
  * language-selector-gnome	   # MichaelVogt
  * (firefox)
