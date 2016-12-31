@@ -106,6 +106,7 @@ Basic network services and Windows integration.
 === Games: We only ship a few by default ===
  * (gnome-mines) [!powerpc]
  * (gnome-sudoku) [!powerpc]
+ * (sgt-launcher)
 
 === Themes ===
  * (xubuntu-community-wallpapers)
