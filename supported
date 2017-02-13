@@ -66,6 +66,9 @@ Exclude some KDE-specific pieces:
 Xfce:
 
  * gtk2-engines-xfce
+ * thunar-archive-plugin
+ * thunar-dropbox-plugin
+ * thunar-media-tags-plugin
  * thunar-vcs-plugin
  * xfce4
  * xfce4-battery-plugin
@@ -92,5 +95,6 @@ Xfce:
  * xfce4-timer-plugin
  * xfce4-wavelan-plugin
  * xfce4-wmdock-plugin
+ * xfdashboard
  * xfswitch-plugin
  * xfwm4-themes
