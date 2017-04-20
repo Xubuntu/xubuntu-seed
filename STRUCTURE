@@ -1,4 +1,4 @@
-include platform.zesty
+include platform.artful
 desktop: desktop-common core
 core: desktop-common
 live: desktop
