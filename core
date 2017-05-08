@@ -72,16 +72,6 @@ Basic network services and Windows integration.
  * doc-base			# integrates with scrollkeeper
  * (xubuntu-docs)
 
-== Development ==
-
-Here we provide a minimal development environment sufficient to build kernel
-drivers, so that this is possible on the live CD and in scenarios where
-it is problematic to get these packages onto the installed system in order
-to compile a driver. -mdz
-
- * (gcc)
- * (make)
-
 == Other ==
  * (light-locker)
  * lightdm-gtk-greeter
