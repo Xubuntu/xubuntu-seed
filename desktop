@@ -40,6 +40,7 @@ Basic network services and Windows integration.
  * (desktop-file-utils)
  * (file-roller)
  * (gnome-calculator)
+ * (gnome-font-viewer)
  * (gnome-software)
  * (app-install-data-partner)
  * (transmission-gtk)       # simple GNOME frontend for bittorrent downloads
