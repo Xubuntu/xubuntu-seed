@@ -72,6 +72,9 @@ Basic network services and Windows integration.
  * doc-base			# integrates with scrollkeeper
  * (xubuntu-docs)
 
+== Hardware Support ==
+ * (xserver-xorg-input-synaptics) # LP: 1686081, Dropped from Ubuntu in favor of libinput
+
 == Other ==
  * (light-locker)
  * lightdm-gtk-greeter
