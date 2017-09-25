@@ -73,6 +73,7 @@ Basic network services and Windows integration.
  * (xubuntu-docs)
 
 == Hardware Support ==
+ * (xserver-xorg-input-all) # Metapackage for input methods
  * (xserver-xorg-input-synaptics) # LP: 1686081, Dropped from Ubuntu in favor of libinput
 
 == Other ==
