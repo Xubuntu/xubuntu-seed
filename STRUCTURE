@@ -1,4 +1,4 @@
-include platform.artful
+include platform.bionic
 desktop: desktop-common core
 core: desktop-common
 live: desktop
