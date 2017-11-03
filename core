@@ -47,9 +47,10 @@ Basic network services and Windows integration.
 === Xfce goodies ===
  * (xfce4-screenshooter)
  * (xfce4-whiskermenu-plugin)
- * (xfce4-volumed)
  * (xfce4-terminal)
  * (xfce4-power-manager)
+ * (xfce4-pulseaudio-plugin)
+ * (xfce4-statusnotifier-plugin)
  * xfce4-notifyd
 
 === Other Desktop GUI Apps ===
@@ -57,8 +58,6 @@ Basic network services and Windows integration.
 
 === Indicator/Ayatana stuff ===
  * (xfce4-indicator-plugin)
- * (indicator-application)
- * (indicator-sound)
 
 === Themes ===
  * gtk2-engines-pixbuf          # Required by some themes the user might install
