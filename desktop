@@ -35,8 +35,8 @@ Basic network services and Windows integration.
  * (apport-gtk)
  * (whoopsie)              # http://wiki.ubuntu.com/ErrorTracker
  * (desktop-file-utils)
- * (file-roller)
- * (gnome-calculator)
+ * (engrampa)
+ * (mate-calc)
  * (gnome-font-viewer)
  * (gnome-software)
  * (app-install-data-partner)
@@ -86,7 +86,7 @@ Basic network services and Windows integration.
  * (pidgin)
  * (pidgin-otr)
  * (mousepad)
- * (evince)
+ * (atril)
  * (blueman)
  * (menulibre) # menu editor
  * (mugshot) # user config
