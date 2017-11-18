@@ -8,27 +8,26 @@ packages.
 
 == Hardware & Network Access ==
 
- * pptp-linux             # client for Microsoft-compatible VPN's, needed for some ISPs
- * sl-modem-daemon	# needed for some Winmodems (see OutoftheboxWinmodem)
- * bpalogin
-
- * libatm1	# suggested by ppp for PPP-over-ATM
- * setserial	# needed by folks with nonstandard serial ports
- * mouseemu	# needed on Macs with single-button mice
- * ps3pf-utils [powerpc] # small utilities for PlayStation 3 systems
- * elfspe2 [powerpc] # SPE access for Cell systems
  * b43-fwcutter
- * bcmwl-kernel-source #since we no longer have LRM
- * wvdial       # network-manager should replace this functionality ASAP
+ * bcmwl-kernel-source              # since we no longer have LRM
+ * bpalogin
+ * elfspe2 [powerpc]                # SPE access for Cell systems
+ * libatm1                          # suggested by ppp for PPP-over-ATM
+ * mouseemu                         # needed on Macs with single-button mice
+ * pptp-linux                       # client for Microsoft-compatible VPN's, needed for some ISPs
+ * ps3pf-utils [powerpc]            # small utilities for PlayStation 3 systems
+ * setserial                        # needed by folks with nonstandard serial ports
+ * sl-modem-daemon                  # needed for some Winmodems (see OutoftheboxWinmodem)
+ * wvdial                           # network-manager should replace this functionality ASAP
 
 == Installer ==
 
- * grub # needed for dmraid et al
+ * grub                             # needed for dmraid et al
  * grub-efi [amd64]
  * grub-efi-amd64-signed [amd64]
- * shim-signed [amd64]
+ * lupin-support [amd64 i386]       # installer-for-windows
  * oem-config-gtk
- * lupin-support [amd64 i386] # installer-for-windows
+ * shim-signed [amd64]
 
 == Blacklist ==
 

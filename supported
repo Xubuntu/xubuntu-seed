@@ -6,39 +6,39 @@
 automatically (note that Extra-Exclude *only* prevents packages from being
 included due to matching Extra-Include patterns, and has no other effect):
 
- * Extra-Exclude: libstdc++6-doc libstdc++6-dev libstdc++6-dbg lib*stdc++6-4.1* lib*stdc++6-4.2* lib*stdc++6-4.3*
- * Extra-Exclude: libgnat*-dev libgnat*-dbg gnat*-doc
- * Extra-Exclude: gpc*-doc
- * Extra-Exclude: lib*mudflap*
+ * Extra-Exclude: g77-doc                           # pulls in gcc-3.4
  * Extra-Exclude: gfortran-4.1-doc gfortran-4.2-doc gfortran-4.3-doc lib*gfortran1-dbg
+ * Extra-Exclude: gpc*-doc
+ * Extra-Exclude: javacc-doc                        # depends on classpath
+ * Extra-Exclude: lib*mudflap*
  * Extra-Exclude: lib*objc1-dbg
- * Extra-Exclude: libavformat-dev libpostproc-dev
- * Extra-Exclude: libgdchart-gd2-xpm-dev
- * Extra-Exclude: libgdome2-ocaml-dev
- * Extra-Exclude: libmpich-mpd1.0-dev libmpich-shmem1.0-dev
- * Extra-Exclude: libnetpbm9-dev
  * Extra-Exclude: libavahi-compat-howl-dev
+ * Extra-Exclude: libavformat-dev libpostproc-dev
  * Extra-Exclude: libboost-*-dev libboost*-all-dev
  * Extra-Exclude: libcairo-directfb2-dev
  * Extra-Exclude: libcdio-*-dev libiso9660-dev
- * Extra-Exclude: libxaw6*		# built from the same source as libxaw7*
- * Extra-Exclude: nvidia-glx-legacy-dev # nvidia-glx-legacy is unsupportable
- * Extra-Exclude: python-qt3-gl-dbg # We don't want python-qt3-gl in main
- * Extra-Exclude: python-qt4-gl python-qt4-gl-dbg # We don't want python-qt4-gl in main
- * Extra-Exclude: g77-doc # pulls in gcc-3.4
+ * Extra-Exclude: libcommons-dbcp-java-doc          # depends on classpath
+ * Extra-Exclude: libgdchart-gd2-xpm-dev
+ * Extra-Exclude: libgdome2-ocaml-dev
+ * Extra-Exclude: libgl1-mesa-dri-experimental-dbg  # LP: #638097
+ * Extra-Exclude: libgnat*-dev libgnat*-dbg gnat*-doc
+ * Extra-Exclude: libgnumail-java-doc               # depends on classpath
  * Extra-Exclude: libkiten-dev
- * Extra-Exclude: sendmail-doc
- * Extra-Exclude: mono-dbg # only useful with mono-debugger, currently in universe
+ * Extra-Exclude: libmpich-mpd1.0-dev libmpich-shmem1.0-dev
+ * Extra-Exclude: libnetpbm9-dev
+ * Extra-Exclude: libnewlib-dev                     # not used in main, we only want newlib-spu for powerpc
+ * Extra-Exclude: libstdc++6-doc libstdc++6-dev libstdc++6-dbg lib*stdc++6-4.1* lib*stdc++6-4.2* lib*stdc++6-4.3*
+ * Extra-Exclude: libxaw6*                          # built from the same source as libxaw7*
+ * Extra-Exclude: mono-dbg                          # only useful with mono-debugger, currently in universe
+ * Extra-Exclude: nvidia-glx-legacy-dev             # nvidia-glx-legacy is unsupportable
+ * Extra-Exclude: python-qt3-gl-dbg                 # We don't want python-qt3-gl in main
+ * Extra-Exclude: python-qt4-gl python-qt4-gl-dbg   # We don't want python-qt4-gl in main
  * Extra-Exclude: python-renderpm-dbg
- * Extra-Exclude: python-reportlab-accel-dbg # packages aren't in main, -dbg shouldn't cause them to be
- * Extra-Exclude: libnewlib-dev # not used in main, we only want newlib-spu for powerpc
- * Extra-Exclude: sendmail-doc # sendmail source is only in main for libmilter
- * Extra-Exclude: libgnumail-java-doc # depends on classpath
- * Extra-Exclude: libcommons-dbcp-java-doc # depends on classpath
- * Extra-Exclude: javacc-doc # depends on classpath
- * Extra-Exclude: virtuoso-vad-doc # depends on binaries that were not MIR-approved
- * Extra-Exclude: libgl1-mesa-dri-experimental-dbg # LP: #638097
- * Extra-Exclude: python-vigra-doc # libvigraimpex is in main, but nothing uses python-vigra
+ * Extra-Exclude: python-reportlab-accel-dbg        # packages aren't in main, -dbg shouldn't cause them to be
+ * Extra-Exclude: python-vigra-doc                  # libvigraimpex is in main, but nothing uses python-vigra
+ * Extra-Exclude: sendmail-doc
+ * Extra-Exclude: sendmail-doc                      # sendmail source is only in main for libmilter
+ * Extra-Exclude: virtuoso-vad-doc                  # depends on binaries that were not MIR-approved
 
 
 Transitional packages:

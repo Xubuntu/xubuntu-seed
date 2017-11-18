@@ -32,71 +32,71 @@ Basic network services and Windows integration.
 == Desktop Xfce Apps ==
 
 === Common with Ubuntu ===
+ * (app-install-data-partner)
  * (apport-gtk)
- * (whoopsie)              # http://wiki.ubuntu.com/ErrorTracker
  * (desktop-file-utils)
  * (engrampa)
- * (mate-calc)
+ * (firefox)
  * (gnome-font-viewer)
  * (gnome-software)
- * (app-install-data-partner)
- * (transmission-gtk)       # simple GNOME frontend for bittorrent downloads
- * (system-config-printer)
  * (gnome-system-tools)
- * language-selector-gnome	   # MichaelVogt
- * (firefox)
- * (xul-ext-ubufox)        # ubuntu firefox tweaks - AlexanderSack
+ * (gvfs-backends)              # otherwise no network tab
+ * (gvfs-fuse)                  # let non-GNOME apps see GVFS via fuse
+ * language-selector-gnome      # MichaelVogt
+ * (mate-calc)
+ * (system-config-printer)
+ * (transmission-gtk)           # simple GNOME frontend for bittorrent downloads
  * update-manager
  * (update-notifier)
+ * (whoopsie)                   # http://wiki.ubuntu.com/ErrorTracker
+ * (xul-ext-ubufox)             # ubuntu firefox tweaks - AlexanderSack
  * zenity
- * (gvfs-fuse)			# let non-GNOME apps see GVFS via fuse
- * (gvfs-backends)      # otherwise no network tab
 
 === Xfce core ===
+ * (libxfce4ui-utils)           # for xfce4-about
  * tumbler
- * (libxfce4ui-utils)   # for xfce4-about
 
 === Xfce goodies ===
- * (xfce4-xkb-plugin)
- * (xfce4-mailwatch-plugin)
- * (xfce4-verve-plugin)
- * (xfce4-quicklauncher-plugin)
- * (xfce4-weather-plugin)
- * (xfce4-cpugraph-plugin)
- * (xfce4-systemload-plugin)
- * (xfce4-netload-plugin)
- * (xfce4-notes-plugin)
- * (xfce4-dict)
- * (xfce4-places-plugin)
+ * (gigolo)
+ * (orage)
+ * (parole)
+ * (ristretto)
  * (thunar-archive-plugin)
  * (thunar-media-tags-plugin)
- * (orage)
- * (ristretto)
- * (gigolo)
- * (xfce4-taskmanager)
  * (xfburn)
- * (parole)
+ * (xfce4-cpugraph-plugin)
+ * (xfce4-dict)
+ * (xfce4-mailwatch-plugin)
+ * (xfce4-netload-plugin)
+ * (xfce4-notes-plugin)
+ * (xfce4-places-plugin)
+ * (xfce4-quicklauncher-plugin)
+ * (xfce4-systemload-plugin)
+ * (xfce4-taskmanager)
+ * (xfce4-verve-plugin)
+ * (xfce4-weather-plugin)
+ * (xfce4-xkb-plugin)
  * (xfpanel-switch)
 
 === Other Desktop GUI Apps ===
- * (simple-scan)
- * (lightdm-gtk-greeter-settings)
- * (catfish)
- * (thunderbird) 
- * (pidgin)
- * (pidgin-otr)
- * (mousepad)
  * (atril)
  * (blueman)
- * (menulibre) # menu editor
- * (mugshot) # user config
+ * (catfish)
  * (gtk-theme-config)
+ * (lightdm-gtk-greeter-settings)
+ * (menulibre)                      # menu editor
+ * (mousepad)
+ * (mugshot)                        # user config
+ * (pidgin)
+ * (pidgin-otr)
+ * (simple-scan)
+ * (thunderbird) 
 
 === LibreOffice ===
- * (libreoffice-style-elementary) [!powerpc !armhf]
- * (libreoffice-gtk) [!powerpc !armhf]
- * (libreoffice-writer) [!powerpc !armhf]
  * (libreoffice-calc) [!powerpc !armhf]
+ * (libreoffice-gtk) [!powerpc !armhf]
+ * (libreoffice-style-elementary) [!powerpc !armhf]
+ * (libreoffice-writer) [!powerpc !armhf]
 
 === Indicator/Ayatana stuff ===
  * (indicator-messages)
@@ -107,22 +107,22 @@ Basic network services and Windows integration.
  * (sgt-launcher)
 
 === Themes ===
- * (xubuntu-community-wallpapers)
  * (greybird-gtk-theme)
  * (numix-gtk-theme)
+ * (xubuntu-community-wallpapers)
 
 == The gstreamer1.0 packages we want to install ==
 
  * (gstreamer1.0-pulseaudio)
 
 == Accessibility tools ==
- * (gnome-accessibility-themes)
- * (onboard)
  * (brltty)
  * (brltty-x11)
- * (xcursor-themes)
  * (espeak)
+ * (gnome-accessibility-themes)
+ * (onboard)
  * (speech-dispatcher)
+ * (xcursor-themes)
 
 == Documentation ==
 
@@ -132,4 +132,4 @@ Basic network services and Windows integration.
  * (apt-offline) 
  * (inxi)
  * (pastebinit)
- * xubuntu-desktop # metapackage for everything here
+ * xubuntu-desktop                  # metapackage for everything here

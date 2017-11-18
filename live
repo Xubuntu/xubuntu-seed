@@ -12,6 +12,12 @@ Task-Test-new-install: skip show
 Task-Seeds: live-common
 ----------------------
 
+== Xubuntu ==
+
+ * xubuntu-live-settings            # lp: #840094
+ 
+== Language Support ==
+
  * Languages: en
  * language-pack-${Languages}
  * language-pack-gnome-${Languages}
@@ -25,10 +31,10 @@ Task-Seeds: live-common
  * language-pack-${Languages} [!powerpc]
  * language-pack-gnome-${Languages} [!powerpc]
 
- * gparted
- * cifs-utils # Needed by casper for CIFS root=
+== Other Support ==
 
- * xubuntu-live-settings # lp: #840094
+ * cifs-utils                       # Needed by casper for CIFS root= 
+ * gparted
 
 == Ubiquity components ==
 
@@ -38,4 +44,4 @@ These packages make up the Ubiquity live installer.
  * ubiquity-ubuntu-artwork
  * ubiquity-slideshow-xubuntu
 
- * feh # lp: #1437180
+ * feh                              # lp: #1437180

@@ -15,68 +15,68 @@ Task-Seeds: desktop-common
 
 Basic network services and Windows integration.
 
- * (avahi-autoipd)     # IPv4 link-local interface configuration support
- * (network-manager-gnome) # see NetworkRoaming spec
+ * (avahi-autoipd)                  # IPv4 link-local interface configuration support
+ * (network-manager-gnome)          # see NetworkRoaming spec
 
 == GUI infrastructure ==
- * xterm                         # Provide a backup terminal and complete X env.
- * (libnotify-bin)		 # various scripts need notify-send (such as .bashrc's "alert")
+ * (libnotify-bin)                  # various scripts need notify-send (such as .bashrc's "alert")
+ * xterm                            # Provide a backup terminal and complete X env.
 
 == Desktop Xfce Apps ==
 
 === Common with Ubuntu ===
- * lightdm                 # Proposed GDM replacement for Oneiric, see https://blueprints.launchpad.net/ubuntu/+spec/desktop-o-lightdm
+ * (gucharmap)                      # SebastienBacher
  * (libpam-gnome-keyring)
- * (pinentry-gtk2)           # for gnome-keyring, LP: #1473952
- * (gucharmap)               # SebastienBacher
- * (software-properties-gtk) # default GUI sources.list editor / extra drivers
- * xdg-utils		   # useful utilities
+ * lightdm                          # Proposed GDM replacement for Oneiric, see https://blueprints.launchpad.net/ubuntu/+spec/desktop-o-lightdm
+ * (pinentry-gtk2)                  # for gnome-keyring, LP: #1473952
+ * (software-properties-gtk)        # default GUI sources.list editor / extra drivers
+ * xdg-utils                        # useful utilities
  * xdg-user-dirs
  * xdg-user-dirs-gtk
 
 === Xfce core ===
- * xfwm4
- * xfdesktop4
- * xfce4-panel
- * xfce4-settings
- * xfce4-session
  * thunar
- * xfce4-appfinder
  * thunar-volman
+ * xfdesktop4
+ * xfce4-appfinder
+ * xfce4-panel
+ * xfce4-session
+ * xfce4-settings
+ * xfwm4
 
 === Xfce goodies ===
- * (xfce4-screenshooter)
- * (xfce4-whiskermenu-plugin)
- * (xfce4-terminal)
+ * xfce4-notifyd
  * (xfce4-power-manager)
  * (xfce4-pulseaudio-plugin)
+ * (xfce4-screenshooter)
  * (xfce4-statusnotifier-plugin)
- * xfce4-notifyd
+ * (xfce4-terminal)
+ * (xfce4-whiskermenu-plugin)
 
 === Other Desktop GUI Apps ===
- * (pavucontrol) # mixer
+ * (pavucontrol)                    # mixer
 
 === Indicator/Ayatana stuff ===
  * (xfce4-indicator-plugin)
 
 === Themes ===
- * gtk2-engines-pixbuf          # Required by some themes the user might install
  * dmz-cursor-theme
+ * gtk2-engines-pixbuf              # Required by some themes the user might install
  * xubuntu-artwork
 
 == The gstreamer0.10 packages we want to install ==
  * libasound2-plugins
 
 == Documentation ==
- * doc-base			# integrates with scrollkeeper
+ * doc-base                         # integrates with scrollkeeper
  * (xubuntu-docs)
 
 == Hardware Support ==
- * (xserver-xorg-input-all) # Metapackage for input methods
- * (xserver-xorg-input-synaptics) # LP: 1686081, Dropped from Ubuntu in favor of libinput
+ * (xserver-xorg-input-all)         # Metapackage for input methods
+ * (xserver-xorg-input-synaptics)   # LP: 1686081, Dropped from Ubuntu in favor of libinput
 
 == Other ==
  * (light-locker)
  * lightdm-gtk-greeter
- * xubuntu-core # metapackage for everything here
+ * xubuntu-core                     # metapackage for everything here
  * xubuntu-default-settings
