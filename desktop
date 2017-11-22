@@ -34,7 +34,6 @@ Basic network services and Windows integration.
 === Common with Ubuntu ===
  * (apport-gtk)
  * (desktop-file-utils)
- * (engrampa)
  * (firefox)
  * (gnome-font-viewer)
  * (gnome-software)
@@ -42,7 +41,6 @@ Basic network services and Windows integration.
  * (gvfs-backends)              # otherwise no network tab
  * (gvfs-fuse)                  # let non-GNOME apps see GVFS via fuse
  * language-selector-gnome      # MichaelVogt
- * (mate-calc)
  * (system-config-printer)
  * (transmission-gtk)           # simple GNOME frontend for bittorrent downloads
  * update-manager
@@ -77,8 +75,12 @@ Basic network services and Windows integration.
  * (xfce4-xkb-plugin)
  * (xfpanel-switch)
 
+=== MATE components ===
+ * (atril)                          # document viewer
+ * (engrampa)                       # archive manager
+ * (mate-calc)                      # calculator
+
 === Other Desktop GUI Apps ===
- * (atril)
  * (blueman)
  * (catfish)
  * (gtk-theme-config)
