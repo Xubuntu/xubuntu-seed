@@ -32,7 +32,6 @@ Basic network services and Windows integration.
 == Desktop Xfce Apps ==
 
 === Common with Ubuntu ===
- * (app-install-data-partner)
  * (apport-gtk)
  * (desktop-file-utils)
  * (engrampa)
