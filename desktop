@@ -83,7 +83,6 @@ Basic network services and Windows integration.
 === Other Desktop GUI Apps ===
  * (blueman)
  * (catfish)
- * (gtk-theme-config)
  * (lightdm-gtk-greeter-settings)
  * (menulibre)                      # menu editor
  * (mousepad)
@@ -91,7 +90,7 @@ Basic network services and Windows integration.
  * (pidgin)
  * (pidgin-otr)
  * (simple-scan)
- * (thunderbird) 
+ * (thunderbird)
 
 === LibreOffice ===
  * (libreoffice-calc) [!powerpc !armhf]
@@ -130,7 +129,7 @@ Basic network services and Windows integration.
 == Development ==
 
 == Other ==
- * (apt-offline) 
+ * (apt-offline)
  * (inxi)
  * (pastebinit)
  * xubuntu-desktop                  # metapackage for everything here
