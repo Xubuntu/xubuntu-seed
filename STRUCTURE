@@ -1,7 +1,7 @@
 include platform.bionic
 desktop: desktop-common core
 core: desktop-common
-live: desktop
+live: desktop live-common
 ship-live: boot live
 supported-desktop-extra: desktop ship-live supported-common
 # make sure supported remains the last entry
