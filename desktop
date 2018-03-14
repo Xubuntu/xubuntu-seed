@@ -22,10 +22,6 @@ Basic network services and Windows integration.
 
 == GUI infrastructure ==
 
-== Extra fonts ==
- * (fonts-noto-hinted)
- * (fonts-opensymbol)
-
 == Input methods ==
  * (im-config)
 

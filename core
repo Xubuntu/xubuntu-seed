@@ -22,6 +22,10 @@ Basic network services and Windows integration.
  * (libnotify-bin)                  # various scripts need notify-send (such as .bashrc's "alert")
  * xterm                            # Provide a backup terminal and complete X env.
 
+== Extra fonts ==
+ * (fonts-noto-hinted)
+ * (fonts-opensymbol)
+
 == Desktop Xfce Apps ==
 
 === Common with Ubuntu ===
