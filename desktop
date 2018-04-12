@@ -90,7 +90,7 @@ Basic network services and Windows integration.
 
 === LibreOffice ===
  * (libreoffice-calc) [!powerpc !armhf]
- * (libreoffice-gtk) [!powerpc !armhf]
+ * (libreoffice-gnome) [!powerpc !armhf]
  * (libreoffice-style-elementary) [!powerpc !armhf]
  * (libreoffice-writer) [!powerpc !armhf]
 
