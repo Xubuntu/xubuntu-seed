@@ -1,4 +1,4 @@
-include platform.cosmic
+include platform.disco
 desktop: desktop-common core
 core: desktop-common
 live: desktop live-common
