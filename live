@@ -28,8 +28,8 @@ Task-Seeds: live-common
  * wamerican
 
  * Languages: es zh-hans xh pt de fr bn hi ja
- * language-pack-${Languages} [!powerpc]
- * language-pack-gnome-${Languages} [!powerpc]
+ * language-pack-${Languages}
+ * language-pack-gnome-${Languages}
 
 == Other Support ==
 

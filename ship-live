@@ -11,11 +11,9 @@ packages.
  * b43-fwcutter
  * bcmwl-kernel-source              # since we no longer have LRM
  * bpalogin
- * elfspe2 [powerpc]                # SPE access for Cell systems
  * libatm1                          # suggested by ppp for PPP-over-ATM
  * mouseemu                         # needed on Macs with single-button mice
  * pptp-linux                       # client for Microsoft-compatible VPN's, needed for some ISPs
- * ps3pf-utils [powerpc]            # small utilities for PlayStation 3 systems
  * setserial                        # needed by folks with nonstandard serial ports
  * sl-modem-daemon                  # needed for some Winmodems (see OutoftheboxWinmodem)
  * wvdial                           # network-manager should replace this functionality ASAP

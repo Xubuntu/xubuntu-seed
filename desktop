@@ -89,18 +89,18 @@ Basic network services and Windows integration.
  * (thunderbird)
 
 === LibreOffice ===
- * (libreoffice-calc) [!powerpc !armhf]
- * (libreoffice-gnome) [!powerpc !armhf]
- * (libreoffice-impress) [!powerpc !armhf]
- * (libreoffice-style-elementary) [!powerpc !armhf]
- * (libreoffice-writer) [!powerpc !armhf]
+ * (libreoffice-calc) [!armhf]
+ * (libreoffice-gnome) [!armhf]
+ * (libreoffice-impress) [!armhf]
+ * (libreoffice-style-elementary) [!armhf]
+ * (libreoffice-writer) [!armhf]
 
 === Indicator/Ayatana stuff ===
  * (indicator-messages)
 
 === Games: We only ship a few by default ===
- * (gnome-mines) [!powerpc]
- * (gnome-sudoku) [!powerpc]
+ * (gnome-mines)
+ * (gnome-sudoku)
  * (sgt-launcher)
 
 === Themes ===
