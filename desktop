@@ -124,6 +124,7 @@ Basic network services and Windows integration.
 == Development ==
 
 == Other ==
+ * (apturl)
  * (apt-offline)
  * (inxi)
  * (pastebinit)
