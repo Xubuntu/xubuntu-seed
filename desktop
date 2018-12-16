@@ -85,7 +85,7 @@ Basic network services and Windows integration.
  * (pidgin)
  * (pidgin-otr)
  * (simple-scan)
- * (thunderbird)
+ * (thunderbird) [!s390x]
 
 === LibreOffice ===
  * (libreoffice-calc) [!armhf]
