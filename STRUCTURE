@@ -1,4 +1,4 @@
-include platform.disco
+include platform.eoan
 desktop: desktop-common core
 core: desktop-common
 live: desktop live-common
