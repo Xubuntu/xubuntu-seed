@@ -77,12 +77,12 @@ Basic network services and Windows integration.
  * (xubuntu-docs)
 
 == Hardware Support ==
+ * (numlockx)
  * (xserver-xorg-input-all)         # Metapackage for input methods
  * (xserver-xorg-input-synaptics)   # LP: 1686081, Dropped from Ubuntu in favor of libinput
- * (numlockx)
 
 == Other ==
- * (light-locker)
  * lightdm-gtk-greeter
+ * (xfce4-screensaver)
  * xubuntu-core                     # metapackage for everything here
  * xubuntu-default-settings
