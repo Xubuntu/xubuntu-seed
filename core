@@ -86,3 +86,8 @@ Basic network services and Windows integration.
  * (xfce4-screensaver)
  * xubuntu-core                     # metapackage for everything here
  * xubuntu-default-settings
+
+== Other - ZFS ==
+ * (zfsutils-linux)
+ * (zfs-initramfs)
+ * (zsys)
