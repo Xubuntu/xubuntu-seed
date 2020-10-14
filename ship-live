@@ -22,6 +22,7 @@ packages.
 
  * grub                             # needed for dmraid et al
  * grub-efi-amd64-signed [amd64]
+ * grub-efi-arm64 [arm64]
  * lupin-support [amd64 i386]       # installer-for-windows
  * oem-config-gtk
  * shim-signed [amd64]
