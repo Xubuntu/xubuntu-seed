@@ -47,3 +47,8 @@ These packages make up the Ubiquity live installer.
  * ubiquity-slideshow-xubuntu
 
  * feh                              # lp: #1437180
+
+== Secureboot setup ==
+
+ * shim-signed [amd64]
+ * grub-pc [amd64]
