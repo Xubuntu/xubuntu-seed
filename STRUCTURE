@@ -1,4 +1,4 @@
-include platform.groovy
+include platform.hirsute
 desktop: desktop-common core
 core: desktop-common
 live: desktop live-common
