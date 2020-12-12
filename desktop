@@ -102,6 +102,7 @@ Basic network services and Windows integration.
  * (sgt-launcher)
 
 === Themes ===
+ * (adwaita-icon-theme-full)        # Base Adwaita theme is broken (LP: #1866814)
  * (greybird-gtk-theme)
  * (numix-gtk-theme)
  * (xubuntu-community-wallpapers)
