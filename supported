@@ -65,7 +65,6 @@ Exclude some KDE-specific pieces:
 Xfce:
 
  * gtk2-engines-xfce
- * orage
  * thunar-archive-plugin
  * thunar-dropbox-plugin
  * thunar-media-tags-plugin
