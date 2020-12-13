@@ -21,7 +21,6 @@ im-config
 # Common with Ubuntu
 apport-gtk
 desktop-file-utils
-firefox
 gnome-font-viewer
 gnome-software
 gnome-system-tools
