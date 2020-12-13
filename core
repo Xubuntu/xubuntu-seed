@@ -60,6 +60,7 @@ Basic network services and Windows integration.
 
 === Other Desktop GUI Apps ===
  * (pavucontrol)                    # mixer
+ * (synaptic)
 
 === Indicator/Ayatana stuff ===
  * (xfce4-indicator-plugin)
