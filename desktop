@@ -67,7 +67,7 @@ Basic network services and Windows integration.
  * (xfce4-verve-plugin)
  * (xfce4-weather-plugin)
  * (xfce4-xkb-plugin)
- * (xfpanel-switch)
+ * (xfce4-panel-profiles)
 
 === MATE components ===
  * (atril)                          # document viewer
