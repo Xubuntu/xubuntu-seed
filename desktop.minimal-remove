@@ -87,8 +87,12 @@ libreoffice-writer
 indicator-messages
 
 # Games: We only ship a few by default
+four-in-a-row
+gnome-chess
 gnome-mines
+gnome-nibbles
 gnome-sudoku
+quadrapassel
 sgt-launcher
 
 # Themes
