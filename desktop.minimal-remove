@@ -22,7 +22,6 @@ im-config
 apport-gtk
 desktop-file-utils
 gnome-font-viewer
-gnome-software
 gnome-system-tools
 gvfs-backends
 gvfs-fuse

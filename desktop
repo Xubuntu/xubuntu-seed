@@ -32,7 +32,7 @@ Basic network services and Windows integration.
  * (desktop-file-utils)
  * (firefox)
  * (gnome-font-viewer)
- * (gnome-software)
+ * gnome-software               # Required to keep non-snap version (LP: #1922157)
  * (gnome-system-tools)
  * (gvfs-backends)              # otherwise no network tab
  * (gvfs-fuse)                  # let non-GNOME apps see GVFS via fuse
