@@ -1,4 +1,4 @@
-include platform.hirsute
+include platform.impish
 desktop: desktop-common core
 core: desktop-common
 live: desktop live-common
