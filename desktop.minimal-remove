@@ -27,6 +27,7 @@ gnome-system-tools
 gvfs-backends
 gvfs-fuse
 language-selector-gnome
+rhythmbox
 system-config-printer
 transmission-gtk
 update-manager

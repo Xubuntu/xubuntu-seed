@@ -38,6 +38,7 @@ Basic network services and Windows integration.
  * (gvfs-backends)              # otherwise no network tab
  * (gvfs-fuse)                  # let non-GNOME apps see GVFS via fuse
  * language-selector-gnome      # MichaelVogt
+ * (rhythmbox)
  * (system-config-printer)
  * (transmission-gtk)           # simple GNOME frontend for bittorrent downloads
  * update-manager
