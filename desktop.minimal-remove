@@ -21,6 +21,7 @@ im-config
 # Common with Ubuntu
 apport-gtk
 desktop-file-utils
+gnome-disk-utility
 gnome-font-viewer
 gnome-system-tools
 gvfs-backends

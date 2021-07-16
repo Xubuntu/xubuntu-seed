@@ -31,6 +31,7 @@ Basic network services and Windows integration.
  * (apport-gtk)
  * (desktop-file-utils)
  * (firefox)
+ * (gnome-disk-utility)
  * (gnome-font-viewer)
  * gnome-software               # Required to keep non-snap version (LP: #1922157)
  * (gnome-system-tools)
