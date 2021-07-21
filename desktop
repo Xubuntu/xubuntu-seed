@@ -29,6 +29,7 @@ Basic network services and Windows integration.
 
 === Common with Ubuntu ===
  * (apport-gtk)
+ * (baobab)
  * (desktop-file-utils)
  * (firefox)
  * (gnome-disk-utility)

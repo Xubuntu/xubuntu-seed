@@ -20,6 +20,7 @@ im-config
 
 # Common with Ubuntu
 apport-gtk
+baobab
 desktop-file-utils
 gnome-disk-utility
 gnome-font-viewer
