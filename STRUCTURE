@@ -1,4 +1,4 @@
-include platform.impish
+include platform.jammy
 desktop: desktop-common core
 core: desktop-common
 live: desktop live-common
