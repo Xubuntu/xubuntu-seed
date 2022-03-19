@@ -83,6 +83,7 @@ Basic network services and Windows integration.
  * (xserver-xorg-input-synaptics)   # LP: 1686081, Dropped from Ubuntu in favor of libinput
 
 == Other ==
+ * (libfuse2)                       # LP: 1965636, Required for AppImage support
  * lightdm-gtk-greeter
  * (xcape)
  * (xfce4-screensaver)
