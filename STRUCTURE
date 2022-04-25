@@ -1,4 +1,4 @@
-include platform.jammy
+include platform.kinetic
 desktop: desktop-common core
 core: desktop-common
 live: desktop live-common
