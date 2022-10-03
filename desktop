@@ -129,6 +129,7 @@ Basic network services and Windows integration.
 
 == Other ==
  * (apturl)
+ * (firefox)                        # to satisfy x-www-browser (LP #1991470)
  * (inxi)
  * (pastebinit)
  * xubuntu-desktop                  # metapackage for everything here
