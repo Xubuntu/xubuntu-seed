@@ -1,4 +1,4 @@
-include platform.kinetic
+include platform.lunar
 desktop: desktop-common core
 core: desktop-common
 live: desktop live-common
