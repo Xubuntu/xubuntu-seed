@@ -110,9 +110,9 @@ Basic network services and Windows integration.
  * (numix-gtk-theme)
  * (xubuntu-community-wallpapers)
 
-== The gstreamer1.0 packages we want to install ==
-
- * (gstreamer1.0-pulseaudio)
+== Audio support ==
+ * gstreamer1.0-pipewire
+ * (libspa-0.2-bluetooth)
 
 == Accessibility tools ==
  * (brltty)
