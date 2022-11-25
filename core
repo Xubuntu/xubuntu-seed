@@ -70,7 +70,7 @@ Basic network services and Windows integration.
  * gtk2-engines-pixbuf              # Required by some themes the user might install
  * xubuntu-artwork
 
-== Audio support ==
+== Audio Support ==
  * libasound2-plugins
  * pipewire
  * pipewire-pulse

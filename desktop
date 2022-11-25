@@ -110,7 +110,7 @@ Basic network services and Windows integration.
  * (numix-gtk-theme)
  * (xubuntu-community-wallpapers)
 
-== Audio support ==
+== Audio Support ==
  * gstreamer1.0-pipewire
  * (libspa-0.2-bluetooth)
 
@@ -126,6 +126,10 @@ Basic network services and Windows integration.
 == Documentation ==
 
 == Development ==
+
+== Flatpak ==
+ * (flatpak)
+ * (gnome-software-plugin-flatpak)
 
 == Other ==
  * (apturl)
