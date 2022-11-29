@@ -72,9 +72,10 @@ Basic network services and Windows integration.
 
 == Audio Support ==
  * libasound2-plugins
- * pipewire
- * pipewire-pulse
- * (wireplumber)
+ * (pipewire)
+ * (pipewire-pulse)
+ * (wireplumber)
+ * (wireplumber)
 
 == Documentation ==
  * doc-base                         # integrates with scrollkeeper
