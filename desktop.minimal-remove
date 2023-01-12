@@ -4,7 +4,7 @@
 # Note that the format is NOT the same as the usual seed format. This file is
 # not processed by germinate - it is simply downloaded during image builds.
 
-# Xubuntu: This is based on our desktop file, which stacks on core.
+# Xubuntu: This is based on our desktop file, which stacks on desktop-minimal.
 
 # Network Services
 

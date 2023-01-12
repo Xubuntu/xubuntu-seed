@@ -8,10 +8,10 @@ Task-Description: Xubuntu desktop
 Task-Extended-Description: This task provides the Xubuntu desktop environment.
 Task-Key: xubuntu-desktop
 Task-Name: xubuntu-desktop
-Task-Seeds: desktop-common minimal
+Task-Seeds: desktop-common desktop-minimal
 ----------------------
 
-## This seed inherits packages from 'minimal', so will appear to be missing many important packages.
+## This seed inherits packages from 'desktop-minimal', so will appear to be missing many important packages.
 
 == Network Services ==
 

@@ -12,13 +12,13 @@ Our GitHub repository is a read-only mirror of the seeds as found on Launchpad. 
 
 ## Primary Seeds
 
-### Core
+### Desktop Minimal
 
-The core seed provides the components for a minimal Xubuntu installation. This is the seed for packages included in Xubuntu Core.
+The desktop-minimal seed provides the components for a minimal Xubuntu installation. This is the seed for packages included in Xubuntu Minimal.
 
 ### Desktop
 
-The desktop seed provides the components for a standard Xubuntu installation. It includes all packages from the core seed, and adds the remaining full desktop experience. This is the seed for packages included in Xubuntu Desktop.
+The desktop seed provides the components for a standard Xubuntu installation. It includes all packages from the desktop-minimal seed, and adds the remaining full desktop experience. This is the seed for packages included in Xubuntu Desktop.
 
 The **desktop.minimal-remove** seed is used for the Minimal install option found in Ubiquity. Packages listed here are removed as one of the final steps of the installation process. This seed is designed to simulate a core seed installation.
 
