@@ -1,6 +1,6 @@
 include platform.lunar
-desktop: desktop-common core
-core: desktop-common
+desktop: desktop-common minimal
+minimal: desktop-common
 live: desktop live-common
 ship-live: boot live
 supported-desktop-extra: desktop ship-live supported-common
