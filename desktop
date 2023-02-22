@@ -126,10 +126,6 @@ Basic network services and Windows integration.
 
 == Development ==
 
-== Flatpak ==
- * (flatpak)
- * (gnome-software-plugin-flatpak)
-
 == Other ==
  * (apturl)
  * (firefox)                        # to satisfy x-www-browser (LP #1991470)

@@ -115,10 +115,6 @@ xcursor-themes
 
 # Development
 
-# Flatpak
-flatpak
-gnome-software-plugin-flatpak
-
 # Other
 apturl
 inxi
