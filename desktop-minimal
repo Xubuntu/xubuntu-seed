@@ -90,5 +90,6 @@ Basic network services and Windows integration.
  * lightdm-gtk-greeter
  * (xcape)
  * (xfce4-screensaver)
+ * (dbus-x11)                       # LP: 2009145, Temporary to fix xdg settings
  * xubuntu-desktop-minimal          # metapackage for everything here
  * xubuntu-default-settings
