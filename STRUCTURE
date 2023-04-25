@@ -1,4 +1,4 @@
-include platform.lunar
+include platform.mantic
 desktop: desktop-common desktop-minimal
 desktop-minimal: desktop-common
 live: desktop live-common
