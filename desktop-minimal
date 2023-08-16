@@ -91,5 +91,6 @@ Basic network services and Windows integration.
  * (xcape)
  * (xfce4-screensaver)
  * (dbus-x11)                       # LP: 2009145, Temporary to fix xdg settings
+ * (mate-polkit)                    # policykit-1-gnome is no longer supported
  * xubuntu-desktop-minimal          # metapackage for everything here
  * xubuntu-default-settings
