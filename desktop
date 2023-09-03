@@ -111,6 +111,10 @@ Basic network services and Windows integration.
 
 == Audio Support ==
  * gstreamer1.0-pipewire
+ * (libspa-0.2-bluetooth)           # Duplicated below so germinate sees it
+
+== Secondary audio section required for germinate ==
+ * (libspa-0.2-bluetooth)
 
 == Accessibility tools ==
  * (brltty)
