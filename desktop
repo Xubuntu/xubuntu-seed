@@ -111,8 +111,6 @@ Basic network services and Windows integration.
 
 == Audio Support ==
  * gstreamer1.0-pipewire
- * (libspa-0.2-bluetooth)
- * (libspa-0.2-bluetooth)
 
 == Accessibility tools ==
  * (brltty)
