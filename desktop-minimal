@@ -82,7 +82,6 @@ Basic network services and Windows integration.
 == Hardware Support ==
  * (numlockx)
  * (xserver-xorg-input-all)         # Metapackage for input methods
- * (xserver-xorg-input-synaptics)   # LP: 1686081, Dropped from Ubuntu in favor of libinput
 
 == Other ==
  * (libfuse2)                       # LP: 1965636, Required for AppImage support
