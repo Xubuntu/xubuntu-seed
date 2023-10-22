@@ -1,4 +1,4 @@
-include platform.mantic
+include platform.noble
 desktop: desktop-common desktop-minimal
 desktop-minimal: desktop-common
 live: desktop live-common
