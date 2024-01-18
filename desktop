@@ -29,11 +29,12 @@ Basic network services and Windows integration.
 
 === Common with Ubuntu ===
  * (apport-gtk)
+ * (appstream)                  # required by snap:snap-store for appstream cache
+ * (apt-config-icons-hidpi)     # required by snap:snap-store for apt icons
  * (baobab)
  * (desktop-file-utils)
  * (gnome-disk-utility)
  * (gnome-font-viewer)
- * gnome-software               # Required to keep non-snap version (LP: #1922157)
  * (gnome-system-tools)
  * (gvfs-backends)              # otherwise no network tab
  * (gvfs-fuse)                  # let non-GNOME apps see GVFS via fuse
@@ -140,3 +141,4 @@ Basic network services and Windows integration.
  * snap:firefox
  * snap:gnome-42-2204             # needed for firefox
  * snap:gtk-common-themes           # needed for firefox
+ * snap:snap-store
