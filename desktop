@@ -142,3 +142,4 @@ Basic network services and Windows integration.
  * snap:gnome-42-2204             # needed for firefox
  * snap:gtk-common-themes           # needed for firefox
  * snap:snap-store
+ * snap:snapd-desktop-integration
