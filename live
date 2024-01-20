@@ -15,7 +15,7 @@ Task-Seeds: live-common
 == Xubuntu ==
 
  * xubuntu-live-settings            # lp: #840094
- 
+
 == Language Support ==
 
  * Languages: en
@@ -33,8 +33,9 @@ Task-Seeds: live-common
 
 == Other Support ==
 
- * cifs-utils                       # Needed by casper for CIFS root= 
+ * cifs-utils                   # Needed by casper for CIFS root=
  * gparted
+ * mtools                       # Needed by gparted for EFI support, LP: #1962467
  * zfsutils-linux               # Experimental ZFS support, LP: #1843768, 1847739
  * zfs-initramfs                # Experimental ZFS support, LP: #1847431, 1847739
 
