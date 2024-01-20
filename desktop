@@ -143,3 +143,4 @@ Basic network services and Windows integration.
  * snap:gtk-common-themes           # needed for firefox
  * snap:snap-store
  * snap:snapd-desktop-integration
+ * snap:firmware-updater [amd64]
