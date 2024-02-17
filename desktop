@@ -14,6 +14,8 @@ Task-Seeds: desktop-common desktop-minimal
 
 ## This seed inherits packages from 'desktop-minimal', so will appear to be missing many important packages.
 
+ * xubuntu-desktop-minimal
+
 == Network Services ==
 
 Basic network services and Windows integration.
