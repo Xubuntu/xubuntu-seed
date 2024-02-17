@@ -39,15 +39,10 @@ Task-Seeds: live-common
  * zfsutils-linux               # Experimental ZFS support, LP: #1843768, 1847739
  * zfs-initramfs                # Experimental ZFS support, LP: #1847431, 1847739
 
-== Ubiquity components ==
+== Bootstrap wizard ==
 
-These packages make up the Ubiquity live installer.
-
- * ubiquity-frontend-gtk
- * ubiquity-ubuntu-artwork
- * ubiquity-slideshow-xubuntu
-
- * feh                              # lp: #1437180
+ * snap:ubuntu-desktop-bootstrap/classic
+ * casper
 
 == Secureboot setup ==
 

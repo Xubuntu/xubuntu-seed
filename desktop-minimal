@@ -8,6 +8,7 @@ Task-Description: Xubuntu minimal installation
 Task-Extended-Description: This task provides minimal packages for Xubuntu desktop environment.
 Task-Key: xubuntu-minimal
 Task-Name: xubuntu-minimal
+Task-Metapackage: xubuntu-desktop-minimal
 Task-Seeds: desktop-common
 ----------------------
 
