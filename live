@@ -43,7 +43,6 @@ Task-Seeds: live-common
 
  * snap:ubuntu-desktop-bootstrap/classic
  * casper
- * initramfs-tools              # LP: #2054341
 
 == Secureboot setup ==
 
