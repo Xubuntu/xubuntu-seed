@@ -20,7 +20,6 @@ Task-Seeds: desktop-common desktop-minimal
 
 Basic network services and Windows integration.
 
- * (network-manager-pptp)
  * (network-manager-pptp-gnome)
 
 == GUI infrastructure ==
