@@ -23,7 +23,6 @@ Task-Seeds: live-common
  * language-pack-gnome-${Languages}
 
 # subset of English language support which we want by default:
- * firefox-locale-en
  * hunspell-en-us
  * wamerican
 
