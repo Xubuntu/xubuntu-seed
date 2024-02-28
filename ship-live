@@ -17,7 +17,6 @@ packages.
 == Installer ==
 
  * grub-efi-arm64 [arm64]
- * lupin-support [amd64 i386]       # installer-for-windows
  * oem-config-gtk
 
 == Blacklist ==
