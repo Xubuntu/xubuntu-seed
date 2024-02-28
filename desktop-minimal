@@ -32,7 +32,6 @@ Basic network services and Windows integration.
 === Common with Ubuntu ===
  * initramfs-tools                  # LP: #2054341
  * (libpam-gnome-keyring)
- * (pinentry-gtk2)                  # for gnome-keyring, LP: #1473952
  * (software-properties-gtk)        # default GUI sources.list editor / extra drivers
  * xdg-utils                        # useful utilities
  * xdg-user-dirs
@@ -83,12 +82,13 @@ Basic network services and Windows integration.
  * (xserver-xorg-input-all)         # Metapackage for input methods
 
 == Other ==
+ * (dbus-x11)                       # LP: 2009145, Temporary to fix xdg settings
  * (libfuse2)                       # LP: 1965636, Required for AppImage support
  * lightdm
  * lightdm-gtk-greeter
+ * (mate-polkit)                    # policykit-1-gnome is no longer supported
+ * (pinentry-gtk2)                  # for gnome-keyring, LP: #1473952
  * (xcape)
  * (xfce4-screensaver)
- * (dbus-x11)                       # LP: 2009145, Temporary to fix xdg settings
- * (mate-polkit)                    # policykit-1-gnome is no longer supported
  * xubuntu-desktop-minimal          # metapackage for everything here
  * xubuntu-default-settings
