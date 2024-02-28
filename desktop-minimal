@@ -30,10 +30,8 @@ Basic network services and Windows integration.
 == Desktop Xfce Apps ==
 
 === Common with Ubuntu ===
- * (gucharmap)                      # SebastienBacher
  * initramfs-tools                  # LP: #2054341
  * (libpam-gnome-keyring)
- * lightdm                          # Proposed GDM replacement for Oneiric, see https://blueprints.launchpad.net/ubuntu/+spec/desktop-o-lightdm
  * (pinentry-gtk2)                  # for gnome-keyring, LP: #1473952
  * (software-properties-gtk)        # default GUI sources.list editor / extra drivers
  * xdg-utils                        # useful utilities
@@ -59,6 +57,7 @@ Basic network services and Windows integration.
  * (xfce4-whiskermenu-plugin)
 
 === Other Desktop GUI Apps ===
+ * (gucharmap)                      # SebastienBacher
  * (pavucontrol)                    # mixer
  * (synaptic)
 
@@ -85,6 +84,7 @@ Basic network services and Windows integration.
 
 == Other ==
  * (libfuse2)                       # LP: 1965636, Required for AppImage support
+ * lightdm
  * lightdm-gtk-greeter
  * (xcape)
  * (xfce4-screensaver)
