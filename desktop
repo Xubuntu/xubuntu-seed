@@ -34,7 +34,6 @@ Basic network services and Windows integration.
  * (appstream)                  # required by snap:snap-store for appstream cache
  * (apt-config-icons-hidpi)     # required by snap:snap-store for apt icons
  * (baobab)
- * (desktop-file-utils)
  * (gnome-disk-utility)
  * (gnome-font-viewer)
  * (gnome-system-tools)
