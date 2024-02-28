@@ -43,7 +43,6 @@ Basic network services and Windows integration.
  * update-manager
  * (update-notifier)
  * (whoopsie)                   # http://wiki.ubuntu.com/ErrorTracker
- * (xul-ext-ubufox)             # ubuntu firefox tweaks - AlexanderSack
  * zenity
 
 === Xfce core ===
