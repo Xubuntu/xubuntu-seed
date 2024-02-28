@@ -13,7 +13,6 @@ packages.
  * pptp-linux                       # client for Microsoft-compatible VPN's, needed for some ISPs
  * setserial                        # needed by folks with nonstandard serial ports
  * sl-modem-daemon                  # needed for some Winmodems (see OutoftheboxWinmodem)
- * wvdial                           # network-manager should replace this functionality ASAP
 
 == Installer ==
 
