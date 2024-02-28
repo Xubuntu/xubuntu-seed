@@ -10,7 +10,6 @@ packages.
 
  * b43-fwcutter
  * libatm1                          # suggested by ppp for PPP-over-ATM
- * mouseemu                         # needed on Macs with single-button mice
  * pptp-linux                       # client for Microsoft-compatible VPN's, needed for some ISPs
  * setserial                        # needed by folks with nonstandard serial ports
  * sl-modem-daemon                  # needed for some Winmodems (see OutoftheboxWinmodem)
