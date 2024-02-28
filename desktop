@@ -36,11 +36,9 @@ Basic network services and Windows integration.
  * (baobab)
  * (gnome-disk-utility)
  * (gnome-font-viewer)
- * (gnome-system-tools)
  * (gvfs-fuse)                  # let non-GNOME apps see GVFS via fuse
  * language-selector-gnome      # MichaelVogt
  * (rhythmbox)
- * (system-config-printer)
  * (transmission-gtk)           # simple GNOME frontend for bittorrent downloads
  * update-manager
  * (update-notifier)
@@ -81,12 +79,14 @@ Basic network services and Windows integration.
  * (blueman)
  * (catfish)
  * (gimp)
+ * (gnome-system-tools)
  * (hexchat)
  * (lightdm-gtk-greeter-settings)
  * (menulibre)                      # menu editor
  * (mousepad)
  * (mugshot)                        # user config
  * (simple-scan)
+ * (system-config-printer)
  * (thunderbird) [!s390x]
 
 === LibreOffice ===
