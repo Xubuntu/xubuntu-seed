@@ -17,7 +17,6 @@ packages.
 == Installer ==
 
  * grub-efi-arm64 [arm64]
- * oem-config-gtk
 
 == Blacklist ==
 
