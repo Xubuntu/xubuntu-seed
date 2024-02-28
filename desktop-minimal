@@ -16,7 +16,6 @@ Task-Seeds: desktop-common
 
 Basic network services and Windows integration.
 
- * (avahi-autoipd)                  # IPv4 link-local interface configuration support
  * (network-manager-gnome)          # see NetworkRoaming spec
 
 == GUI infrastructure ==
