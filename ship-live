@@ -9,7 +9,6 @@ packages.
 == Hardware & Network Access ==
 
  * b43-fwcutter
- * bpalogin
  * libatm1                          # suggested by ppp for PPP-over-ATM
  * mouseemu                         # needed on Macs with single-button mice
  * pptp-linux                       # client for Microsoft-compatible VPN's, needed for some ISPs
