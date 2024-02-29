@@ -36,6 +36,7 @@ Basic network services and Windows integration.
  * (baobab)
  * (gnome-disk-utility)
  * (gnome-font-viewer)
+ * (gvfs-backends)              # otherwise no network tab
  * (gvfs-fuse)                  # let non-GNOME apps see GVFS via fuse
  * language-selector-gnome      # MichaelVogt
  * (rhythmbox)
