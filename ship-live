@@ -8,11 +8,23 @@ packages.
 
 == Hardware & Network Access ==
 
+ * sl-modem-daemon      # needed for some Winmodems (see OutoftheboxWinmodem)
+ * intel-microcode      # needed to update Intel cpu microcode LP #1386257
+ * amd64-microcode      # needed to update AMD cpu microcode LP #1386257
+
+ * libatm1              # suggested by ppp for PPP-over-ATM
+ * setserial            # needed by folks with nonstandard serial ports
  * b43-fwcutter
- * libatm1                          # suggested by ppp for PPP-over-ATM
- * pptp-linux                       # client for Microsoft-compatible VPN's, needed for some ISPs
- * setserial                        # needed by folks with nonstandard serial ports
- * sl-modem-daemon                  # needed for some Winmodems (see OutoftheboxWinmodem)
+ * broadcom-sta-dkms    # for remaining odd wifi support
+
+= wpasupplicant =
+
+wpasupplicant is required to configure a wifi network card with
+netplan. The installer will install it in both the installer live
+session and the target system if wifi network cards are present when
+it runs.
+
+ * wpasupplicant
 
 == Installer ==
 
