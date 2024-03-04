@@ -82,6 +82,7 @@ Basic network services and Windows integration.
  * (xserver-xorg-input-all)         # Metapackage for input methods
 
 == Other ==
+ * (cloud-init)                     # LP: 2055754, Creates user on first boot
  * (dbus-x11)                       # LP: 2009145, Temporary to fix xdg settings
  * (libfuse2)                       # LP: 1965636, Required for AppImage support
  * lightdm
