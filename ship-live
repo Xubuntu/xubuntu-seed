@@ -12,7 +12,6 @@ packages.
  * intel-microcode      # needed to update Intel cpu microcode LP #1386257
  * amd64-microcode      # needed to update AMD cpu microcode LP #1386257
 
- * libatm1              # suggested by ppp for PPP-over-ATM
  * setserial            # needed by folks with nonstandard serial ports
  * b43-fwcutter
  * broadcom-sta-dkms    # for remaining odd wifi support
