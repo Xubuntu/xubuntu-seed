@@ -26,9 +26,39 @@ it runs.
 
  * wpasupplicant
 
-== Installer ==
+= Curtin =
 
+These packages may be installed dynamically by curtin based on
+installation parameters. They should generally be made available on
+curtin based CDs.
+
+== curtin block/deps.py ==
+
+ * bcache-tools
+ * btrfs-progs
+ * cryptsetup
+ * e2fsprogs
+ * jfsutils
+ * lvm2
+ * mdadm
+ * ntfs-3g
+ * open-iscsi
+ * reiserfsprogs
+ * xfsprogs
+ * zfs-initramfs
+ * zfsutils-linux
+
+== curtin curthooks.py ==
+
+ * multipath-tools-boot
+ * grub-efi-amd64 [amd64]
+ * grub-efi-amd64-signed [amd64]
  * grub-efi-arm64 [arm64]
+ * grub-efi-amd64-signed [arm64]
+ * grub-pc
+ * shim-signed
+ * efibootmgr
+ * mdadm
 
 == Blacklist ==
 
