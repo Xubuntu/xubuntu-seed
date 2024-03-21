@@ -139,7 +139,8 @@ Basic network services and Windows integration.
 
 == Snaps ==
  * snap:firefox
- * snap:gnome-42-2204             # needed for firefox
+ * snap:thunderbird
+ * snap:gnome-42-2204               # needed for firefox
  * snap:gtk-common-themes           # needed for firefox
  * snap:snap-store
  * snap:snapd-desktop-integration
