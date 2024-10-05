@@ -143,6 +143,6 @@ Basic network services and Windows integration.
  * snap:thunderbird
  * snap:gnome-42-2204               # needed for snapd-desktop-integration, thunderbird, firefox
  * snap:gtk-common-themes           # needed for firefox
- * snap:snap-store
+ * snap:snap-store=2/stable/ubuntu-24.10
  * snap:snapd-desktop-integration
- * snap:firmware-updater [amd64]
+ * snap:firmware-updater=1/stable/ubuntu-24.10 [amd64]
