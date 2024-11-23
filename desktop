@@ -20,6 +20,7 @@ Task-Seeds: desktop-common desktop-minimal
 
 Basic network services and Windows integration.
 
+ * (network-manager-openvpn-gnome)  # OpenVPN support (LP #2057923)
  * (network-manager-pptp-gnome)
 
 == GUI infrastructure ==
