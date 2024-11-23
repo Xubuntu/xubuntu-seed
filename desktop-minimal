@@ -89,7 +89,6 @@ Basic network services and Windows integration.
  * lightdm-gtk-greeter
  * (mate-polkit)                    # policykit-1-gnome is no longer supported
  * (pinentry-gnome3)                # for gnome-keyring, LP: #1473952
- * (xcape)
  * (xfce4-screensaver)
  * xubuntu-desktop-minimal          # metapackage for everything here
  * xubuntu-default-settings
