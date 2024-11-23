@@ -117,6 +117,10 @@ Basic network services and Windows integration.
 == Secondary audio section required for germinate ==
  * (libspa-0.2-bluetooth)
 
+== Image Support ==
+ * (heif-gdk-pixbuf)                # Modern image formats (avif, heic, heif and webp) (LP #2084324)
+ * (webp-pixbuf-loader)             # Modern image formats (avif, heic, heif and webp) (LP #2084324)
+
 == Accessibility tools ==
  * (brltty)
  * (brltty-x11)
