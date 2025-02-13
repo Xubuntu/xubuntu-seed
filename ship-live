@@ -29,7 +29,7 @@ it runs.
 
 The kernel is installed dynamically, so include it in the pool.
 
- * linux-generic
+ * linux-generic-hwe-24.04 [amd64]
 
 = Curtin =
 
