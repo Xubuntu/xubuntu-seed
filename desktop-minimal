@@ -33,6 +33,7 @@ Basic network services and Windows integration.
  * initramfs-tools                  # LP: #2054341
  * (libpam-gnome-keyring)
  * (software-properties-gtk)        # default GUI sources.list editor / extra drivers
+ * (va-driver-all)                  # Per explicit request from the Desktop Team, LP: #2104767
  * xdg-utils                        # useful utilities
  * xdg-user-dirs
  * xdg-user-dirs-gtk
