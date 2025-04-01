@@ -3,14 +3,12 @@
 These packages would otherwise be removed from the xubuntu packageset,
 where they belong. See also xfce-team on Debian.
 
- * gtk2-engines-xfce
  * thunar-archive-plugin
  * thunar-dropbox-plugin
  * thunar-media-tags-plugin
  * thunar-vcs-plugin
  * xfce4
  * xfce4-battery-plugin
- * xfce4-cellmodem-plugin
  * xfce4-clipman-plugin
  * xfce4-cpufreq-plugin
  * xfce4-datetime-plugin
@@ -19,7 +17,6 @@ where they belong. See also xfce-team on Debian.
  * xfce4-fsguard-plugin
  * xfce4-genmon-plugin
  * xfce4-goodies
- * xfce4-hdaps
  * xfce4-mount-plugin
  * xfce4-mpc-plugin
  * xfce4-pulseaudio-plugin
