@@ -1,4 +1,7 @@
-Xfce:
+= Other Xfce supported packages =
+
+These packages would otherwise be removed from the xubuntu packageset,
+where they belong. See also xfce-team on Debian.
 
  * gtk2-engines-xfce
  * thunar-archive-plugin
