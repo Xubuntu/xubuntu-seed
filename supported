@@ -3,6 +3,9 @@
 These packages would otherwise be removed from the xubuntu packageset,
 where they belong. See also xfce-team on Debian.
 
+ * libxfce4windowing
+ * light-locker
+ * orage
  * thunar-archive-plugin
  * thunar-dropbox-plugin
  * thunar-media-tags-plugin
@@ -12,6 +15,7 @@ where they belong. See also xfce-team on Debian.
  * xfce4-clipman-plugin
  * xfce4-cpufreq-plugin
  * xfce4-datetime-plugin
+ * xfce4-dev-tools
  * xfce4-diskperf-plugin
  * xfce4-eyes-plugin
  * xfce4-fsguard-plugin
@@ -19,6 +23,7 @@ where they belong. See also xfce-team on Debian.
  * xfce4-goodies
  * xfce4-mount-plugin
  * xfce4-mpc-plugin
+ * xfce4-notes-plugin
  * xfce4-pulseaudio-plugin
  * xfce4-sensors-plugin
  * xfce4-smartbookmark-plugin
