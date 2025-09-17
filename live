@@ -40,7 +40,7 @@ Task-Seeds: live-common
 
 == Bootstrap wizard ==
 
- * snap:ubuntu-desktop-bootstrap/classic=25.04/stable/ubuntu-25.04
+ * snap:ubuntu-desktop-bootstrap/classic=25.10/stable/ubuntu-25.10
  * casper
  * cryptsetup                   # encrypted installs
 
