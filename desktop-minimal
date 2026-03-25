@@ -31,7 +31,7 @@ Basic network services and Windows integration.
 == Desktop Xfce Apps ==
 
 === Common with Ubuntu ===
- * dracut                           # LP: #2054341
+ * initramfs-tools                  # LP: #2054341
  * (libpam-gnome-keyring)
  * (software-properties-gtk)        # default GUI sources.list editor / extra drivers
  * (va-driver-all)                  # Per explicit request from the Desktop Team, LP: #2104767
