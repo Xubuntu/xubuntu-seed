@@ -44,6 +44,7 @@ Task-Seeds: live-common
  * snap:ubuntu-desktop-bootstrap/classic=26.04/stable/ubuntu-26.04
  * casper
  * cryptsetup                   # encrypted installs
+ * !dracut
 
 == Secureboot setup ==
 
