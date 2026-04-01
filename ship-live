@@ -50,7 +50,7 @@ curtin based CDs.
  * open-iscsi
  * reiserfsprogs
  * xfsprogs
- * zfs-initramfs
+ * zfs-dracut
  * zfsutils-linux
 
 == curtin curthooks.py ==
