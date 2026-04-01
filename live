@@ -37,14 +37,13 @@ Task-Seeds: live-common
  * mtools                       # Needed by gparted for EFI support, LP: #1962467
  * zfsutils-linux               # Experimental ZFS support, LP: #1843768, 1847739
  * zfs-initramfs                # Experimental ZFS support, LP: #1847431, 1847739
- * initramfs-tools              # Unbreak apt resolution with recent dracut changes
 
 == Bootstrap wizard ==
 
  * snap:ubuntu-desktop-bootstrap/classic=26.04/stable/ubuntu-26.04
  * casper
  * cryptsetup                   # encrypted installs
- * !dracut
+ * cryptsetup-initramfs
 
 == Secureboot setup ==
 
